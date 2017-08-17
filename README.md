@@ -1,5 +1,6 @@
 # Project Proposal: Venu
-### Team Apollo
+DECO3500: Social & Human Computing
+Team Name: Team Apollo
 
 ## Introduction
 Content for this section will be written here.
@@ -11,12 +12,6 @@ Content for this section will be written here.
 Content for this section will be written here.
 
 ## Team
-* Team Leader: Jake Wood
-* Designer: Luke Steyn
-* Designer: Izhar Wahono
-* Software Developer: Husheng Iiu
-* User Testing: Wei Fu
-
 | Student Name        | Student Number           | Position             |
 | ------------------- |:-------------:           | -----:               |
 | Jake Wood           | 43710034                 | Team Leader          |
