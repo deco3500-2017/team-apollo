@@ -17,11 +17,13 @@ Content for this section will be written here.
 * Software Developer: Husheng Iiu
 * User Testing: Wei Fu
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Student Name        | Student Number           | Position             |
+| ------------------- |:-------------:           | -----:               |
+| Jake Wood           | 43710034                 | Team Leader          |
+| Luke Steyn          | XXXXXXXX                 | Designer             |
+| Izhar Wahono        | XXXXXXXX                 | Designer             |
+| Hushend Iiu         | XXXXXXXX                 | Software Developer   |
+| Wei Fu              | XXXXXXXX                 | User Testing         |
 
 ## Communications
 Content for this section will be written here.
