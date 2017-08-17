@@ -1,5 +1,6 @@
 # Project Proposal: Venu
 DECO3500: Social & Human Computing
+
 Team Name: Team Apollo
 
 ## Introduction
