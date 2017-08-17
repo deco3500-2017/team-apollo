@@ -17,30 +17,36 @@ Content for this section will be written here.
 * Software Developer: Husheng Iiu
 * User Testing: Wei Fu
 
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
 ## Communications
 Content for this section will be written here.
 
-### Slack
+#### Slack
 Content for this section will be written here.
 
-### Trello
+#### Trello
 Content for this section will be written here.
 
-### Email
+#### Email
 Content for this section will be written here.
 
 ## Project Plan
 Content for this section will be written here.
 
-### Project Phases
+#### Project Phases
 1. Content for this section will be written here.
 2. Content for this section will be written here.
 3. Content for this section will be written here.
 
-### Project Milestones
+#### Project Milestones
 1. Content for this section will be written here.
 2. Content for this section will be written here.
 3. Content for this section will be written here.
 
-### Resources
+#### Resources
 Content for this section will be written here.
