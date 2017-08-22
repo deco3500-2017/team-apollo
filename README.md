@@ -32,17 +32,25 @@ Jake Wood    |    43710034    |        Team Leader
 Luke Steyn   |    43170348    |           Designer
 Izhar Wahono |    XXXXXXXX    |           Designer
 Hushend Iiu  |    XXXXXXXX    | Software Developer
-Wei Fu       |    XXXXXXXX    |       User Testing
+Wei Fu       |    XXXXXXXX    |        User Tester
 
-### Roles in detail
+### Role Details
 
 #### Team Leader
 
+The team leader is responsible for overseeing the project, assigning tasks among the group members and ensuring all group discussions and conflicts are handled appropriately. Further to this, it is their responsible to organise additional group meetings as neccesary and ensuring all communications external to the group are managed.
+
 #### Designer
+
+Designers of the group handle the aesthetic and user experience side of the application. They will tend to spend most of their time working on the visual layout and aspects of the application. Their primary tools will be programs such as Sketch, Framer & Balsamiq for different project phases.
 
 #### Software Developer
 
-#### User Testing
+The assigned software developer within the group will take the responsibility of ensuring that all decisions made about that project are feasible from a technical stand point. This means considering and understanding the possibly implementations of the application and considering time and difficult of implementation and whether it would be theoretical possible to build.
+
+#### User Tester
+
+The User Tester will be assigned with the role of handle all user facing issues of the application. This will include overseeing all user testing deliverables, handling any sessions required to get user feedback and collating and delivering the results from these sessions.
 
 ### Team Processes
 
