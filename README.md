@@ -26,13 +26,13 @@ The core concept of the service is to allow users access to a map that will give
 
 ( Who is on your team, what are their responsibilities, and how will you work together? List all the members and their course code. Identify: )
 
-Student Name | Student Number |           Position
------------- | :------------: | -----------------:
-Jake Wood    |    43710034    |        Team Leader
-Luke Steyn   |    43170348    |           Designer
-Izhar Wahono |    XXXXXXXX    |           Designer
-Hushend Iiu  |    XXXXXXXX    | Software Developer
-Wei Fu       |    XXXXXXXX    |        User Tester
+Student Name | Student Number |           Position | Course Code
+------------ | :------------: | -----------------: | ----------:
+Jake Wood    |    43710034    |        Team Leader |    DECO3500
+Luke Steyn   |    43170348    |           Designer |    DECO3500
+Izhar Wahono |    XXXXXXXX    |           Designer |    DECO3500
+Hushend Iiu  |    XXXXXXXX    | Software Developer |    DECO3500
+Wei Fu       |    XXXXXXXX    |        User Tester |    DECO3500
 
 ### Role Details
 
@@ -64,15 +64,15 @@ The User Tester will be assigned with the role of handle all user facing issues 
 
 ### Slack
 
-Content for this section will be written here.
+Slack will be the groups core method of communication and will be where the majority of outside-meeting communication will occur.
 
 ### Trello
 
-Content for this section will be written here.
+Trello will be used within the project to assign and manage tasks. This will done by creating a task backlog that any of the group members can access at any time and assign themselves. These tasks will receive priorities and group members should aim to complete the most crucial tasks first.
 
 ### Email
 
-Content for this section will be written here.
+Email will be used for all external-group and official course related communications. The _team leader_ will be responsible for this communication where possible, however other group members do have the ability to email outside of the group for project related reasons.
 
 ## Project Plan
 
@@ -80,15 +80,46 @@ Content for this section will be written here.
 
 ### Project Phases
 
-1. Content for this section will be written here.
-2. Content for this section will be written here.
-3. Content for this section will be written here.
+1. User & Industry Research
+2. Competitive Analysis
+3. Generate Requirements Backlog
+4. Develop Wireframes
+5. User Testing
+6. Generate Style Guide
+7. Develop Framer Prototype
+8. User Testing
 
-### Project Milestones
+#### 1\. User & Industry Research
 
-1. Content for this section will be written here.
-2. Content for this section will be written here.
-3. Content for this section will be written here.
+Content for this section will be written here.
+
+#### 2\. Competitive Analysis
+
+Content for this section will be written here.
+
+#### 3\. Generate Requirements Backlog
+
+Content for this section will be written here.
+
+#### 4\. Develop Wireframes
+
+Content for this section will be written here.
+
+#### 5\. User Testing
+
+Content for this section will be written here.
+
+#### 6\. Generate Style Guide
+
+Content for this section will be written here.
+
+#### 7\. Develop Framer Prototype
+
+Content for this section will be written here.
+
+#### 8\. User Testing
+
+Content for this section will be written here.
 
 ### Resources
 
