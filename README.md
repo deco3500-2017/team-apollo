@@ -8,7 +8,7 @@ Team Name: Team Apollo
 
 (What is your project and what dilemma does it aim to address.)
 
-Venu is a project that intends to improve the quality of the community's nights when they go out to venues in their local city. Today there is currently no way of making an informed decision as to what locale or venue have the best atmosphere at the time people choose to go out. The best people can do currently is to choose from their favourite venues, or source information from friends or social media outlets on any given night out. By utilising social and mobile technology in conjunction, Venu hopes to help people make a more information decision before they out for the night.
+_Venu_ is a project that intends to improve the quality of the community's nights when they go out to venues in their local city. Today there is currently no way of making an informed decision as to what locale or venue have the best atmosphere at the time people choose to go out. The best people can do currently is to choose from their favourite venues, or source information from friends or social media outlets on any given night out. By utilising social and mobile technology in conjunction with one another, _Venu_ hopes to help people make a more informed decision before they out for the night.
 
 ## Tags
 
@@ -16,9 +16,11 @@ Real-time, Mobile, Nightlife, Buzz, Trending
 
 ## Concept
 
-(outline the idea and the rationale behind it. Define the project aims and audience and identify how your idea is different from / improves upon other current offerings. Identify areas of social & mobile theory that apply to, will inform your concept & approach.)
+(Outline the idea and the rationale behind it. Define the project aims and audience and identify how your idea is different from / improves upon other current offerings. Identify areas of social & mobile theory that apply to, will inform your concept & approach.)
 
-Venu's value lies in its use of social and mobile technologies to create fun, unexpected experiences in the real world. Current large-scale social networks are disconnected from the real-world events, and other niche social network products such as Tinder and Meetup don't currently have a peer that allows people to view the quality of events around them in real-time. The concept of the service is to allow people to provide real-time ratings of the events and venues they're at right now. The real-time rating of these events will allow people from the wider community to make an informed decision about where to head. Linking an emoji or mood to the rating will help people understand what type of atmosphere is at the event, for example a busy EDM gig would have a mood associated with bright lights and loud sounds, whereas a jazz venue might be linked to a more relaxed mood rating. By allowing users to connect with their friends from other social networks within the app, they may share their current ratings and activities with friends, which may lead to exciting conversations and real-world meet ups.
+_Venu_ intends to be a cross-platform mobile application that will offer it's users a social experience that should create fun and unexpected nights out. Current large-scale social networks are disconnected from the real-time events, and other niche social network products such as Tinder and Meetup don't currently have a peer that allows people to view the quality of events around them in real-time.
+
+The core concept of the service is to allow users access to a map that will give recommendations of venues that are currently trending in real-time. The ratings will be sourced through the utilisation of the _Instagram Story_ functionality which will be used to correlate the time of the post and the location it was posted. The logic here is that people, in mass, tend to post photos and videos on their _Instagram_ accounts when they are enjoying themselves. By sourcing crowd data, we are able to create what we call a _Buzz Level_ of a venue, and showcase this information to user's graphically.
 
 ## Team
 
