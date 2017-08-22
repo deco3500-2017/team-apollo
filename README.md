@@ -26,13 +26,13 @@ The core concept of the service is to allow users access to a map that will give
 
 ( Who is on your team, what are their responsibilities, and how will you work together? List all the members and their course code. Identify: )
 
-Student Name | Student Number |           Position | Course Code
------------- | :------------: | -----------------: | ----------:
-Jake Wood    |    43710034    |        Team Leader |    DECO3500
-Luke Steyn   |    43170348    |           Designer |    DECO3500
-Izhar Wahono |    XXXXXXXX    |           Designer |    DECO3500
+Student Name | Student Number | Position           | Course Code
+------------ | :------------: | :----------------- | ----------:
+Jake Wood    |    43710034    | Team Leader        |    DECO3500
+Luke Steyn   |    43170348    | Designer           |    DECO3500
+Izhar Wahono |    XXXXXXXX    | Designer           |    DECO3500
 Hushend Iiu  |    XXXXXXXX    | Software Developer |    DECO3500
-Wei Fu       |    XXXXXXXX    |        User Tester |    DECO3500
+Wei Fu       |    XXXXXXXX    | User Tester        |    DECO3500
 
 ### Role Details
 
