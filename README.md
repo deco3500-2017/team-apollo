@@ -30,7 +30,7 @@ Student Name | Student Number | Position           | Course Code
 ------------ | :------------: | :----------------- | ----------:
 Jake Wood    |    43710034    | Team Leader        |    DECO3500
 Luke Steyn   |    43170348    | Designer           |    DECO3500
-Izhar Wahono |    XXXXXXXX    | Designer           |    DECO3500
+Izhar Wahono |    44012566    | Designer           |    DECO3500
 Hushend Iiu  |    XXXXXXXX    | Software Developer |    DECO3500
 Wei Fu       |    43874909    | User Tester        |    DECO3500
 
@@ -90,18 +90,32 @@ Where team members may determine it is more effective to communicate via voice, 
 
 ## Project Plan
 
-Content for this section will be written here.
+### Major Deliverables
 
-Project Phases                | Start Date     | End Date 
+Deliverable                   | Due Date  
+----------------------------- | -------------:
+Oral Pitch                    | 29-08-2017 
+Proposal                      | 01-09-2017
+Low-Fidelity Prototypes       | 12-09-2017
+Clear Plans for User Testing  | 03-10-2017
+Interactive Prototype         | 17-10-2017
+Final Prototype               | 25-10-2017
+Final Proposal                | 27-10-2017
+
+### Project Phases
+
+The following table is a detailed timeline of task completion, start and finish dates;
+
+Phases                        | Start Date     | End Date 
 ----------------------------- | :------------: | -------------:
-User & Industry Research      |   XX-XX-XXXX   | XX-XX-XXXX 
-Competitive Analysis          |   XX-XX-XXXX   | XX-XX-XXXX
-Generate Requirements Backlog |   XX-XX-XXXX   | XX-XX-XXXX
-Develop Wireframes            |   XX-XX-XXXX   | XX-XX-XXXX
-User Testing                  |   XX-XX-XXXX   | XX-XX-XXXX
-Generate Style Guide          |   XX-XX-XXXX   | XX-XX-XXXX
-Develop Framer Prototype      |   XX-XX-XXXX   | XX-XX-XXXX
-User Testing                  |   XX-XX-XXXX   | XX-XX-XXXX
+User & Industry Research      |   XX-XX-2017   | XX-XX-2017 
+Competitive Analysis          |   XX-XX-2017   | XX-XX-2017
+Generate Requirements Backlog |   XX-XX-2017   | XX-XX-2017
+Develop Wireframes            |   XX-XX-2017   | XX-XX-2017
+User Testing                  |   XX-XX-2017   | XX-XX-2017
+Generate Style Guide          |   XX-XX-2017   | XX-XX-2017
+Develop Framer Prototype      |   XX-XX-2017   | XX-XX-2017
+User Testing                  |   XX-XX-2017   | XX-XX-2017
 
 #### 1\. User & Industry Research
 
