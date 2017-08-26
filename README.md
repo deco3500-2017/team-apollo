@@ -92,16 +92,16 @@ Where team members may determine it is more effective to communicate via voice, 
 
 Content for this section will be written here.
 
-### Project Phases
-
-1. User & Industry Research
-2. Competitive Analysis
-3. Generate Requirements Backlog
-4. Develop Wireframes
-5. User Testing
-6. Generate Style Guide
-7. Develop Framer Prototype
-8. User Testing
+Project Phases                | Start Date     | End Date 
+----------------------------- | :------------: | -------------:
+User & Industry Research      |   XX-XX-XXXX   | XX-XX-XXXX 
+Competitive Analysis          |   XX-XX-XXXX   | XX-XX-XXXX
+Generate Requirements Backlog |   XX-XX-XXXX   | XX-XX-XXXX
+Develop Wireframes            |   XX-XX-XXXX   | XX-XX-XXXX
+User Testing                  |   XX-XX-XXXX   | XX-XX-XXXX
+Generate Style Guide          |   XX-XX-XXXX   | XX-XX-XXXX
+Develop Framer Prototype      |   XX-XX-XXXX   | XX-XX-XXXX
+User Testing                  |   XX-XX-XXXX   | XX-XX-XXXX
 
 #### 1\. User & Industry Research
 
