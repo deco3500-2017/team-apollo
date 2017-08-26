@@ -90,7 +90,7 @@ The team will use Google Drive to collaboratively work on tasks where it is seen
 ### Discord
 Where team members may determine it is more effective to communicate via voice, in scenarios where team meetings aren't an option, they make use a discord channel to communicate. Key Decisions determined within these chats should be written down within the team's Google Drive Folder.
 
-## Project Plan
+### Project Plan
 
 ### Major Deliverables
 
@@ -141,7 +141,7 @@ In the first user testing procedure, the testing process will be divided into 5 
 1.	The user test will begin with a consent form for both the user and the tester to sign. (0-5 mins) 
 2.	We will provide a pre-test interview for user to understand about what the purpose of our project and how long the test will take. (0-5mins)
 3. 	The test task form will be prepared before the test, and the form will be provided for user to have a clearly follow list and help them to complete all the task. (5-10mins)
-4.	After the user test, user needs to complete a post-test questionnaire form to provide their suggestion about the improvement of initial prototype.
+4.	After the user test, user needs to complete a post-test questionnaire form to provide their suggestion about the improvement of initial prototype.(0-5mins)
 5.	In the end, it is crucial for us to have a debrief time to evaluate and analysis the task form and the questionnaire form to improve the user experience.  
 
 #### Participants
@@ -153,8 +153,7 @@ The first user testing location will be conducted at Room 109, building 78, Quee
 
 #### Tools 
 Good Drive will be the main tool for us to generate the questionnaire form which is convenient for user to fill. 
-
-
+Based on the first digital prototype is an application, the main equipment for the user testing is the mobile phone.
 
 #### 6\. Generate Style Guide
 
