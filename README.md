@@ -32,7 +32,7 @@ Jake Wood    |    43710034    | Team Leader        |    DECO3500
 Luke Steyn   |    43170348    | Designer           |    DECO3500
 Izhar Wahono |    XXXXXXXX    | Designer           |    DECO3500
 Hushend Iiu  |    XXXXXXXX    | Software Developer |    DECO3500
-Wei Fu       |    XXXXXXXX    | User Tester        |    DECO3500
+Wei Fu       |    43874909    | User Tester        |    DECO3500
 
 ### Role Details
 
