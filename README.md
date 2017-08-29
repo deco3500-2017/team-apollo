@@ -76,8 +76,7 @@ Attendance of team meetings is considered mandatory and important, except for wh
 
 Slack will be the groups core method of communication and will be where the majority of outside-meeting communication will occur.
 
-### Trello
-
+### Trell
 Trello will be used within the project to assign and manage tasks. This will done by creating a task backlog that any of the group members can access at any time and assign themselves. These tasks will receive priorities and group members should aim to complete the most crucial tasks first.
 
 ### Email
@@ -114,7 +113,7 @@ User & Industry Research      |   XX-XX-2017   | XX-XX-2017
 Competitive Analysis          |   XX-XX-2017   | XX-XX-2017
 Generate Requirements Backlog |   XX-XX-2017   | XX-XX-2017
 Develop Wireframes            |   XX-XX-2017   | XX-XX-2017
-User Testing                  |   20-09-2017   | 30-09-2017
+User Testing                  |   12-09-2017   | 30-09-2017
 Generate Style Guide          |   XX-XX-2017   | XX-XX-2017
 Develop Framer Prototype      |   XX-XX-2017   | XX-XX-2017
 User Testing                  |   18-10-2017   | 24-10-2017
