@@ -116,7 +116,7 @@ Develop Wireframes            |   XX-XX-2017   | XX-XX-2017
 User Testing                  |   12-09-2017   | 30-09-2017
 Generate Style Guide          |   XX-XX-2017   | XX-XX-2017
 Develop Framer Prototype      |   XX-XX-2017   | XX-XX-2017
-User Testing                  |   18-10-2017   | 24-10-2017
+User Testing                  |   05-10-2017   | 20-10-2017
 
 #### 1\. User & Industry Research
 
