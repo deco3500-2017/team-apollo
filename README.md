@@ -148,11 +148,11 @@ In the first user testing procedure, the testing process will be divided into 5 
 Around six or eight users will be recruited in the test plan. Each of them needs to take around 15 mins to complete the whole test tasks. We aim to invite university students as our main user as their activity and routine meet the goals of the product.
 
 Participants
-------------------------------------- | -----------------------------------:
-Iteration 1 (12/09/2017- 30/09/2017)  | Iteration 2 (05/10/2017-20/10/2017) 
-Number = 6  (3 = Female 3 = Male)     | Number = 3  (1 = Female 2 = Male)
-Novice User (Age = 18 - 30)           | Expert User (Age = 18 - 30)
-Duration = 19 days                    | Duration = 15 days
+------------------------------------ | -----------------------------------:
+Iteration 1 (12/09/2017- 30/09/2017) | Iteration 2 (05/10/2017-20/10/2017) 
+Number = 6  (3 = Female 3 = Male)    | Number = 3  (1 = Female 2 = Male)
+Novice User (Age = 18 - 30)          | Expert User (Age = 18 - 30)
+Duration = 19 days                   | Duration = 15 days
 
 
 #### Location & Dates 
