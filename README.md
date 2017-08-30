@@ -93,7 +93,7 @@ Email will be used for all external-group and official course related communicat
 The team will use Google Drive to collaboratively work on tasks where it is seen as appropriate. They may also use Google Drive's commenting feature as a method to discuss specific points within documents that are being written. Google drive will be the group main method for store and share files, there will be several folders for Organise and distinguish different files, include user testing folder, prototype folder, research folder, code folder, back-up folder etc. 
 
 ### Naming convention
-The file naming convention will be used for organise and identify the files, the naming convention for every files (include code files) will follow this structure:  Time__FileName__PersonName__Version Number
+The file naming convention will be used for organise and identify the files, the naming convention for every files (include code files) will follow this structure:  Time__FileName__PersonName__Version Number. The files with a naming convention provide a preview of the content, are organized in a logical way  identify the responsible party and convey the work history
 
 ### Discord
 Where team members may determine it is more effective to communicate via voice, in scenarios where team meetings aren't an option, they make use a discord channel to communicate. Key Decisions determined within these chats should be written down within the team's Google Drive Folder.
