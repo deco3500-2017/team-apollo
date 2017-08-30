@@ -84,18 +84,20 @@ Attendance of team meetings is considered mandatory and important, except for wh
 
 Slack will be the groups core method of communication and will be where the majority of outside-meeting communication will occur.
 
-### Trell
-Trello will be used within the project to assign and manage tasks. This will done by creating a task backlog that any of the group members can access at any time and assign themselves. These tasks will receive priorities and group members should aim to complete the most crucial tasks first.
 
 ### Email
 
 Email will be used for all external-group and official course related communications. The _team leader_ will be responsible for this communication where possible, however other group members do have the ability to email outside of the group for project related reasons.
 
-### Google Drive
-The team will use Google Drive to collaboratively work on tasks where it is seen as appropriate. They may also use Google Drive's commenting feature as a method to discuss specific points within documents that are being written.
+### Google Drive (File storage & share Method)
+The team will use Google Drive to collaboratively work on tasks where it is seen as appropriate. They may also use Google Drive's commenting feature as a method to discuss specific points within documents that are being written. Google drive will be the group main method for store and share files, there will be several folders for Organise and distinguish different files, include user testing folder, prototype folder, research folder, code folder, back-up folder etc. 
+
+### Naming convention
+The file naming convention will be used for organise and identify the files, the naming convention for every files (include code files) will follow this structure:  Time__FileName__PersonName__Version Number
 
 ### Discord
 Where team members may determine it is more effective to communicate via voice, in scenarios where team meetings aren't an option, they make use a discord channel to communicate. Key Decisions determined within these chats should be written down within the team's Google Drive Folder.
+
 
 ### Project Plan
 
