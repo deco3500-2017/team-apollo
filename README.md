@@ -18,13 +18,35 @@ The core concept of the service is to allow users access to a map that will give
 
 By viewing a Venue's Buzz and Vibe, a user should be able to make an accurate decision as to whether the Venue in question will provide the type of experience they're looking for. The idealized value of the app is that it will save its users time and money spent hopping between venues, as well as allowing them to experience new things and have more fun on their nights out. Venu will provide a new experience for its users also because there is not currently any similar service that would provide the same type of information to users. Review platforms such as Google, Yelp and Facebook don't provide any real time data which renders them useless to the patrons Venu is targeting. This is obvious because a Venue's atmosphere changes from hour to hour, which could not possibly be indicated by a long-term 5-star rating; a 5-star rating also does nothing to indicate the type of music, crowd, or atmosphere at a venue, which is what a patron really cares about.
 
+### Audience
+
 The audience of the app will be patrons of nightclubs and other entertainment venues. The demographics of these users will tend to be people between the ages of 18 and 30, socio-economically spanning the lower to upper-middle class.
+
+(User Persona here)
+
+#### User Persona
+
+Paul
+Age: 21
+Location: Kangaroo Point, Brisbane, Queensland
+Education: Brisbane State High School
+Occupation: Paul is a student at QUT in Brisbane, Queensland, studying a Bachelor in Sport & Exercise Science.
+Personality & History: Paul loves hanging out with friends and having new experiences. He went to University directly after high school. Paul has been going to parties and nightclubs frequently since he turned 18.
+Goals:
+Frustrations:
+
+
+### Aim
 
 The aim of the project is to provide a platform that lets users feel more empowered and knowledgable before they make a decision about which venue to go to on a night out. Venu can be considered a success if it achieves this, and builds a loyal base of users who value its features.
 
-(Identify areas of social & mobile theory that apply to, will inform your concept & approach.) -- ((from lorna): the lectures? the texts listed in the ECP? You should be describing what methods you are going to use for  gathering requirements, for testing your concept; what model of context you would apply. What are the design issues/considerations from the theory that apply to your concept? IIRC your group is proposing a social/mobile application - what are the design considerations when creating one of these apps? Look at ACM Digital Library to see what research has been done around issues of critical mass (as this is one issue you identified), to see what has been done about reporting location, sensing activity. The research here will be more useful than looking at commercial applications - because they reflect on the issues, they propose methods/guidelines for getting around issues, because they often fail (and failed commercial apps disappear).)
+### Theory
 
-
+-What methods to gather requirements
+-What methods for testing concept
+-what model of context we will apply
+-Design issues/considerations from background theory which applies to concept
+-See if there are issues around critical mass, reporting location, sensing activity from ACM Digital Library
 
 ## Team
 
@@ -46,11 +68,11 @@ The team leader is responsible for overseeing the project, assigning tasks among
 
 #### Designer
 
-Designers of the group handle the aesthetic and user experience side of the application. They will tend to spend most of their time working on the visual layout and aspects of the application include front end design and build. Their primary tools will be programs such as Sketch, Framer & Balsamiq for different project phases. 
+Designers of the group handle the aesthetic and user experience side of the application. They will tend to spend most of their time working on the visual layout and aspects of the application include front end design and build. Their primary tools will be programs such as Sketch, Framer & Balsamiq for different project phases.
 
 #### Software Developer
 
-The assigned software developer within the group will take the responsibility of ensuring that all decisions made about that project are feasible from a technical stand point. This means understanding the possible implementations of the application, and considering the time and difficulty of these implementation, as well as whether it would be theoretically possible to build. The software developer will response for back end build and assist front end build. The Software Developer will further be responsible for documenting how these features will be engineered, to go with the design documentation. 
+The assigned software developer within the group will take the responsibility of ensuring that all decisions made about that project are feasible from a technical stand point. This means understanding the possible implementations of the application, and considering the time and difficulty of these implementation, as well as whether it would be theoretically possible to build. The software developer will response for back end build and assist front end build. The Software Developer will further be responsible for documenting how these features will be engineered, to go with the design documentation.
 
 #### User Testing Specialist
 
@@ -86,7 +108,7 @@ Slack will be the groups core method of communication and will be where the majo
 Email will be used for all external-group and official course related communications. The _team leader_ will be responsible for this communication where possible, however other group members do have the ability to email outside of the group for project related reasons.
 
 ### Google Drive (File storage & share Method)
-The team will use Google Drive to collaboratively work on tasks where it is seen as appropriate. They may also use Google Drive's commenting feature as a method to discuss specific points within documents that are being written. Google drive will be the group main method for store and share files, there will be several folders for Organise and distinguish different files, include user testing folder, prototype folder, research folder, code folder, back-up folder etc. 
+The team will use Google Drive to collaboratively work on tasks where it is seen as appropriate. They may also use Google Drive's commenting feature as a method to discuss specific points within documents that are being written. Google drive will be the group main method for store and share files, there will be several folders for Organise and distinguish different files, include user testing folder, prototype folder, research folder, code folder, back-up folder etc.
 
 ### Naming convention
 The file naming convention will be used for organise and identify the files, the naming convention for every files (include code files) will follow this structure:  Time__FileName__PersonName__Version Number. The files with a naming convention provide a preview of the content, are organized in a logical way  identify the responsible party and convey the work history
