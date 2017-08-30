@@ -10,10 +10,6 @@ Team Name: Team Apollo
 
 _Venu_ is a project that intends to improve the quality of the community's nights when they go out to venues in their local city. Today there is currently no way of making an informed decision as to what locale or venue have the best atmosphere at the time people choose to go out. The best people can do currently is to choose from their favourite venues, or source information from friends or social media outlets on any given night out. By utilizing social and mobile technology in conjunction, _Venu_ will help people make a more informed decision before they out for the night.
 
-## Tags
-
-Real-time, Mobile, Nightlife, Buzz, Trending
-
 ## Concept
 
 (Outline the idea and the rationale behind it. Define the project aims and audience and identify how your idea is different from / improves upon other current offerings. Identify areas of social & mobile theory that apply to, will inform your concept & approach.)
