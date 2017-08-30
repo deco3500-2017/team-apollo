@@ -50,15 +50,15 @@ The team leader is responsible for overseeing the project, assigning tasks among
 
 #### Designer
 
-Designers of the group handle the aesthetic and user experience side of the application. They will tend to spend most of their time working on the visual layout and aspects of the application. Their primary tools will be programs such as Sketch, Framer & Balsamiq for different project phases.
+Designers of the group handle the aesthetic and user experience side of the application. They will tend to spend most of their time working on the visual layout and aspects of the application include front end design and build. Their primary tools will be programs such as Sketch, Framer & Balsamiq for different project phases. 
 
 #### Software Developer
 
-The assigned software developer within the group will take the responsibility of ensuring that all decisions made about that project are feasible from a technical stand point. This means understanding the possible implementations of the application, and considering the time and difficulty of these implementation, as well as whether it would be theoretically possible to build. The Software Developer will further be responsible for documenting how these features will be engineered, to go with the design documentation.
+The assigned software developer within the group will take the responsibility of ensuring that all decisions made about that project are feasible from a technical stand point. This means understanding the possible implementations of the application, and considering the time and difficulty of these implementation, as well as whether it would be theoretically possible to build. The software developer will response for back end build and assist front end build. The Software Developer will further be responsible for documenting how these features will be engineered, to go with the design documentation. 
 
 #### User Testing Specialist
 
-The User Testing Specialist will be assigned with the role of handling all user facing issues of the application. This will include overseeing all user testing deliverables, handling any sessions required to get user feedback and collating and delivering the results from these sessions.
+The User Testing Specialist will be assigned with the role of handling all user facing issues of the application. This will include arrange test sessions, invite participant, and overseeing all user testing deliverables, handling any sessions required to get user feedback and collating and delivering the results from these sessions.
 
 ### Team Processes
 
