@@ -1,3 +1,4 @@
+
 # Project Proposal: Venu
 
 DECO3500: Social & Human Computing
@@ -17,6 +18,10 @@ _Venu_ is a project that intends to improve the quality of the community's night
 _Venu_ intends to be a cross-platform mobile application that will offer its users a social experience that should create fun and unexpected nights out. Current large-scale social networks are disconnected from the real-time events, and other niche social network products such as Tinder and Meetup don't currently have a peer that allows people to view the quality of events around them in real-time.
 
 The core concept of the service is to allow users access to a map that will give recommendations of venues that are currently trending in real-time. The ratings will be sourced through the utilisation of the _Instagram Story_ functionality which will be used to correlate the time of the post and the location it was posted. The logic here is that people, in mass, tend to post photos and videos on their _Instagram_ accounts when they are enjoying themselves. By sourcing crowd data, we are able to create what we call a _Buzz Level_ of a venue, and showcase this information to user's graphically.
+
+## Audience
+( who is going to use the product )
+
 
 ## Team
 
