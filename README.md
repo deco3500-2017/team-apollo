@@ -26,6 +26,10 @@ The audience of the app will be patrons of nightclubs and other entertainment ve
 
 The aim of the project is to provide a platform that lets users feel more empowered and knowledgable before they make a decision about which venue to go to on a night out. Venu can be considered a success if it achieves this, and builds a loyal base of users who value its features.
 
+(Identify areas of social & mobile theory that apply to, will inform your concept & approach.) -- ((from lorna): the lectures? the texts listed in the ECP? You should be describing what methods you are going to use for  gathering requirements, for testing your concept; what model of context you would apply. What are the design issues/considerations from the theory that apply to your concept? IIRC your group is proposing a social/mobile application - what are the design considerations when creating one of these apps? Look at ACM Digital Library to see what research has been done around issues of critical mass (as this is one issue you identified), to see what has been done about reporting location, sensing activity. The research here will be more useful than looking at commercial applications - because they reflect on the issues, they propose methods/guidelines for getting around issues, because they often fail (and failed commercial apps disappear).)
+
+
+
 ## Team
 
 ( Who is on your team, what are their responsibilities, and how will you work together? List all the members and their course code. Identify: )
