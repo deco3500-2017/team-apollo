@@ -20,9 +20,10 @@ By viewing a Venue's Buzz and Vibe, a user should be able to make an accurate de
 
 ### 2.1 Audience
 
-The audience of the app will be patrons of nightclubs and other entertainment venues. The demographics of these users will tend to be people between the ages of 18 and 30, socio-economically spanning the lower to upper-middle class.
+The audience of the app will be patrons of nightclubs, bars and other entertainment venues. The demographics of these users will tend to be people between the ages of 18 and 30, socio-economically spanning the lower to upper-middle class.
 
 #### 2.1.1 User Persona : Paul
+
 **Age:** 21
 
 **Location:** Kangaroo Point, Brisbane, Queensland
@@ -32,18 +33,21 @@ The audience of the app will be patrons of nightclubs and other entertainment ve
 **Occupation:** Paul is a student at QUT in Brisbane, Queensland, studying a Bachelor in Sport & Exercise Science.
 
 **Personality & History:**
-* Paul loves hanging out with friends and having new experiences.
-* He went to University directly after high school.
-* Paul has been going to parties and nightclubs frequently since he turned 18
+
+- Paul loves hanging out with friends and having new experiences.
+- He went to University directly after high school.
+- Paul has been going to parties and nightclubs frequently since he turned 18
 
 **Goals:**
-* Paul wants to experience new things and make great memories with his friends while he is young.
-* Paul and his friends specifically love going to nightclubs which have a DJ who is really getting the crowd going.
+
+- Paul wants to experience new things and make great memories with his friends while he is young.
+- Paul and his friends specifically love going to nightclubs which have a DJ who is really getting the crowd going.
 
 **Frustrations:**
-* Paul finds that his nights out can be hit-and-miss.
-* Paul hates spending $20 on the entry-fee for a night club if it isn't fun inside.
-* Paul doesn't like sending messages out to all the people he knows to see if they're at a good club.
+
+- Paul finds that his nights out can be hit-and-miss.
+- Paul hates spending $20 on the entry-fee for a night club if it isn't fun inside.
+- Paul doesn't like sending messages out to all the people he knows to see if they're at a good club.
 
 ### 2.2 Aim
 
@@ -52,13 +56,14 @@ The aim of the project is to provide a platform that lets users feel more empowe
 ### 2.3 Background Theory, Context and Considerations
 
 #### 2.3.1 Requirements Gathering
+
 Interviews will be the primary method for requirements gathering. Interviews have been determined as the best way to gather requirements because of the rich information that can be gathered, while connecting directly with the users as stakeholders. The context of an interview will allow the interviewer to probe the interviewee when they hint at a valuable piece of information which we may not have otherwise considered. An interview is a better way to probe for this type of information than other methods which could present that same information, such as direct observation in the wild, which would be hard to do in the context of observing users while they go out to venues at night.
 
 The interviews will contain both qualitative and quantitative questions to gather a variety of information about the field in question. Quantitative questions should be closed-ended and used to gather important factual information, such as: How many venues do they think they tend to go through on an average night out, how many venues would they consider to be too many to go through in one night, how much time they would be willing to spend deciding where to go before they head out, etc. The qualitative questions should be open-ended, trying to get an indication of what a user values from a night out. Using these open-ended questions we want to determine key points such as: what are all of the key factors about a venue that will impact on its quality, how many and what categories would you say that a venue could fall into, what language would you use to describe a good venue, etc.
 
 #### 2.3.2 Methods for testing the Concept
 
-***NEEDS TO BE DONE***
+**_NEEDS TO BE DONE_**
 
 #### 2.3.3 Model of Context
 
@@ -74,7 +79,7 @@ A key consideration that will have to be considered throughout development would
 
 The product is going to have a social aspect to it to encourage users to share their good experiences and reviews. It is known that users of social media networks are comfortable doing this, however there is a line when they feel that sharing this information gives away too much information. An example of this is that users of Snapchat are generally comfortable sharing photos or videos of themselves in a clearly defined location at a clearly defined time, however a lot of users had a problem with Snapchat's SnapMaps feature, feeling that it gave away too much information by sharing their location in real-time. From these two observations it can be deduced that there is a certain cut-off point where a user feels uncomfortable sharing their location with too high of a resolution. Therefore the Venu application should be mindful of this when providing features which may potentially give away a user's location when used.
 
-2. The service breaching the user's privacy:
+1. The service breaching the user's privacy:
 
 Users of online services consider their privacy important. It is clearly documented that users dislike giving access to their devices peripherals, such as cameras and other sensors, however they are usually willing to make a concession based on the value that the service is providing them. For this reason, Venu needs to make it clear to a user that any access to the microphone and accelerometer required is done in a way that does not possibly breach their privacy, and the features they enable must be of value to the users.
 
@@ -90,7 +95,7 @@ as such, there are a few design considerations that arise out of concern for cri
 
 ###### Strategies to implement in lieu of Critical Mass
 
-*Buzz Rating*
+_Buzz Rating_
 
 Features such as the Buzz Rating will not be possible without a large number of users in each venue listed on the platform. Until these large numbers are sustained, it is worth trying to source this data from other sources.
 
@@ -98,16 +103,15 @@ One example which will be implemented is to calculate the popularity of each ven
 
 ###### Strategies to gain Critical Mass more effectively**
 
+**_~A new feature proposition by Luke.. Give it a read!~_**
 
-***~A new feature proposition by Luke.. Give it a read!~***
-
-*Venue Accounts*
+_Venue Accounts_
 
 A key determinant of the lifetime of a community is how strong the foundation of it is when it first begins. A stronger foundation is one where a number of users in the early community are sharing content frequently enough, which is valuable enough, for other users to justify remaining a part of that community. Standard patrons of the app will likely not be posting this high quality of content at the beginning of the platform, because its effectiveness is reduced with the lower amount of peer-users on the app.
 
 There is another type of user which would be encouraged to post high-quality content from the start: the venues themselves. A proposal to encourage strong foundations leading to critical mass is for Venues to be able to create their own type of user account with different permissions. Once verified, a venue account may share content which is visible only within the confines of its space within the app. This content may potentially be live announcements to the community, a few examples may be : "Happy hour begins at 5pm, and we have a special on Cider just for today, $7 for a jug!", or "Our resident DJ: DJ Plutonium, is going to be dropping his new mix at main bar between 11 and 12!!", or "Special Discount for Venu users: say the passphrase 'Buzz out of 10' at the bar for 1/2 price beer". These types of content will have a strong incentive behind them, because it will help venues attract patrons. They will also have the effect of providing valuable enough content to encourage early users to stay, even before enough mass is sustained for the other key features of the app to be fully functional.
 
-*City Release Plans*
+_City Release Plans_
 
 In order to better focus efforts to gain a strong foothold of users at the beginning of the platform, it will be important to start with a specific city for first release, followed by more specific cities afterwards until there is a buzz around the platform, and word of mouth spreads. The key reasons for this strategy are as follows:
 
@@ -121,13 +125,13 @@ From these two key points it can be deduced that by focusing on critical mass in
 
 ( Who is on your team, what are their responsibilities, and how will you work together? List all the members and their course code. Identify: )
 
-Student Name | Student Number | Position           | Course Code
------------- | :------------: | :----------------- | ----------:
-Jake Wood    |    43710034    | Team Leader, Designer        |    DECO3500
-Luke Steyn   |    43170348    | Designer           |    DECO3500
-Izhar Wahono |    44012566    | Designer           |    DECO3500
-Hushend Iiu  |    44124245    | Software Developer |    DECO3500
-Wei Fu       |    43874909    | User Tester        |    DECO3500
+Student Name | Student Number | Position              | Course Code
+------------ | :------------: | :-------------------- | ----------:
+Jake Wood    |    43710034    | Team Leader, Designer |    DECO3500
+Luke Steyn   |    43170348    | Designer              |    DECO3500
+Izhar Wahono |    44012566    | Designer              |    DECO3500
+Hushend Iiu  |    44124245    | Software Developer    |    DECO3500
+Wei Fu       |    43874909    | User Tester           |    DECO3500
 
 ### 3.1 Role Details
 
