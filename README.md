@@ -70,11 +70,11 @@ The context of the application is that it will be installed on a user's mobile d
 
 A key consideration that will have to be considered throughout development would be that of privacy. There are two key areas where this privacy concern will present itself:
 
-**1. Privacy within their social network.**
+1. Privacy within their social network:
 
 The product is going to have a social aspect to it to encourage users to share their good experiences and reviews. It is known that users of social media networks are comfortable doing this, however there is a line when they feel that sharing this information gives away too much information. An example of this is that users of Snapchat are generally comfortable sharing photos or videos of themselves in a clearly defined location at a clearly defined time, however a lot of users had a problem with Snapchat's SnapMaps feature, feeling that it gave away too much information by sharing their location in real-time. From these two observations it can be deduced that there is a certain cut-off point where a user feels uncomfortable sharing their location with too high of a resolution. Therefore the Venu application should be mindful of this when providing features which may potentially give away a user's location when used.
 
-**2. The service breaching the user's privacy**
+2. The service breaching the user's privacy:
 
 Users of online services consider their privacy important. It is clearly documented that users dislike giving access to their devices peripherals, such as cameras and other sensors, however they are usually willing to make a concession based on the value that the service is providing them. For this reason, Venu needs to make it clear to a user that any access to the microphone and accelerometer required is done in a way that does not possibly breach their privacy, and the features they enable must be of value to the users.
 
@@ -82,11 +82,11 @@ Users of online services consider their privacy important. It is clearly documen
 
 In order for Venu to be a long term success it needs to achieve critical mass, otherwise the community will not last. Critical mass is key for a few key reasons:
 
-a) Venu relies on a large number of users using its features in order for them to be practically beneficial as intended.
+1. Venu relies on a large number of users using its features in order for them to be practically beneficial as intended.
 
-b) Without enough users using these features, users will not stay on the platform because it will not be worth their time or effort.
+2. Without enough users using these features, users will not stay on the platform because it will not be worth their time or effort.
 
-as such there are a few design considerations that arise out of concern for critical mass.
+as such, there are a few design considerations that arise out of concern for critical mass.
 
 **Features to implement in lieu of Critical Mass**
 
@@ -99,7 +99,7 @@ One example which will be implemented is to calculate the popularity of each ven
 
 ***~A new feature proposition by Luke.. Give it a read!~***
 
-A key determinant of the lifetime of a community is how strong the foundation of it is when it first begins. A stronger foundation is one where a number of users in the early community are sharing content frequently enough, which is valuable enough, for other users to justify remaining a part of that community. Standard patrons of the app will likely not be posting this high quality of content at the beginning of the platform, because its effectiveness is reduced with the lower amount of peer-users on the app. 
+A key determinant of the lifetime of a community is how strong the foundation of it is when it first begins. A stronger foundation is one where a number of users in the early community are sharing content frequently enough, which is valuable enough, for other users to justify remaining a part of that community. Standard patrons of the app will likely not be posting this high quality of content at the beginning of the platform, because its effectiveness is reduced with the lower amount of peer-users on the app.
 
 There is another type of user which would be encouraged to post high-quality content from the start: the venues themselves. A proposal to encourage strong foundations leading to critical mass is for Venues to be able to create their own type of user account with different permissions. Once verified, a venue account may share content which is visible only within the confines of its space within the app. This content may potentially be live announcements to the community, a few examples may be : "Happy hour begins at 5pm, and we have a special on Cider just for today, $7 for a jug!", or "Our resident DJ: DJ Plutonium, is going to be dropping his new mix at main bar between 11 and 12!!", or "Special Discount for Venu users: say the passphrase 'Buzz out of 10' at the bar for 1/2 price beer". These types of content will have a strong incentive behind them, because it will help venues attract patrons. They will also have the effect of providing valuable enough content to encourage early users to stay, even before enough mass is sustained for the other key features of the app to be fully functional.
 
