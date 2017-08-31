@@ -262,7 +262,7 @@ User Testing                  | 05-10-2017 | 20-10-2017
 
 ### 1\. Research
 
-Content for this section will be written here.
+The first things that we need to do before we actually developing a product is we need to have an understanding about the domain that we are taking and the product itself. With a good research we will have a wide range of knowledge that can be used to improve the product idea. This research is not only limited to user research but also to industry research and competitive analysis.
 
 #### Industry Research
 
@@ -270,11 +270,11 @@ Content for this section will be written here.
 
 #### Competitive Analysis
 
-Content for this section will be written here.
+We are trying to identify an application or product that having similarities with our product and evaluate their strategies to determine their strengths and weaknesses relatives to our product. This will help us to see if our product is fits or not in the overall market.
 
 #### User Research
 
-Content for this section will be written here.
+This is part is basically only focuses on understanding user behaviors, needs, and motivations through observation techniques, task analysis, and other feedback methodologies which will be more detail in requirement backlog section.
 
 --------------------------------------------------------------------------------
 
