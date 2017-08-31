@@ -333,13 +333,13 @@ In the first user testing procedure, the testing process will be divided into 5 
 
 Around six or eight users will be recruited in the test plan. Each of them needs to take around 15 mins to complete the whole test tasks. We aim to invite university students as our main user as their activity and routine meet the goals of the product.
 
-item     |       Iteration 1        |           Iteration 2
--------- | :----------------------: | --------------------:
-Date     | (12/09/2017- 30/09/2017) | 05/10/2017-20/10/2017
-Number   |   3 = Female 3 = Male    |   1 = Female 2 = Male
-User     |       Novice User        |           Expert User
-Duration |         19 days          |    Duration = 15 days
-Age      |         18 - 30          |               18 - 30
+item     |       Iteration 1        |  
+-------- | :----------------------: | 
+Date     | (12/09/2017- 30/09/2017) | 
+Number   |   3 = Female 3 = Male    | 
+User     |       Novice User        | 
+Duration |         19 days          | 
+Age      |         18 - 30          | 
 
 ##### Location & Dates
 
@@ -363,8 +363,15 @@ After the we
 
 #### Milestone 4.2: High Fidelity User Testing
 
-Content for this section will be written here.
 
+##### Participants
+item     |       Iteration 1       
+-------- | :----------------------: 
+Date     |  05/10/2017-20/10/2017
+Number   |  1 = Female 2 = Male
+User     |  Expert User
+Duration |  Duration = 15 days
+Age      |  18 - 30
 --------------------------------------------------------------------------------
 
 ## 6.0 Resources
