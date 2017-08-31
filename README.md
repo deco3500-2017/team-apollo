@@ -26,7 +26,29 @@ The audience of the app will be patrons of nightclubs and other entertainment ve
 
 #### 2.1.1 User Persona
 
-Paul Age: 21 Location: Kangaroo Point, Brisbane, Queensland Education: Brisbane State High School Occupation: Paul is a student at QUT in Brisbane, Queensland, studying a Bachelor in Sport & Exercise Science. Personality & History: Paul loves hanging out with friends and having new experiences. He went to University directly after high school. Paul has been going to parties and nightclubs frequently since he turned 18\. Goals: Frustrations:
+**Paul**
+
+**Age:** 21
+
+**Location:** Kangaroo Point, Brisbane, Queensland
+
+**Education:** Brisbane State High School
+
+**Occupation:** Paul is a student at QUT in Brisbane, Queensland, studying a Bachelor in Sport & Exercise Science.
+
+**Personality & History:**
+* Paul loves hanging out with friends and having new experiences.
+* He went to University directly after high school.
+* Paul has been going to parties and nightclubs frequently since he turned 18\.
+
+**Goals:**
+* Paul wants to experience new things and make great memories with his friends while he is young.
+* Paul and his friends specifically love going to nightclubs which have a DJ who is really getting the crowd going.
+
+**Frustrations:** 
+* Paul finds that his nights out can be hit-and-miss.
+* Paul hates spending $20 on the entry-fee for a night club if it isn't fun inside.
+* Paul doesn't like sending messages out to all the people he knows to see if they're at a good club.
 
 ### 2.2 Aim
 
