@@ -249,8 +249,8 @@ The following table is a detailed timeline of task completion, start and finish 
 
 |Phases                        | Milestone                     |  Start Date    |      End Date
 |----------------------------- | :---------------------------: | :------------: | -------------:
-|**Research**                  | Industry Research             |   02-09-2017   |     XX-XX-2017
-|                              | User Research                 |   02-09-2017   |     XX-XX-2017
+|**Research**                  | Industry Research             |   02-09-2017   |     30-09-2017
+|                              | User Research                 |   02-09-2017   |     30-09-2017
 |                              | Competitive Analysis          |   05-09-2017   |     10-09-2017
 |**Requirement Backlog**       | Online Survey                 |   10-09-2017   |     12-09-2017
 |                              | Usability Testing             |   12-09-2017   |     15-09-2017
