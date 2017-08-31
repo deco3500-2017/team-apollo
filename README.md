@@ -6,13 +6,9 @@ Team Name: Team Apollo
 
 ## 1.0 Introduction
 
-(What is your project and what dilemma does it aim to address.)
-
 _Venu_ is a project that intends to improve the quality of the community's nights when they go out to venues in their local city. Today there is currently no way of making an informed decision as to what locale or venue have the best atmosphere at the time people choose to go out. The best people can do currently is to choose from their favourite venues, or source information from friends or social media outlets on any given night out. By utilizing social and mobile technology in conjunction, _Venu_ will help people make a more informed decision before they out for the night.
 
 ## 2.0 Concept
-
-(Outline the idea and the rationale behind it. Define the project aims and audience and identify how your idea is different from / improves upon other current offerings. Identify areas of social & mobile theory that apply to, will inform your concept & approach.)
 
 The core concept of the service is to allow users access to a map that will give ratings of venues in real-time. The ratings will be based on two key metrics: _Buzz_ and _Vibe_. A Venue's _Buzz_ will have three qualities that are displayed to a user, determined by passively gathering data about that venue in real time. These three qualities will be Popularity, Movement, and Sound. Popularity will be determined based on how many users are at the venue at once, Movement will be determined by measurements of user's device accelerometers, and Sound will be determined based on the decibel reading of user's microphones. _Vibe_ will be manually input by our users, where they will have the ability to input atmosphere specific icons or phrases such as 'Loud', 'Social', 'Relaxed' etc..
 
@@ -48,6 +44,28 @@ The audience of the app will be patrons of nightclubs, bars and other entertainm
 - Paul finds that his nights out can be hit-and-miss.
 - Paul hates spending $20 on the entry-fee for a night club if it isn't fun inside.
 - Paul doesn't like sending messages out to all the people he knows to see if they're at a good club.
+
+#### 2.1.2 User Persona : Miranda
+**Age:** 27
+
+**Location:** 1770, Queensland
+
+**Education:** 1770 State High School
+
+**Occupation:** Miranda is a Real Estate Agent, specialising in rental property management in 1770.
+
+**Personality & History:**
+* Miranda likes to meet new people.
+* Miranda comes from a creative background, she used to be in a jazz band.
+* Miranda doesn't like loud places where too many very young adults are hanging out.
+
+**Goals:**
+* Miranda wants to meet new people and experience the best that Brisbane has to offer while on holiday.
+* Miranda loves seeing local bands.
+
+**Frustrations:**
+* Miranda finds it really hard to find the secret treasures of new cities without having a friend to make personal recommendations.
+* Miranda finds that online reviews, and even business' descriptions of themselves tend not to be trustworthy.
 
 ### 2.2 Aim
 
@@ -105,7 +123,7 @@ Features such as the Buzz Rating will not be possible without a large number of 
 
 One example which will be implemented is to calculate the popularity of each venue outside of location tracking on users' phones. It is possible to determine how frequently users are tagging themselves at a venue in the Instagram stories, posted publicly to the world. Taking advantge of this, Venu will have a back end feature which scrapes public Instagram stories, determining popularity of venues based on how many people are tagging themselves there. This can continue indefinitely until Instagram changes the implementation of its Stories architecture, or until critical mass is reached.
 
-###### Strategies to gain Critical Mass more effectively**
+###### Strategies to gain Critical Mass more effectively
 
 **_~A new feature proposition by Luke.. Give it a read!~_**
 
