@@ -271,7 +271,7 @@ The first things that we need to do before we actually developing a product is w
 
 #### Milestone 1.1: Industry Research
 
-Content for this section will be written here.
+The industry research is one of the preliminary researches in the first phase of the product planning implementation. in the early stage (02-09-2017) we aim to take relevant industry research and investigation report in the product's macrosconical trends during the application design. For instance, by reading the industry research weekly, we aim to collect data like how the social software infulenced on human behavior and social interaction and the rising social application of our technological lives. 
 
 #### Milestone 1.2: Competitive Analysis
 
