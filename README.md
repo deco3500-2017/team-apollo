@@ -88,20 +88,34 @@ In order for Venu to be a long term success it needs to achieve critical mass, o
 
 as such, there are a few design considerations that arise out of concern for critical mass.
 
-**Features to implement in lieu of Critical Mass**
+###### Strategies to implement in lieu of Critical Mass
+
+*Buzz Rating*
 
 Features such as the Buzz Rating will not be possible without a large number of users in each venue listed on the platform. Until these large numbers are sustained, it is worth trying to source this data from other sources.
 
 One example which will be implemented is to calculate the popularity of each venue outside of location tracking on users' phones. It is possible to determine how frequently users are tagging themselves at a venue in the Instagram stories, posted publicly to the world. Taking advantge of this, Venu will have a back end feature which scrapes public Instagram stories, determining popularity of venues based on how many people are tagging themselves there. This can continue indefinitely until Instagram changes the implementation of its Stories architecture, or until critical mass is reached.
 
-**Features implemented to try gain Critical Mass more effectively**
+###### Strategies to gain Critical Mass more effectively**
 
 
 ***~A new feature proposition by Luke.. Give it a read!~***
 
+*Venue Accounts*
+
 A key determinant of the lifetime of a community is how strong the foundation of it is when it first begins. A stronger foundation is one where a number of users in the early community are sharing content frequently enough, which is valuable enough, for other users to justify remaining a part of that community. Standard patrons of the app will likely not be posting this high quality of content at the beginning of the platform, because its effectiveness is reduced with the lower amount of peer-users on the app.
 
 There is another type of user which would be encouraged to post high-quality content from the start: the venues themselves. A proposal to encourage strong foundations leading to critical mass is for Venues to be able to create their own type of user account with different permissions. Once verified, a venue account may share content which is visible only within the confines of its space within the app. This content may potentially be live announcements to the community, a few examples may be : "Happy hour begins at 5pm, and we have a special on Cider just for today, $7 for a jug!", or "Our resident DJ: DJ Plutonium, is going to be dropping his new mix at main bar between 11 and 12!!", or "Special Discount for Venu users: say the passphrase 'Buzz out of 10' at the bar for 1/2 price beer". These types of content will have a strong incentive behind them, because it will help venues attract patrons. They will also have the effect of providing valuable enough content to encourage early users to stay, even before enough mass is sustained for the other key features of the app to be fully functional.
+
+*City Release Plans*
+
+In order to better focus efforts to gain a strong foothold of users at the beginning of the platform, it will be important to start with a specific city for first release, followed by more specific cities afterwards until there is a buzz around the platform, and word of mouth spreads. The key reasons for this strategy are as follows:
+
+1. When launching the app for the first time, it helps to start with a specific city, because advertising can be tailored towards the specific nightlife culture of that city. With this more targeted advertising, it will be much easier to encourage enough users to join such that critical mass is achieved in that community. A starting city can also be targeted based on its unique characteristics, for example a city with a more confined nightlife precinct, which gets has Patrons per Venue than another city, would be easier to reach critical mass in. This strategy can be repeated for multiple cities in a row.
+
+2. Once the platform has launched in a few cities, buzz should begin to build surrounding the app. This will help the platform spread faster in the new cities it launches in. An example of this effect in practise can be seen in Uber's launch in Brisbane. When Uber launched in Brisbane, it had already been successfully implemented in other cities around the world for years. The word of mouth from users who had used Uber in those cities, as well as media companies discussing its merits and history, helped Uber generate buzz organically, and encouraged more people to join to see what the fuss is about.
+
+From these two key points it can be deduced that by focusing on critical mass in confined locations first, the buzz surrounding the platform will help it spread as it moves to other cities.
 
 ## 3.0 Team
 
