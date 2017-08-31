@@ -109,7 +109,7 @@ There is another type of user which would be encouraged to post high-quality con
 
 Student Name | Student Number | Position           | Course Code
 ------------ | :------------: | :----------------- | ----------:
-Jake Wood    |    43710034    | Team Leader        |    DECO3500
+Jake Wood    |    43710034    | Team Leader, Designer        |    DECO3500
 Luke Steyn   |    43170348    | Designer           |    DECO3500
 Izhar Wahono |    44012566    | Designer           |    DECO3500
 Hushend Iiu  |    44124245    | Software Developer |    DECO3500
@@ -119,11 +119,11 @@ Wei Fu       |    43874909    | User Tester        |    DECO3500
 
 #### 3.1.1 Team Leader
 
-The team leader is responsible for overseeing the project, assigning tasks among the group members and ensuring all group discussions and conflicts are handled appropriately. Further to this, it is their responsible to organise additional group meetings as necessary and ensuring all communications external to the group are managed.
+The team leader is responsible for overseeing the project. This includes assigning tasks among the group members, checking progress of tasks, ensuring all group discussions and conflicts are handled appropriately and helping to organise group meetings.
 
 #### 3.1.2 Designer
 
-Designers of the group handle the aesthetic and user experience side of the application. They will tend to spend most of their time working on the visual layout and aspects of the application include front end design and build. Their primary tools will be programs such as Sketch, Framer & Balsamiq for different project phases.
+Designers of the group handle the aesthetic and user experience side of the application. They will tend to spend most of their time working on the visual layout and aspects of the application include front end design and build. Their primary tools will be programs such as Sketch, Framer & Balsamiq for different project phases. They will partner with the Software Developer to ensure visions and requirements for features are aligned, and with the User Tester to ensure that prototypes are adequately complete for the testing sessions in mind.
 
 #### 3.1.3 Software Developer
 
@@ -131,7 +131,7 @@ The assigned software developer within the group will take the responsibility of
 
 #### 3.1.4 User Testing Specialist
 
-The User Testing Specialist will be assigned with the role of handling all user facing issues of the application. This will include arrange test sessions, invite participant, and overseeing all user testing deliverables, handling any sessions required to get user feedback and collating and delivering the results from these sessions.
+The User Testing Specialist will be assigned with the role of handling all user facing issues of the application. This will include arrange test sessions, invite participant, and overseeing all user testing deliverables, handling any sessions required to get user feedback and collating and delivering the results from these sessions. The User Testing Specialist will work closely with other members of the group who may also be required to help facilitate testing.
 
 ### 3.2 Team Processes
 
@@ -145,8 +145,6 @@ Where a team member feels that another member hasn't performed, they should priv
 
 ## 4.0 Communications
 
-(Where and when will your team meet and how will you all communicate? Where will files 1 be stored and shared? What are the file naming conventions? Identify the social platform/s your team has adopted and explain the choice. How will it facilitate communication and / or file sharing?)
-
 The team will meet Tuesday every week between 12pm and 2pm, during the scheduled class workshop. During this time, team member's should raise any important developments they know of, or concerns they might have. The team may also elect to have secondary team meetings on Wednesdays between 2pm and 4pm, when all team members have proven to have free time, if it is deemed necessary. These secondary meetings will not happen by default, but only on specific weeks when the team feels it is necessary.
 
 There are five team members, each of us will contribute at least 2 hours for discussing and planning the project development. It is crucial for us to meet at the beginning of each week to discuss three main questions: 1\. How does the project progress going toward the project development goals last week. 2\. What we plan for improving and developing the project this week. 3\. Have we met any difficulties from last week? At the meeting the team leader aims to help each other to define the current process of project. The benefit of this meeting is to identify about "what's went well", "what stop us to continue" and "how we improve for next step."
@@ -155,15 +153,15 @@ Attendance of team meetings is considered mandatory and important, except for wh
 
 ### 4.1 Slack
 
-Slack will be the groups core method of communication and will be where the majority of outside-meeting communication will occur.
+Slack will be the groups core method of communication and will be where the majority of outside-meeting communication will occur. Slack will be used for more informal communication such as meeting arrangement and short correspondence, including small questions, reminders, and updates.
 
 ### 4.2 Email
 
 Email will be used for all external-group and official course related communications. The _team leader_ will be responsible for this communication where possible, however other group members do have the ability to email outside of the group for project related reasons.
 
-### 4.3 Google Drive (File storage & share Method)
+### 4.3 Google Drive (File storage & sharing Method)
 
-The team will use Google Drive to collaboratively work on tasks where it is seen as appropriate. They may also use Google Drive's commenting feature as a method to discuss specific points within documents that are being written. Google drive will be the group main method for store and share files, there will be several folders for Organise and distinguish different files, include user testing folder, prototype folder, research folder, code folder, back-up folder etc.
+The team will use Google Drive to collaboratively work on tasks where it is seen as appropriate. They may also use Google Drive's commenting feature as a method to discuss specific points within documents that are being written. Google drive will be the group main method for storing and sharing files. Google Drive will primarily be used to create documents collaboratively, or to share media between each other. The team's Google Drive folder should not be used to store code and prototypes, because the Git Repository will serve this purpose better.
 
 #### 4.3.1 Naming convention
 
@@ -171,7 +169,7 @@ The file naming convention will be used for organise and identify the files, the
 
 ### 4.4 Discord
 
-Where team members may determine it is more effective to communicate via voice, in scenarios where team meetings aren't an option, they make use a discord channel to communicate. Key Decisions determined within these chats should be written down within the team's Google Drive Folder.
+Where team members may determine it is more effective to communicate via voice, in scenarios where team meetings aren't an option, they make use a discord channel to communicate. Examples of this circumstance may be to discuss the implementation of a new feature, where it would be too hard and time consuming to communicate via Slack. Any key decisions determined within these voice chats should be shared via the Slack channel.
 
 ## 5.0 Project Plan
 
@@ -274,4 +272,6 @@ Content for this section will be written here.
 
 ## 6.0 Resources
 
-Content for this section will be written here.
+1. Laptop or Desktop computers with Framer software for prototype development.
+
+2. A smartphone which supports the Framer app, so that the prototype may be loaded onto it for testing purposes.
