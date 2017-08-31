@@ -216,13 +216,13 @@ The file naming convention will be used for organise and identify the files, the
 Where team members may determine it is more effective to communicate via voice, in scenarios where team meetings aren't an option, they make use a discord channel to communicate. Examples of this circumstance may be to discuss the implementation of a new feature, where it would be too hard and time consuming to communicate via Slack. Any key decisions determined within these voice chats should be shared via the Slack channel.
 
 In conclusion, the team conflict resolution strategies include:
-1.	Encourage team communication
+#### 1.	Encourage team communication
 In most case, conflict occurs because of lack of communication, if conflict there is a conflict, then get every team member into a comfortable environment to communicate with one another and resolve the issue,   
     
-2.	Seek a mediator
+#### 2.	Seek a mediator
 If the conflict couldn’t be resolved within the team, then calling for aid from the teaching group (tutor/ lecturer), this strategy will be used to resolve serious conflict include zero contribution, any kind of abuse, etc. 
  
-3.	Democratic vote
+#### 3.	Democratic vote
 Any design or development conflict that can be solved within the team will be resolved by democratic vote, but the vote will be conducted after team discussion (engaging communication first).   
 
 
