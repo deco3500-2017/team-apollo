@@ -249,16 +249,16 @@ The following table is a detailed timeline of task completion, start and finish 
 
 |Phases                        | Milestone                     |  Start Date    |      End Date
 |----------------------------- | :---------------------------: | :------------: | -------------:
-|**Research**                  | Industry Research             |   XX-XX-2017   |     XX-XX-2017
-|                              | User Research                 |   XX-XX-2017   |     XX-XX-2017
-|                              | Competitive Analysis          |   XX-XX-2017   |     XX-XX-2017
-|**Requirement Backlog**       | Online Survey                 |   XX-XX-2017   |     XX-XX-2017
-|                              | Usability Testing             |   XX-XX-2017   |     XX-XX-2017
-|                              | Interview                     |   XX-XX-2017   |     XX-XX-2017
-|**Design**                    | Develop Wireframes            |   XX-XX-2017   |     XX-XX-2017
-|                              | Low-Fidelity User Testing     |   XX-XX-2017   |     12-09-2017 
-|**Development**               | Develop Framer Prototype      |   XX-XX-2017   |     XX-XX-2017
-|                              | High-Fidelity User Testing    |   12-09-2017   |     30-09-2017
+|**Research**                  | Industry Research             |   02-09-2017   |     XX-XX-2017
+|                              | User Research                 |   02-09-2017   |     XX-XX-2017
+|                              | Competitive Analysis          |   05-09-2017   |     10-09-2017
+|**Requirement Backlog**       | Online Survey                 |   10-09-2017   |     12-09-2017
+|                              | Usability Testing             |   12-09-2017   |     15-09-2017
+|                              | Interview                     |   12-09-2017   |     15-09-2017
+|**Design**                    | Develop Wireframes            |   11-09-2017   |     15-09-2017
+|                              | Low-Fidelity User Testing     |   15-09-2017   |     03-10-2017 
+|**Development**               | Develop Framer Prototype      |   03-10-2017   |     17-10-2017
+|                              | High-Fidelity User Testing    |   17-10-2017   |     20-10-2017
 
 
 --------------------------------------------------------------------------------
