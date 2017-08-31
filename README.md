@@ -247,16 +247,22 @@ Final Proposal               | 27-10-2017
 
 The following table is a detailed timeline of task completion, start and finish dates;
 
-Phases                        | Start Date |   End Date
------------------------------ | :--------: | ---------:
-User & Industry Research      | XX-XX-2017 | XX-XX-2017
-Competitive Analysis          | XX-XX-2017 | XX-XX-2017
-Generate Requirements Backlog | XX-XX-2017 | XX-XX-2017
-Develop Wireframes            | XX-XX-2017 | XX-XX-2017
-User Testing                  | 12-09-2017 | 30-09-2017
-Generate Style Guide          | XX-XX-2017 | XX-XX-2017
-Develop Framer Prototype      | XX-XX-2017 | XX-XX-2017
-User Testing                  | 05-10-2017 | 20-10-2017
+Phases                     |   Start Date   |       End Date
+-------------------------- | :------------: | -------------:
+**Research**               | **XX-XX-2017** | **XX-XX-2017**
+Industry Research          |   XX-XX-2017   |     XX-XX-2017
+Competitive Analysis       |   XX-XX-2017   |     XX-XX-2017
+User Research              |   XX-XX-2017   |     XX-XX-2017
+**Requirements**           | **XX-XX-2017** | **XX-XX-2017**
+Online Survey              |   XX-XX-2017   |     XX-XX-2017
+Usability Testing          |   XX-XX-2017   |     XX-XX-2017
+Interview                  |   XX-XX-2017   |     XX-XX-2017
+**Design**                 | **XX-XX-2017** | **XX-XX-2017**
+Wireframes                 |   XX-XX-2017   |     XX-XX-2017
+Low Fidelity User Testing  |   XX-XX-2017   |     XX-XX-2017
+**Development**            | **XX-XX-2017** | **XX-XX-2017**
+Framer Prototype           |   XX-XX-2017   |     XX-XX-2017
+High Fidelity User Testing |   12-09-2017   |     30-09-2017
 
 --------------------------------------------------------------------------------
 
@@ -278,7 +284,7 @@ This is part is basically only focuses on understanding user behaviors, needs, a
 
 --------------------------------------------------------------------------------
 
-### Phase 2: Requirements Backlog
+### Phase 2: Requirements
 
 These are the methods that we will be used to gather the requirements:
 
