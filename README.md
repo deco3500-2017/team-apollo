@@ -335,7 +335,7 @@ Around six or eight users will be recruited in the test plan. Each of them needs
 
 item     |       Iteration 1        |  
 -------- | :----------------------: | 
-Date     | (12/09/2017- 30/09/2017) | 
+Date     | (15/09/2017- 03/10/2017) | 
 Number   |   3 = Female 3 = Male    | 
 User     |       Novice User        | 
 Duration |         19 days          | 
@@ -367,7 +367,7 @@ After the we
 ##### Participants
 item     |       Iteration 1       
 -------- | :----------------------: 
-Date     |  05/10/2017-20/10/2017
+Date     |  17/10/2017-20/10/2017
 Number   |  1 = Female 2 = Male
 User     |  Expert User
 Duration |  Duration = 15 days
