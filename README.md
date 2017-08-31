@@ -211,9 +211,20 @@ The team will use Google Drive to collaboratively work on tasks where it is seen
 
 The file naming convention will be used for organise and identify the files, the naming convention for every files (include code files) will follow this structure: Time**FileName**PersonName__Version Number. The files with a naming convention provide a preview of the content, are organized in a logical way identify the responsible party and convey the work history
 
-### 4.4 Discord
+### 4.4 Conflict resolution strategies
 
 Where team members may determine it is more effective to communicate via voice, in scenarios where team meetings aren't an option, they make use a discord channel to communicate. Examples of this circumstance may be to discuss the implementation of a new feature, where it would be too hard and time consuming to communicate via Slack. Any key decisions determined within these voice chats should be shared via the Slack channel.
+
+In conclusion, the team conflict resolution strategies include:
+1.	Encourage team communication
+In most case, conflict occurs because of lack of communication, if conflict there is a conflict, then get every team member into a comfortable environment to communicate with one another and resolve the issue,   
+    
+2.	Seek a mediator
+If the conflict couldn’t be resolved within the team, then calling for aid from the teaching group (tutor/ lecturer), this strategy will be used to resolve serious conflict include zero contribution, any kind of abuse, etc. 
+ 
+3.	Democratic vote
+Any design or development conflict that can be solved within the team will be resolved by democratic vote, but the vote will be conducted after team discussion (engaging communication first).   
+
 
 ## 5.0 Project Plan
 
