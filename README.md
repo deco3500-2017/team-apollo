@@ -279,10 +279,10 @@ These are the methods that we will be used to gather the requirements:
 We will be giving an online survey through Google Forms to our target audience. Where will be asking about our project, is it helping the users? what the users expectations?how satisfied the users? what the users likes and dislikes? and etc. With this information, we can analyze the results in order to achieve more specific requirements.
 
 ##### Usability Testing
-Usability testing refers to evaluating the product or service by testing it with representative users. Typically, during a test, participants will try to complete typical tasks while we watch, listen and takes notes.  The goal of this test is to identify any usability problems, collect qualitative and quantitative data and determine the participant's satisfaction with the product. Thus, we can improve our usability which will be user experience (UX) and user interface (UI) based on the analyzed result.
+This method refers to evaluating the product or service by testing it with representative users. Typically, we will be giving a several different tasks for each participants and during the test, participants will try to complete the tasks while we watch, listen and takes notes. The goal of this test is to identify any usability problems, collect qualitative and quantitative data and determine the participant's satisfaction with the product. Thus, we can improve our usability which will be user experience (UX) and user interface (UI) based on the analyzed result.
 
 ##### Interview
-Basically the interview will be perform after the users do the usability testing, since it will helps us to confirm the problems that the users had while testing the product. With this method, we can get deeper understanding of what users wants. 
+Basically, the interview will be performed after the users do the usability testing since it will help us to confirm the problems that the users had while testing the product. With this method, we can get a deeper understanding of what users want.
 
 #### 3\. Design
 
