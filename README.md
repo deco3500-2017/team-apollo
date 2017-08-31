@@ -281,6 +281,7 @@ This is part is basically only focuses on understanding user behaviors, needs, a
 
 --------------------------------------------------------------------------------
 
+
 ### Phase 2: Requirements
 
 These are the methods that we will be used to gather the requirements:
@@ -308,14 +309,17 @@ During this phase, we will be creating wireframes that will helps us to arrange 
 The wireframes will be focused on the functionality, behavior, and priority of content. In other words, it focuses on what the screen does not how it looks.wireframes is a good way which allow us to clear understand the product without objection and help us to visualize the final product. Through sketches, presente the application interactions interface and layouts on papar to reach a consensus in our team.
 
 it's including: 
-1.Product flow chart;
+1.Product flow chart / UI flow;
 2. All product page-layouts and mockups
+3.site map
 
 At this stage, it is important to find out: 1.application design style exploration. 2. An overall visual design of key page 3. Key interaction perfomance.
 
 After design the wireframes, we needs to collect data about: 1. To verify the product functionality. 2. The more controversial part of the design process(product interaction,vision). 3.Problems encountered in the design process and solutions(which interactive method is easy for user to accept). 
 
 #### Milestone 3.2: Low Fidelity User Testing
+
+After sketching and wireframe stage, the next step is define the main product UI guideline. The main color of the low fidelity prototype should be grayscale instead of use colours, which can help us to observe how does user understand the product and wiped off the distraction of color. This stage is helpful for the team to detect problems encountered in the first early design process, which including the product visual performance, text messaging, control and usage of the overall user experience. 
 
 In the first user testing procedure, the testing process will be divided into 5 steps.
 
@@ -345,11 +349,13 @@ The first user testing location will be conducted at Room 109, building 78, Quee
 
 Good Drive will be the main tool for us to generate the questionnaire form which is convenient for user to fill. Based on the first digital prototype is an application, the main equipment for the user testing is the mobile phone.
 
+Axure will be the main digital mockup tools for the low-fi prototype, which is easy and efficient to generate preliminary product model.
+
 --------------------------------------------------------------------------------
 
 ### Phase 4: Development
 
-Content for this section will be written here.
+At the final stage of prototype development, 
 
 #### Milestone 4.1: Framer Prototype
 
