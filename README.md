@@ -286,11 +286,11 @@ Basically, the interview will be performed after the users do the usability test
 
 #### 3\. Design
 
-Content for this section will be written here.
+During this phase, we will be creating wireframes that will helps us to arrange the element to accomplish a particular purpose. In addition, this wireframe will also be used for user testing.
 
 ##### Wireframes
 
-Content for this section will be written here.
+The wireframes will be focused on the functionality, behavior, and priority of content. In other words, it focuses on what the screen does not how it looks.
 
 ##### Low Fidelity User Testing
 
