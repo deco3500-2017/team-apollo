@@ -358,6 +358,6 @@ Content for this section will be written here.
 
 ## 6.0 Resources
 
-1. Laptop or Desktop computers with Framer software for prototype development.
-
-2. A smartphone which supports the Framer app, so that the prototype may be loaded onto it for testing purposes.
+- Computers with Framer software for prototype development
+- Balsamiq for Low Fidelity Prototype development
+- A smartphone which supports the Framer app, so that the prototype may be loaded onto it for testing purposes.
