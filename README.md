@@ -260,7 +260,7 @@ User Testing                  | 05-10-2017 | 20-10-2017
 
 --------------------------------------------------------------------------------
 
-### 1\. Research
+### Phase 1: Research
 
 The first things that we need to do before we actually developing a product is we need to have an understanding about the domain that we are taking and the product itself. With a good research we will have a wide range of knowledge that can be used to improve the product idea. This research is not only limited to user research but also to industry research and competitive analysis.
 
@@ -278,7 +278,7 @@ This is part is basically only focuses on understanding user behaviors, needs, a
 
 --------------------------------------------------------------------------------
 
-### 2\. Requirements Backlog
+### Phase 2: Requirements Backlog
 
 These are the methods that we will be used to gather the requirements:
 
@@ -296,7 +296,7 @@ Basically, the interview will be performed after the users do the usability test
 
 --------------------------------------------------------------------------------
 
-### 3\. Design
+### Phase 3: Design
 
 During this phase, we will be creating wireframes that will helps us to arrange the element to accomplish a particular purpose. In addition, this wireframe will also be used for user testing.
 
@@ -336,7 +336,7 @@ Good Drive will be the main tool for us to generate the questionnaire form which
 
 --------------------------------------------------------------------------------
 
-### 4\. Development
+### Phase 4: Development
 
 Content for this section will be written here.
 
@@ -347,6 +347,8 @@ Content for this section will be written here.
 #### High Fidelity User Testing
 
 Content for this section will be written here.
+
+--------------------------------------------------------------------------------
 
 ## 6.0 Resources
 
