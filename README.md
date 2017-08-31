@@ -270,15 +270,15 @@ High Fidelity User Testing |   12-09-2017   |     30-09-2017
 
 The first things that we need to do before we actually developing a product is we need to have an understanding about the domain that we are taking and the product itself. With a good research we will have a wide range of knowledge that can be used to improve the product idea. This research is not only limited to user research but also to industry research and competitive analysis.
 
-#### Industry Research
+#### Milestone 1.1: Industry Research
 
 Content for this section will be written here.
 
-#### Competitive Analysis
+#### Milestone 1.2: Competitive Analysis
 
 We are trying to identify an application or product that having similarities with our product and evaluate their strategies to determine their strengths and weaknesses relatives to our product. This will help us to see if our product is fits or not in the overall market.
 
-#### User Research
+#### Milestone 1.3: User Research
 
 This is part is basically only focuses on understanding user behaviors, needs, and motivations through observation techniques, task analysis, and other feedback methodologies which will be more detail in requirement backlog section.
 
@@ -288,15 +288,15 @@ This is part is basically only focuses on understanding user behaviors, needs, a
 
 These are the methods that we will be used to gather the requirements:
 
-#### Online Survey
+#### Milestone 2.1: Online Survey
 
 We will be giving an online survey through Google Forms to our target audience. Where will be asking about our project, is it helping the users? what the users expectations?how satisfied the users? what the users likes and dislikes? and etc. With this information, we can analyze the results in order to achieve more specific requirements.
 
-#### Usability Testing
+#### Milestone 2.2: Usability Testing
 
 This method refers to evaluating the product or service by testing it with representative users. Typically, we will be giving a several different tasks for each participants and during the test, participants will try to complete the tasks while we watch, listen and takes notes. The goal of this test is to identify any usability problems, collect qualitative and quantitative data and determine the participant's satisfaction with the product. Thus, we can improve our usability which will be user experience (UX) and user interface (UI) based on the analyzed result.
 
-#### Interview
+#### Milestone 2.3: Interview
 
 Basically, the interview will be performed after the users do the usability testing since it will help us to confirm the problems that the users had while testing the product. With this method, we can get a deeper understanding of what users want.
 
@@ -306,11 +306,11 @@ Basically, the interview will be performed after the users do the usability test
 
 During this phase, we will be creating wireframes that will helps us to arrange the element to accomplish a particular purpose. In addition, this wireframe will also be used for user testing.
 
-#### Wireframes
+#### Milestone 3.1: Wireframes
 
 The wireframes will be focused on the functionality, behavior, and priority of content. In other words, it focuses on what the screen does not how it looks.
 
-#### Low Fidelity User Testing
+#### Milestone 3.2: Low Fidelity User Testing
 
 In the first user testing procedure, the testing process will be divided into 5 steps.
 
@@ -346,11 +346,11 @@ Good Drive will be the main tool for us to generate the questionnaire form which
 
 Content for this section will be written here.
 
-#### Framer Prototype
+#### Milestone 4.1: Framer Prototype
 
 Content for this section will be written here.
 
-#### High Fidelity User Testing
+#### Milestone 4.2: High Fidelity User Testing
 
 Content for this section will be written here.
 
