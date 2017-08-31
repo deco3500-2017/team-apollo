@@ -216,15 +216,18 @@ The file naming convention will be used for organise and identify the files, the
 Where team members may determine it is more effective to communicate via voice, in scenarios where team meetings aren't an option, they make use a discord channel to communicate. Examples of this circumstance may be to discuss the implementation of a new feature, where it would be too hard and time consuming to communicate via Slack. Any key decisions determined within these voice chats should be shared via the Slack channel.
 
 In conclusion, the team conflict resolution strategies include:
-#### 1.	Encourage team communication
-In most case, conflict occurs because of lack of communication, if conflict there is a conflict, then get every team member into a comfortable environment to communicate with one another and resolve the issue,   
-    
-#### 2.	Seek a mediator
-If the conflict couldn’t be resolved within the team, then calling for aid from the teaching group (tutor/ lecturer), this strategy will be used to resolve serious conflict include zero contribution, any kind of abuse, etc. 
- 
-#### 3.	Democratic vote
-Any design or development conflict that can be solved within the team will be resolved by democratic vote, but the vote will be conducted after team discussion (engaging communication first).   
 
+#### 1\. Encourage team communication
+
+In most case, conflict occurs because of lack of communication, if conflict there is a conflict, then get every team member into a comfortable environment to communicate with one another and resolve the issue,
+
+#### 2\. Seek a mediator
+
+If the conflict couldn't be resolved within the team, then calling for aid from the teaching group (tutor/ lecturer), this strategy will be used to resolve serious conflict include zero contribution, any kind of abuse, etc.
+
+#### 3\. Democratic vote
+
+Any design or development conflict that can be solved within the team will be resolved by democratic vote, but the vote will be conducted after team discussion (engaging communication first).
 
 ## 5.0 Project Plan
 
@@ -255,44 +258,53 @@ Generate Style Guide          | XX-XX-2017 | XX-XX-2017
 Develop Framer Prototype      | XX-XX-2017 | XX-XX-2017
 User Testing                  | 05-10-2017 | 20-10-2017
 
-#### 1\. Research
+--------------------------------------------------------------------------------
+
+### 1\. Research
 
 Content for this section will be written here.
 
-##### Industry Research
+#### Industry Research
 
 Content for this section will be written here.
 
-##### Competitive Analysis
+#### Competitive Analysis
 
 Content for this section will be written here.
 
-##### User Research
+#### User Research
 
 Content for this section will be written here.
 
-#### 2\. Requirements Backlog
+--------------------------------------------------------------------------------
+
+### 2\. Requirements Backlog
 
 These are the methods that we will be used to gather the requirements:
 
-##### Online Survey
+#### Online Survey
+
 We will be giving an online survey through Google Forms to our target audience. Where will be asking about our project, is it helping the users? what the users expectations?how satisfied the users? what the users likes and dislikes? and etc. With this information, we can analyze the results in order to achieve more specific requirements.
 
-##### Usability Testing
+#### Usability Testing
+
 This method refers to evaluating the product or service by testing it with representative users. Typically, we will be giving a several different tasks for each participants and during the test, participants will try to complete the tasks while we watch, listen and takes notes. The goal of this test is to identify any usability problems, collect qualitative and quantitative data and determine the participant's satisfaction with the product. Thus, we can improve our usability which will be user experience (UX) and user interface (UI) based on the analyzed result.
 
-##### Interview
+#### Interview
+
 Basically, the interview will be performed after the users do the usability testing since it will help us to confirm the problems that the users had while testing the product. With this method, we can get a deeper understanding of what users want.
 
-#### 3\. Design
+--------------------------------------------------------------------------------
+
+### 3\. Design
 
 During this phase, we will be creating wireframes that will helps us to arrange the element to accomplish a particular purpose. In addition, this wireframe will also be used for user testing.
 
-##### Wireframes
+#### Wireframes
 
 The wireframes will be focused on the functionality, behavior, and priority of content. In other words, it focuses on what the screen does not how it looks.
 
-##### Low Fidelity User Testing
+#### Low Fidelity User Testing
 
 In the first user testing procedure, the testing process will be divided into 5 steps.
 
@@ -302,7 +314,7 @@ In the first user testing procedure, the testing process will be divided into 5 
 4. After the user test, user needs to complete a post-test questionnaire form to provide their suggestion about the improvement of initial prototype.(0-5mins)
 5. In the end, it is crucial for us to have a debrief time to evaluate and analysis the task form and the questionnaire form to improve the user experience.
 
-###### Participants
+##### Participants
 
 Around six or eight users will be recruited in the test plan. Each of them needs to take around 15 mins to complete the whole test tasks. We aim to invite university students as our main user as their activity and routine meet the goals of the product.
 
@@ -314,23 +326,25 @@ User     |       Novice User        |           Expert User
 Duration |         19 days          |    Duration = 15 days
 Age      |         18 - 30          |               18 - 30
 
-###### Location & Dates
+##### Location & Dates
 
 The first user testing location will be conducted at Room 109, building 78, Queensland of university at SEP 20.
 
-###### Tools
+##### Tools
 
 Good Drive will be the main tool for us to generate the questionnaire form which is convenient for user to fill. Based on the first digital prototype is an application, the main equipment for the user testing is the mobile phone.
 
-#### 4\. Development
+--------------------------------------------------------------------------------
+
+### 4\. Development
 
 Content for this section will be written here.
 
-##### Framer Prototype
+#### Framer Prototype
 
 Content for this section will be written here.
 
-##### High Fidelity User Testing
+#### High Fidelity User Testing
 
 Content for this section will be written here.
 
