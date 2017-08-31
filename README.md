@@ -305,7 +305,15 @@ During this phase, we will be creating wireframes that will helps us to arrange 
 
 #### Milestone 3.1: Wireframes
 
-The wireframes will be focused on the functionality, behavior, and priority of content. In other words, it focuses on what the screen does not how it looks.
+The wireframes will be focused on the functionality, behavior, and priority of content. In other words, it focuses on what the screen does not how it looks.wireframes is a good way which allow us to clear understand the product without objection and help us to visualize the final product. Through sketches, presente the application interactions interface and layouts on papar to reach a consensus in our team.
+
+it's including: 
+1.Product flow chart;
+2. All product page-layouts and mockups
+
+At this stage, it is important to find out: 1.application design style exploration. 2. An overall visual design of key page 3. Key interaction perfomance.
+
+After design the wireframes, we needs to collect data about: 1. To verify the product functionality. 2. The more controversial part of the design process(product interaction,vision). 3.Problems encountered in the design process and solutions(which interactive method is easy for user to accept). 
 
 #### Milestone 3.2: Low Fidelity User Testing
 
