@@ -355,11 +355,11 @@ Axure will be the main digital mockup tools for the low-fi prototype, which is e
 
 ### Phase 4: Development
 
-At the final stage of prototype development, 
+At the final stage of prototype development, we need to evaluate the data from the Low-FI prototype user testing and draw conclusion about the usability of the product and whether we achieve the user experience goal. A Hi-Fi prototype will be developed once we get enough raw data from the test, which can simulate the final visual effects, interatie effects and user experience. The high fidelity prototype is also the Minimum viable product(MVP Product) which not only allows team members better understand the product but also improve the user experience of the target audience.
 
 #### Milestone 4.1: Framer Prototype
 
-Content for this section will be written here.
+After the we 
 
 #### Milestone 4.2: High Fidelity User Testing
 
