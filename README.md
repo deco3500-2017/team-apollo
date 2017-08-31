@@ -46,6 +46,7 @@ The audience of the app will be patrons of nightclubs, bars and other entertainm
 - Paul doesn't like sending messages out to all the people he knows to see if they're at a good club.
 
 #### 2.1.2 User Persona : Miranda
+
 **Age:** 27
 
 **Location:** 1770, Queensland
@@ -55,17 +56,20 @@ The audience of the app will be patrons of nightclubs, bars and other entertainm
 **Occupation:** Miranda is a Real Estate Agent, specialising in rental property management in 1770.
 
 **Personality & History:**
-* Miranda likes to meet new people.
-* Miranda comes from a creative background, she used to be in a jazz band.
-* Miranda doesn't like loud places where too many very young adults are hanging out.
+
+- Miranda likes to meet new people.
+- Miranda comes from a creative background, she used to be in a jazz band.
+- Miranda doesn't like loud places where too many very young adults are hanging out.
 
 **Goals:**
-* Miranda wants to meet new people and experience the best that Brisbane has to offer while on holiday.
-* Miranda loves seeing local bands.
+
+- Miranda wants to meet new people and experience the best that Brisbane has to offer while on holiday.
+- Miranda loves seeing local bands.
 
 **Frustrations:**
-* Miranda finds it really hard to find the secret treasures of new cities without having a friend to make personal recommendations.
-* Miranda finds that online reviews, and even business' descriptions of themselves tend not to be trustworthy.
+
+- Miranda finds it really hard to find the secret treasures of new cities without having a friend to make personal recommendations.
+- Miranda finds that online reviews, and even business' descriptions of themselves tend not to be trustworthy.
 
 ### 2.2 Aim
 
