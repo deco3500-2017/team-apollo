@@ -55,21 +55,25 @@ The aim of the project is to provide a platform that lets users feel more empowe
 
 ### 2.3 Background Theory, Context and Considerations
 
-#### 2.3.1 Requirements Gathering
+#### 2.3.3 Testing the Concept
+
+Testing the concept of any idea is an important phase of a project to gain early insights into the chance of user adoption and important learnings around use cases. Selecting the appropriate testing methods is an important step in the testing phase. Some methods that could be used to perform these tests could be surveys (on both users and local venues), online smoke tests and product usability tests.
+
+- The survey could be a series of questions performed both online and on the street to begin asking users and venues about how they feel about the idea, how they see it being used and their thoughts on necessary features.
+- Online smoke tests are completed by creating a landing page for the application that lists the core offerings of the applications and asking users to sign up if they are interested. These tests don't provide immediate feedback but can be an important step in validating your idea from an idea stage and gaining access to interested users.
+- Product usability tests could be performed using a set of users with access to a prototype version of the application. From there, the users would be asked to use the prototype to assist them on their night out, giving extremely useful learnings around the apps effectiveness in supporting a night out.
+
+#### 2.3.2 Requirements Gathering
 
 Interviews will be the primary method for requirements gathering. Interviews have been determined as the best way to gather requirements because of the rich information that can be gathered, while connecting directly with the users as stakeholders. The context of an interview will allow the interviewer to probe the interviewee when they hint at a valuable piece of information which we may not have otherwise considered. An interview is a better way to probe for this type of information than other methods which could present that same information, such as direct observation in the wild, which would be hard to do in the context of observing users while they go out to venues at night.
 
 The interviews will contain both qualitative and quantitative questions to gather a variety of information about the field in question. Quantitative questions should be closed-ended and used to gather important factual information, such as: How many venues do they think they tend to go through on an average night out, how many venues would they consider to be too many to go through in one night, how much time they would be willing to spend deciding where to go before they head out, etc. The qualitative questions should be open-ended, trying to get an indication of what a user values from a night out. Using these open-ended questions we want to determine key points such as: what are all of the key factors about a venue that will impact on its quality, how many and what categories would you say that a venue could fall into, what language would you use to describe a good venue, etc.
 
-#### 2.3.2 Methods for testing the Concept
-
-**_NEEDS TO BE DONE_**
-
 #### 2.3.3 Model of Context
 
 The context of the application is that it will be installed on a user's mobile device. This means that the product will be freely mobile, and personally attached to the user at all times, while maintaining communication with the service's backend all the time via a mobile network. As a virtue of the mobile device it is installed on the product will be aware of its location at all times, and it will also be able to use the device's sensors such as its microphone and accelerometer to gather information. The product will allow the user to perform specific tasks for the user, in this case viewing time and location specific information, in a quick and personally driven manner. The user will be aware that the information being provided is a real-time measurement, and constantly in flux.
 
-#### 2.3.5 Other Design Considerations
+#### 2.3.4 Other Design Considerations
 
 ##### Privacy
 
