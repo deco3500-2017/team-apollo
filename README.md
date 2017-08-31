@@ -205,6 +205,6 @@ Content for this section will be written here.
 
 Content for this section will be written here.
 
-### Resources
+## 6.0 Resources
 
 Content for this section will be written here.
