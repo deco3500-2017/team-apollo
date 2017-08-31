@@ -273,7 +273,7 @@ The industry research is one of the preliminary researches in the first phase of
 
 #### Milestone 1.2: Competitive Analysis
 
-We are trying to identify an application or product that having similarities with our product and evaluate their strategies to determine their strengths and weaknesses relatives to our product. This will help us to see if our product is fits or not in the overall market.
+We are trying to identify an application or product that having similarities with our product and evaluate their strategies to determine their strengths and weaknesses relatives to our product. This will help us to see if our product is fits or not in the overall market.In this part, we aim at a detailed analysis to analysis several aspercts from typical products to sum the merits and drawbacks of relevant product, try to improve ourselves.
 
 #### Milestone 1.3: User Research
 
