@@ -22,12 +22,7 @@ By viewing a Venue's Buzz and Vibe, a user should be able to make an accurate de
 
 The audience of the app will be patrons of nightclubs and other entertainment venues. The demographics of these users will tend to be people between the ages of 18 and 30, socio-economically spanning the lower to upper-middle class.
 
-(User Persona here)
-
-#### 2.1.1 User Persona
-
-**Paul**
-
+#### 2.1.1 User Persona : Paul
 **Age:** 21
 
 **Location:** Kangaroo Point, Brisbane, Queensland
@@ -45,7 +40,7 @@ The audience of the app will be patrons of nightclubs and other entertainment ve
 * Paul wants to experience new things and make great memories with his friends while he is young.
 * Paul and his friends specifically love going to nightclubs which have a DJ who is really getting the crowd going.
 
-**Frustrations:** 
+**Frustrations:**
 * Paul finds that his nights out can be hit-and-miss.
 * Paul hates spending $20 on the entry-fee for a night club if it isn't fun inside.
 * Paul doesn't like sending messages out to all the people he knows to see if they're at a good club.
@@ -54,9 +49,34 @@ The audience of the app will be patrons of nightclubs and other entertainment ve
 
 The aim of the project is to provide a platform that lets users feel more empowered and knowledgable before they make a decision about which venue to go to on a night out. Venu can be considered a success if it achieves this, and builds a loyal base of users who value its features.
 
-### 2.3 Theory
+### 2.3 Background Theory, Context and Considerations
 
--What methods to gather requirements -What methods for testing concept -what model of context we will apply -Design issues/considerations from background theory which applies to concept -See if there are issues around critical mass, reporting location, sensing activity from ACM Digital Library
+#### 2.3.1 Requirements Gathering
+Interviews will be the primary method for requirements gathering. Interviews have been determined as the best way to gather requirements because of the rich information that can be gathered, while connecting directly with the users as stakeholders. The context of an interview will allow the interviewer to probe the interviewee when they hint at a valuable piece of information which we may not have otherwise considered. An interview is a better way to probe for this type of information than other methods which could present that same information, such as direct observation in the wild, which would be hard to do in the context of observing users while they go out to venues at night.
+
+The interviews will contain both qualitative and quantitative questions to gather a variety of information about the field in question. Quantitative questions should be closed-ended and used to gather important factual information, such as: How many venues do they think they tend to go through on an average night out, how many venues would they consider to be too many to go through in one night, how much time they would be willing to spend deciding where to go before they head out, etc. The qualitative questions should be open-ended, trying to get an indication of what a user values from a night out. Using these open-ended questions we want to determine key points such as: what are all of the key factors about a venue that will impact on its quality, how many and what categories would you say that a venue could fall into, what language would you use to describe a good venue, etc.
+
+#### 2.3.2 Methods for testing the Concept
+
+#### 2.3.3 Model of Context
+
+The context of the application is that it will be installed on a user's mobile device. This means that the product will be freely mobile, and personally attached to the user at all times, while maintaining communication with the service's backend all the time via a mobile network. As a virtue of the mobile device it is installed on the product will be aware of its location at all times, and it will also be able to use the device's sensors such as its microphone and accelerometer to gather information. The product will allow the user to perform specific tasks for the user, in this case viewing time and location specific information, in a quick and personally driven manner. The user will be aware that the information being provided is a real-time measurement, and constantly in flux.
+
+#### 2.3.5 Other Design Considerations
+
+##### Privacy
+
+A key consideration that will have to be considered throughout development would be that of privacy. There are two key areas where this privacy concern will present itself:
+
+**1. Privacy within their social network.**
+
+The product is going to have a social aspect to it to encourage users to share their good experiences and reviews. It is known that users of social media networks are comfortable doing this, however there is a line when they feel that sharing this information gives away too much information. An example of this is that users of Snapchat are generally comfortable sharing photos or videos of themselves in a clearly defined location at a clearly defined time, however a lot of users had a problem with Snapchat's SnapMaps feature, feeling that it gave away too much information by sharing their location in real-time. From these two observations it can be deduced that there is a certain cut-off point where a user feels uncomfortable sharing their location with too high of a resolution. Therefore the Venu application should be mindful of this when providing features which may potentially give away a user's location when used.
+
+**2. The service breaching the user's privacy**
+
+Users of online services consider their privacy important. It is clearly documented that users dislike giving access to their devices peripherals, such as cameras and other sensors, however they are usually willing to make a concession based on the value that the service is providing them. For this reason, Venu needs to make it clear to a user that any access to the microphone and accelerometer required is done in a way that does not possibly breach their privacy, and the features they enable must be of value to the users.
+
+##### Critical Mass
 
 ## 3.0 Team
 
