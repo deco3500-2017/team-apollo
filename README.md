@@ -391,10 +391,15 @@ Age      |        18 - 30
 
 ## 6.0 Resources
 
-- Computers with Framer software for prototype development
-- Balsamiq for Low Fidelity Prototype development
-- A smartphone which supports the Framer app, so that the prototype may be loaded onto it for testing purposes.
+- Framer
+- Balsamiq
+- iPhone
+- GitHub & SourceTree
+- Sketch
+- Draw.io
 
 ## 7.0 References
 
 <https://www.usability.gov/what-and-why/user-research.html>
+
+<Daphne Raban, Mihai Moldovan, Quentin Jones (2010): An empirical study of critical mass and online community survival. In: CSCW '10 Proceedings of the 2010 ACM conference on Computer supported cooperative work, February 06 - 10, 2010, Savannah, Georgia, USA>
