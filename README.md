@@ -262,15 +262,15 @@ The following table is a detailed timeline of task completion, start and finish 
 Phases                | Milestone                  | Start Date | End Date
 :-------------------- | :------------------------- | :--------- | :---------
 Research              | Industry Research          | 02-09-2017 | 15-09-2017
--                     | Competitive Analysis       | 02-09-2017 | 10-09-2017
--                     | User Research              | 08-09-2017 | 30-09-2017
+/                     | Competitive Analysis       | 02-09-2017 | 10-09-2017
+/                     | User Research              | 08-09-2017 | 30-09-2017
 Requirement Gathering | Surveys                    | 10-09-2017 | 30-09-2017
--                     | Usability Testing          | 12-09-2017 | 15-09-2017
--                     | Interview                  | 12-09-2017 | 15-09-2017
+/                     | Usability Testing          | 12-09-2017 | 15-09-2017
+/                     | Interview                  | 12-09-2017 | 15-09-2017
 Design                | Develop Wireframes         | 11-09-2017 | 15-09-2017
--                     | Low-Fidelity User Testing  | 15-09-2017 | 03-10-2017
+/                     | Low-Fidelity User Testing  | 15-09-2017 | 03-10-2017
 Prototyping           | Develop Framer Prototype   | 03-10-2017 | 17-10-2017
--                     | High-Fidelity User Testing | 17-10-2017 | 20-10-2017
+/                     | High-Fidelity User Testing | 17-10-2017 | 20-10-2017
 
 ### Phase 1: Research
 
