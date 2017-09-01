@@ -287,7 +287,7 @@ The Competitive Analysis is an expansion on the Industry Analysis which looks at
 
 #### Milestone 1.3: User Research
 
-User research is a step undertaken to begin investigating the methods that users will use the application. User research is done to look at the users behaviours, needs, and motivations through various techniques that aim to observe and log their actions. This early user research will purely consist of basic gathering techniques to look at potential users of the application and what their needs are.
+User research is a step undertaken to begin investigating the methods that users will use the application. During the user research it is essentially to look at the users behaviours, needs and motivations through various techniques that aim to observe and log their actions. This early user research will purely consist of basic gathering techniques to look at potential users of the application and what their needs are.
 
 --------------------------------------------------------------------------------
 
@@ -317,37 +317,32 @@ Wireframes are a low-fidelity, generalised version of the applications layout. T
 2. Finalised wireframe page layouts
 3. System Architecture
 
-#### Milestone 3.2: Low Fidelity User Testing
+#### Milestone 3.2: Style Guide
+
+The projects style guide will be a formatted document that outlines the choices of colour, structure and typography to be used within the project. The benefits of creating a style guide is that it can be used alongside the wireframes to help automate the prototype creation process at the high-fidelity stages.
+
+#### Milestone 3.3: Low Fidelity User Testing
 
 After the sketching and wireframe stage, the next step is define the main product usability guidelines. This stage is helpful for the team to detect problems encountered in the early design process, which include the products functional layout, navigation and overall usefulness. In the first user testing procedure, the testing process will be divided into 5 steps.
 
-1. The user test will begin with a consent form for both the user and the tester to sign. (0-5 mins)
-2. We will provide a pre-test interview for the user to understand what the purpose of our project is and how long the test will take. (0-5mins)
-3. The test task form will be prepared before the test, which will clearly outline to the user the tasks they have to complete. (5-10mins)
-4. After the user test, the user needs to complete a post-test questionnaire form to provide their suggestions about the improvement of initial prototype.(0-5mins)
-5. In the end, it is crucial for us to have a debrief time to evaluate and analysis the task form and the questionnaire form to improve the user experience.
+1. The user test will begin with a consent form for both the user and the tester to sign (0-5 mins)
+2. We will provide a pre-test interview for users to understand about what the application is, how the test will run and how long the test will take (0-5 mins)
+3. The test task form will be prepared before the test, and the form will be provided for users to have a clear process and to assist them with completing the task. (5-10 mins)
+4. After the test, user needs to complete a post-test questionnaire form to provide their suggestions about the application (0-5 mins)
+5. At the conclusion of the test it is crucial for a debrief to be performed within the development team to evaluate and analyse the task and questionnaire form to improve the user experience and create resulting action items
 
 ##### Participants
 
-Around six or eight users will be recruited in the test plan. Each of them needs to take around 15 mins to complete the whole test tasks. We aim to invite university students as our main user as their activity and routine meet the goals of the product.
-
-item     |       Iteration 1
--------- | :----------------------:
-Date     | (15/09/2017- 03/10/2017) |
-Number   |   3 = Female 3 = Male    |
-User     |       Novice User        |
-Duration |         19 days          |
-Age      |         18 - 30          |
+Around 6-8 users will be recruited for the usability test. Each of these user needs to take 15 mins to complete the entire test. The aim is to invite university students as our main users, as their activity and routine meet the goals of the product.
 
 ##### Location & Dates
 
-The first user testing location will be conducted at Room 109, building 78, Queensland of university at SEP 20.
+The first user testing location will be conducted at Room 109, Building 78, University of Queensland.
 
 ##### Tools
 
-Good Drive will be the main tool for us to generate the questionnaire form which is convenient for user to fill. Based on the first digital prototype is an application, the main equipment for the user testing is the mobile phone.
-
-Axure will be the main digital mockup tools for the low-fi prototype, which is easy and efficient to generate preliminary product model.
+- Surveys and questionnaires with be created with either typeform for digital versions or Google Drive to create printable copies
+- Wireframes will be created with Balsamiq
 
 --------------------------------------------------------------------------------
 
