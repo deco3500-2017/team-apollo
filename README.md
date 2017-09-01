@@ -359,7 +359,7 @@ At the final stage of prototype development, we need to evaluate the data from t
 
 #### Milestone 4.1: Framer Prototype
 
-After the we 
+The main tool we choose for developing the high-fidelity mockup is Framer. Framer is an application used for building hi-fi prototype which provide intuitive visual simplicity and specified approach for designers. It is use CoffeeScript, so that our team could use simple language like Version which can be compiled in Javascript.
 
 #### Milestone 4.2: High Fidelity User Testing
 
