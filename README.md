@@ -198,6 +198,20 @@ It is generally expected that the team will discuss all decisions and organicall
 
 Where a team member feels that another member hasn't performed, they should privately discuss with the other team members or the team leader their concerns. If the members come to agreement, they may decide to communicate with the offending team member to let them know that their work is falling behind. If no suitable remedy can be determined then the team may elect to have a Peer Assessment Factor introduced, by democratic vote.
 
+The team's conflict resolution strategies include:
+
+#### 1\. Encourage team communication
+
+In most cases, conflict occurs because of a lack of communication. If there is a conflict then the team should get every team member into a comfortable environment to communicate with one another and resolve the issue.
+
+#### 2\. Seek a mediator
+
+If the conflict couldn't be resolved within the team, then the team should call for aid from a tutor. This strategy will be used to resolve serious conflict including zero contribution, any kind of abuse, etc.
+
+#### 3\. Democratic vote
+
+Any design or development conflict that can be solved within the team will be resolved by democratic vote, but the vote will be conducted after a team discussion (engaging communication first).
+
 ## 4.0 Communications
 
 The team will meet Tuesday every week between 12pm and 2pm, during the scheduled class workshop. During this time, team member's should raise any important developments they know of, or concerns they might have. The team may also elect to have secondary team meetings on Wednesdays between 2pm and 4pm, when all team members have proven to have free time. These secondary meetings will not happen by default, but only on specific weeks when the team feels it is necessary.
@@ -224,22 +238,6 @@ The file naming conventions will be used to organise and identify the files.h e 
 
 ### 4.4 Discord
 Where team members may determine it is more effective to communicate via voice, in scenarios where team meetings aren't an option, they make use a discord channel to communicate. Examples of this circumstance may be to discuss the implementation of a new feature, where it would be too hard and time consuming to communicate via Slack. Any key decisions determined within these voice chats should be shared via the Slack channel.
-
-### 4.4 Conflict resolution strategies
-
-In conclusion, the team conflict resolution strategies include:
-
-#### 1\. Encourage team communication
-
-In most case, conflict occurs because of lack of communication, if conflict there is a conflict, then get every team member into a comfortable environment to communicate with one another and resolve the issue,
-
-#### 2\. Seek a mediator
-
-If the conflict couldn't be resolved within the team, then calling for aid from the teaching group (tutor/ lecturer), this strategy will be used to resolve serious conflict include zero contribution, any kind of abuse, etc.
-
-#### 3\. Democratic vote
-
-Any design or development conflict that can be solved within the team will be resolved by democratic vote, but the vote will be conducted after team discussion (engaging communication first).
 
 ## 5.0 Project Plan
 
