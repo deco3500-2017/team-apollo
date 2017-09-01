@@ -264,6 +264,7 @@ Phases                    | Milestone                  | Start Date |   End Date
 
 ### Phase 1: Research
 
+
 To begin the project, before any development commences, there must be a series of research based tasks completed to begin to understand the projects domain. The benefits of good research will lead to an array of knowledge that will lend to creating a project that is both an exciting idea, along with having a real user based that requires the product. This research is not only limited to understanding the users, it also requires an in depth look into the industry and competitive landscape of the applications scope.
 
 #### Milestone 1.1: Industry Research
@@ -302,9 +303,10 @@ During this phase, we will be creating wireframes that will helps us to arrange 
 
 The wireframes will be focused on the functionality, behavior, and priority of content. In other words, it focuses on what the screen does not how it looks.wireframes is a good way which allow us to clear understand the product without objection and help us to visualize the final product. Through sketches, presente the application interactions interface and layouts on papar to reach a consensus in our team.
 
-it's including: 1.Product flow chart / UI flow;
-
-1. All product page-layouts and mockups 3.site map
+it's including: 
+1.  Product flow chart / UI flow;
+2.  All product page-layouts and mockups 
+3.  site map
 
 At this stage, it is important to find out: 1.application design style exploration. 2\. An overall visual design of key page 3\. Key interaction perfomance.
 
