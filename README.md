@@ -272,18 +272,18 @@ Research | Industry Research | 02-09-2017 | 15-09-2017
 
 To begin the project, before any development commences, there must be a series of research based tasks completed to begin to understand the projects domain. The benefits of good research will lead to an array of knowledge that will lend to creating a project that is both an exciting idea, along with having a real user based that requires the product. This research is not only limited to understanding the users, it also requires an in depth look into the industry and competitive landscape of the applications scope.
 
-Phases                | Milestone                  | Start Date | End Date
-:-------------------- | :------------------------- | :--------- | :---------
-Research              | Industry Research          | 02-09-2017 | 15-09-2017
-                      | Competitive Analysis       | 02-09-2017 | 10-09-2017
-                      | User Research              | 08-09-2017 | 30-09-2017
-Requirement Gathering | Surveys                    | 10-09-2017 | 30-09-2017
-                      | Usability Testing          | 12-09-2017 | 15-09-2017
-                      | Interview                  | 12-09-2017 | 15-09-2017
-Design                | Develop Wireframes         | 11-09-2017 | 15-09-2017
-                      | Low-Fidelity User Testing  | 15-09-2017 | 03-10-2017
-Prototyping           | Develop Framer Prototype   | 03-10-2017 | 17-10-2017
-                      | High-Fidelity User Testing | 17-10-2017 | 20-10-2017
+Phases                    | Milestone                  | Start Date | End Date
+------------------------- | -------------------------- | ---------- | ----------
+**Research**              | Industry Research          | 02-09-2017 | 15-09-2017
+------------------------- | Competitive Analysis       | 02-09-2017 | 10-09-2017
+------------------------- | User Research              | 08-09-2017 | 30-09-2017
+**Requirement Gathering** | Surveys                    | 10-09-2017 | 30-09-2017
+------------------------- | Usability Testing          | 12-09-2017 | 15-09-2017
+------------------------- | Interview                  | 12-09-2017 | 15-09-2017
+**Design**                | Develop Wireframes         | 11-09-2017 | 15-09-2017
+------------------------- | Low-Fidelity User Testing  | 15-09-2017 | 03-10-2017
+**Prototyping**           | Develop Framer Prototype   | 03-10-2017 | 17-10-2017
+------------------------- | High-Fidelity User Testing | 17-10-2017 | 20-10-2017
 
 #### Milestone 1.1: Industry Research
 
