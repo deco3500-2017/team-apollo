@@ -371,8 +371,12 @@ In order to achieve the UX goals through build Hi-Fi prototype, we formed a fram
 3.	Frame layer: the design should be have a logical conception and be well planned, which including the navigation design, information design, interface design and interactive performance design.
 
 Tasks during the High fidelity user testing: 
-
-
+1.	Introduction of the product 
+2.  Sign the user test agreement form 
+3.  Show the user test tasks list to user and guide them
+4.  Recode or video the user test process 
+5.  Answer the questionnaire once the the test finished
+6.  Give thanks and appreciation for users after user testing.
 
 After user testing: 
 Summarize user experience, refine user suggestions and report the result with clear user needs, clear further goals,conclusions and analysis.
