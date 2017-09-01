@@ -186,7 +186,7 @@ The assigned software developer within the group will take the responsibility of
 
 #### 3.1.4 User Testing Specialist
 
-The User Testing Specialist will be assigned with the role of handling all user facing issues of the application. This will include arrange test sessions, invite participant, and overseeing all user testing deliverables, handling any sessions required to get user feedback and collating and delivering the results from these sessions. The User Testing Specialist will work closely with other members of the group who may also be required to help facilitate testing.
+The User Testing Specialist will be assigned with the role of handling all user facing issues of the application. This will include arranging test sessions, inviting participants, overseeing all user testing deliverables, handling any sessions required to get user feedback, and collating and delivering the results from these sessions. The User Testing Specialist will work closely with other members of the group who may also be required to help facilitate testing.
 
 ### 3.2 Team Processes
 
@@ -196,35 +196,36 @@ It is generally expected that the team will discuss all decisions and organicall
 
 #### 3.2.2 Poor Performance and Conflict Resolution
 
-Where a team member feels that another member hasn't performed, they should privately discuss with the other team members or the team leader their concerns. If the member's come to agreement, they may decide to communicate with the offending team member to let them know that their work is falling behind. If no suitable remedy can be determined then the team may elect to have a Peer Assessment Factor introduced, by democratic vote.
+Where a team member feels that another member hasn't performed, they should privately discuss with the other team members or the team leader their concerns. If the members come to agreement, they may decide to communicate with the offending team member to let them know that their work is falling behind. If no suitable remedy can be determined then the team may elect to have a Peer Assessment Factor introduced, by democratic vote.
 
 ## 4.0 Communications
 
-The team will meet Tuesday every week between 12pm and 2pm, during the scheduled class workshop. During this time, team member's should raise any important developments they know of, or concerns they might have. The team may also elect to have secondary team meetings on Wednesdays between 2pm and 4pm, when all team members have proven to have free time, if it is deemed necessary. These secondary meetings will not happen by default, but only on specific weeks when the team feels it is necessary.
+The team will meet Tuesday every week between 12pm and 2pm, during the scheduled class workshop. During this time, team member's should raise any important developments they know of, or concerns they might have. The team may also elect to have secondary team meetings on Wednesdays between 2pm and 4pm, when all team members have proven to have free time. These secondary meetings will not happen by default, but only on specific weeks when the team feels it is necessary.
 
-There are five team members, each of us will contribute at least 2 hours for discussing and planning the project development. It is crucial for us to meet at the beginning of each week to discuss three main questions: 1\. How does the project progress going toward the project development goals last week. 2\. What we plan for improving and developing the project this week. 3\. Have we met any difficulties from last week? At the meeting the team leader aims to help each other to define the current process of project. The benefit of this meeting is to identify about "what's went well", "what stop us to continue" and "how we improve for next step."
+There are five team members, each of which will contribute at least 2 hours for discussing and planning the project development. It is crucial for the team to meet at the beginning of each week to discuss three main questions: 1\. How is the project progressing, measured against the development goals in the prior week. 2\. The development plan for the current week 3\. Have there been any recent difficulties? The benefit of this meeting is to identify "what went well", "what's holding us back, and how can we overcome it" and "how can we improve for the week ahead"
 
 Attendance of team meetings is considered mandatory and important, except for when reasonable circumstances may arise. If the circumstances are not considered reasonable by the rest of the team then the Poor Performance and conflict resolution policies may be called upon.
 
 ### 4.1 Slack
 
-Slack will be the groups core method of communication and will be where the majority of outside-meeting communication will occur. Slack will be used for more informal communication such as meeting arrangement and short correspondence, including small questions, reminders, and updates.
+Slack will be the group's core method of communication and will be where the majority of outside-meeting communication will occur. Slack will be used for more informal communication such as meeting arrangement and short correspondence, including small questions, reminders, and updates.
 
 ### 4.2 Email
 
 Email will be used for all external-group and official course related communications. The _team leader_ will be responsible for this communication where possible, however other group members do have the ability to email outside of the group for project related reasons.
 
-### 4.3 Google Drive (File storage & sharing Method)
+### 4.3 Google Drive (File storage & Sharing Method)
 
 The team will use Google Drive to collaboratively work on tasks where it is seen as appropriate. They may also use Google Drive's commenting feature as a method to discuss specific points within documents that are being written. Google drive will be the group main method for storing and sharing files. Google Drive will primarily be used to create documents collaboratively, or to share media between each other. The team's Google Drive folder should not be used to store code and prototypes, because the Git Repository will serve this purpose better.
 
 #### 4.3.1 Naming convention
 
-The file naming convention will be used for organise and identify the files, the naming convention for every files (include code files) will follow this structure: Time**FileName**PersonName__Version Number. The files with a naming convention provide a preview of the content, are organized in a logical way identify the responsible party and convey the work history
+The file naming conventions will be used to organise and identify the files.h e naming convention for every file (include code files) will follow this structure: reverseDate_FileName (example: 170901_Proposal would be appropriate for file named Proposal made on the 1st of September 2017).
+
+### 4.4 Discord
+Where team members may determine it is more effective to communicate via voice, in scenarios where team meetings aren't an option, they make use a discord channel to communicate. Examples of this circumstance may be to discuss the implementation of a new feature, where it would be too hard and time consuming to communicate via Slack. Any key decisions determined within these voice chats should be shared via the Slack channel.
 
 ### 4.4 Conflict resolution strategies
-
-Where team members may determine it is more effective to communicate via voice, in scenarios where team meetings aren't an option, they make use a discord channel to communicate. Examples of this circumstance may be to discuss the implementation of a new feature, where it would be too hard and time consuming to communicate via Slack. Any key decisions determined within these voice chats should be shared via the Slack channel.
 
 In conclusion, the team conflict resolution strategies include:
 
