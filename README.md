@@ -397,4 +397,6 @@ Age      |        18 - 30
 
 ## 7.0 References
 
-<https://www.usability.gov/what-and-why/user-research.html>
+[1] Martini, M., Smith, M., & Youmans, R. (2014). A Comparison of Prototyping on Paper (POP) Software and Traditional Paper Prototyping for Developing Mobile Products with Optimal User Experience. Proceedings Of The Human Factors And Ergonomics Society Annual Meeting, 58(1), 1849-1853. http://dx.doi.org/10.1177/1541931214581387
+
+[2] User Research Basics | Usability.gov. (2017). Usability.gov. Retrieved 1 September 2017, from https://www.usability.gov/what-and-why/user-research.html
