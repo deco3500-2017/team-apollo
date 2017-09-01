@@ -361,7 +361,7 @@ Before the high-fidelity prototype design phase, we need to define and analysis 
 1: Overview: the main user experience tool 
 2: Product description: use one sentence to descript the product positioning and the product core function.
 3: Observe product user experience: discover the obvious flaws of product design from the low-fi user testing, which including: functionality design, interaction design, visual design and service flow design. We should give the optimization proposal and suggestion as the next phase strategy. 
-
+4: User requirements analysis: User suggestion analysis, User needs and user psychology analysis.
 
 #### Milestone 4.1: Framer Prototype
 
