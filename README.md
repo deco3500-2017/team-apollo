@@ -245,15 +245,12 @@ Where team members may determine it is more effective to communicate via voice, 
 
 ### 5.1 Major Deliverables
 
-Deliverable                  |   Due Date
----------------------------- | ---------:
-Oral Pitch                   | 29-08-2017
-Proposal                     | 01-09-2017
-Low-Fidelity Prototypes      | 12-09-2017
-Clear Plans for User Testing | 03-10-2017
-Interactive Prototype        | 17-10-2017
-Final Prototype              | 25-10-2017
-Final Proposal               | 27-10-2017
+Deliverable     |   Due Date
+--------------- | ---------:
+Oral Pitch      | 29-08-2017
+Proposal        | 01-09-2017
+Final Prototype | 24-10-2017
+Final Proposal  | 27-10-2017
 
 ### 5.2 Project Phases
 
@@ -261,16 +258,16 @@ The following table is a detailed timeline of task completion, start and finish 
 
 Phases                | Milestone                  | Start Date | End Date
 :-------------------- | :------------------------- | :--------- | :---------
-Research              | Industry Research          | 02-09-2017 | 15-09-2017
-/                     | Competitive Analysis       | 02-09-2017 | 10-09-2017
-/                     | User Research              | 08-09-2017 | 30-09-2017
-Requirement Gathering | Surveys                    | 10-09-2017 | 30-09-2017
-/                     | Usability Testing          | 12-09-2017 | 15-09-2017
-/                     | Interview                  | 12-09-2017 | 15-09-2017
-Design                | Develop Wireframes         | 11-09-2017 | 15-09-2017
-/                     | Low-Fidelity User Testing  | 15-09-2017 | 03-10-2017
-Prototyping           | Develop Framer Prototype   | 03-10-2017 | 17-10-2017
-/                     | High-Fidelity User Testing | 17-10-2017 | 20-10-2017
+Research              | Industry Research          | 04-09-2017 | 08-09-2017
+/                     | Competitive Analysis       | 04-09-2017 | 08-09-2017
+/                     | User Research              | 04-09-2017 | 08-09-2017
+Requirement Gathering | Surveys                    | 11-09-2017 | 15-09-2017
+/                     | Interviews                 | 11-09-2017 | 15-09-2017
+Design                | Wireframes                 | 18-09-2017 | 29-09-2017
+/                     | Style Guide                | 25-09-2017 | 27-09-2017
+/                     | Low-Fidelity User Testing  | 27-09-2017 | 29-09-2017
+Prototyping           | Framer Prototype           | 02-10-2017 | 23-10-2017
+/                     | High-Fidelity User Testing | 17-10-2017 | 19-10-2017
 
 ### Phase 1: Research
 
@@ -298,7 +295,7 @@ The requirements are a set of all features of the application that have been dis
 
 The first step in understanding the users needs is through the use of surveys. The surveys can be both online and street surveys that look to question both the users and potential venues who would utilise the application. These surveys would allow the development team to understand what exactly features these users do and don't need, how they prioritise these features and what would convince their adoption. Some questions that could be covered would be; What are the users expectations? How can we satisfy the users? Does the user have a problem in this space?
 
-#### Milestone 2.2: Interview
+#### Milestone 2.2: Interviews
 
 Interviews are a similar, but more personal method of collecting data from users than surveys. Interviews are about getting to the users, whether that be on the street or online and discussing the application with them and receiving feedback. These types of interviews can be both formal or informal and can be a source of invaluable, unbiased information on the application potential effectiveness.
 
