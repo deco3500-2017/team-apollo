@@ -357,6 +357,12 @@ Axure will be the main digital mockup tools for the low-fi prototype, which is e
 
 At the final stage of prototype development, we need to evaluate the data from the Low-FI prototype user testing and draw conclusion about the usability of the product and whether we achieve the user experience goal. A Hi-Fi prototype will be developed once we get enough raw data from the test, which can simulate the final visual effects, interatie effects and user experience. The high fidelity prototype is also the Minimum viable product(MVP Product) which not only allows team members better understand the product but also improve the user experience of the target audience.
 
+Before the high-fidelity prototype design phase, we need to define and analysis data from the low-fidelity prototype design phase as below:
+1: Overview: the main user experience tool 
+2: Product description: use one sentence to descript the product positioning and the product core function.
+3: Observe product user experience: discover the obvious flaws of product design from the low-fi user testing, which including: functionality design, interaction design, visual design and service flow design. We should give the optimization proposal and suggestion as the next phase strategy. 
+
+
 #### Milestone 4.1: Framer Prototype
 
 The main tool we choose for developing the high-fidelity mockup is Framer. Framer is an application used for building hi-fi prototype which provide intuitive visual simplicity and specified approach for designers. It is use CoffeeScript, so that our team could use simple language like Version which can be compiled in Javascript.
