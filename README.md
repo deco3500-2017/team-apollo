@@ -363,14 +363,20 @@ The main tool we choose for developing the high-fidelity mockup is Framer. Frame
 
 #### Milestone 4.2: High Fidelity User Testing
 
-<<<<<<< HEAD
-=======
+preparation for High Fidelity user testing: 
+
 In order to achieve the UX goals through build Hi-Fi prototype, we formed a frame as our strategy to test the user experience when they interact with the product.
-1.	Functional analysis: we need to define the operating steps for user
+1.	Functional analysis: we need to define the operating steps for user.
 2.	Structure layer: the whole framework of the application should be shown clearly, and the relationship between each core interactive modules should be clearly identified. 
 3.	Frame layer: the design should be have a logical conception and be well planned, which including the navigation design, information design, interface design and interactive performance design.
 
->>>>>>> 1465abbacd5b5878b4dfd90f74349a26b9a6d11b
+Tasks during the High fidelity user testing: 
+
+
+
+After user testing: 
+Summarize user experience, refine user suggestions and report the result with clear user needs, clear further goals,conclusions and analysis.
+
 ##### Participants
 
 item     |      Iteration 1
