@@ -105,7 +105,7 @@ A key consideration that will have to be considered throughout development would
 
 The product is going to have a social aspect to it to encourage users to share their good experiences and reviews. It is known that users of social media networks are comfortable doing this, however there is a line when they feel that sharing this information gives away too much information. An example of this is that users of Snapchat are generally comfortable sharing photos or videos of themselves in a clearly defined location at a clearly defined time, however a lot of users had a problem with Snapchat's SnapMaps feature, feeling that it gave away too much information by sharing their location in real-time. From these two observations it can be deduced that there is a certain cut-off point where a user feels uncomfortable sharing their location with too high of a resolution. Therefore the Venu application should be mindful of this when providing features which may potentially give away a user's location when used.
 
-2. The service breaching the user's privacy:
+1. The service breaching the user's privacy:
 
 Users of online services consider their privacy important. It is clearly documented that users dislike giving access to their devices peripherals, such as cameras and other sensors, however they are usually willing to make a concession based on the value that the service is providing them. For this reason, Venu needs to make it clear to a user that any access to the microphone and accelerometer required, is done in a way that does not breach their privacy, and the features they enable must be of value to the users.
 
@@ -146,6 +146,7 @@ In order to better focus efforts to gain a strong foothold of users at the begin
 From these two key points it can be deduced that by focusing on critical mass in confined locations first, the buzz surrounding the platform will help it spread as it moves to other cities.
 
 ##### Incentives for users to leave reviews
+
 The application needs to be designed in a way that incentivises users to leave the reviews and provide us the information required for the platform to function. There are two key design choices which have been determined to help place these incentives.
 
 ###### Limiting reviews
@@ -311,29 +312,15 @@ The design phase is about transferring the established requirements and user sto
 
 #### Milestone 3.1: Wireframes
 
-The wireframes will be focused on the functionality, behavior, and priority of content. In other words, it focuses on what the screen does not how it looks.wireframes is a good way which allow us to clear understand the product without objection and help us to visualize the final product. Through sketches, presente the application interactions interface and layouts on papar to reach a consensus in our team.
+Wireframes are a low-fidelity, generalised version of the applications layout. They are created to test out of the functionality behaviour and priority of elements within the application. The goals of creating these prototypes is to allow for quick design iteration, as opposed to make similar changes to a high-fidelity prototype, which would be time expensive. These phase should produce the following elements:
 
-it's including:
-<<<<<<< HEAD
-
-1. Product flow chart / UI flow;
-2. All product page-layouts and mockups
-3. site map
-=======
-1.  Product flow chart / UI flow;
-2.  All product page-layouts and mockups
-3.  site map
->>>>>>> 901980d62935bdc532263fd92036c78333c6c0fe
-
-At this stage, it is important to find out: 1.application design style exploration. 2\. An overall visual design of key page 3\. Key interaction perfomance.
-
-After design the wireframes, we needs to collect data about: 1\. To verify the product functionality. 2\. The more controversial part of the design process(product interaction,vision). 3.Problems encountered in the design process and solutions(which interactive method is easy for user to accept).
+1. User Experience Flow Chart
+2. Finalised wireframe page layouts
+3. System Architecture
 
 #### Milestone 3.2: Low Fidelity User Testing
 
-After sketching and wireframe stage, the next step is define the main product UI guideline. The main color of the low fidelity prototype should be grayscale instead of use colours, which can help us to observe how does user understand the product and wiped off the distraction of color. This stage is helpful for the team to detect problems encountered in the first early design process, which including the product visual performance, text messaging, control and usage of the overall user experience.
-
-In the first user testing procedure, the testing process will be divided into 5 steps.
+After the sketching and wireframe stage, the next step is define the main product usability guidelines. This stage is helpful for the team to detect problems encountered in the early design process, which include the products functional layout, navigation and overall usefulness. In the first user testing procedure, the testing process will be divided into 5 steps.
 
 1. The user test will begin with a consent form for both the user and the tester to sign. (0-5 mins)
 2. We will provide a pre-test interview for user to understand about what the purpose of our project and how long the test will take. (0-5mins)
