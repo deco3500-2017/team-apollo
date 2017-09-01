@@ -238,6 +238,7 @@ The team will use Google Drive to collaboratively work on tasks where it is seen
 The file naming conventions will be used to organise and identify the files.h e naming convention for every file (include code files) will follow this structure: reverseDate_FileName (example: 170901_Proposal would be appropriate for file named Proposal made on the 1st of September 2017).
 
 ### 4.4 Discord
+
 Where team members may determine it is more effective to communicate via voice, in scenarios where team meetings aren't an option, they make use a discord channel to communicate. Examples of this circumstance may be to discuss the implementation of a new feature, where it would be too hard and time consuming to communicate via Slack. Any key decisions determined within these voice chats should be shared via the Slack channel.
 
 ## 5.0 Project Plan
@@ -341,12 +342,14 @@ The first user testing location will be conducted at Room 109, Building 78, Univ
 
 ##### Tools
 
-- Surveys and questionnaires with be created with either typeform for digital versions or Google Drive to create printable copies
+- Surveys and questionnaires with be created with either Typeform for digital versions or Google Drive to create printable copies
 - Wireframes will be created with Balsamiq
 
 --------------------------------------------------------------------------------
 
 ### Phase 4: Prototyping
+
+At the final stage of the development,
 
 At the final stage of prototype development, we need to evaluate the data from the Low-FI prototype user testing and draw conclusion about the usability of the product and whether we achieve the user experience goal. A Hi-Fi prototype will be developed once we get enough raw data from the test, which can simulate the final visual effects, interatie effects and user experience. The high fidelity prototype is also the Minimum viable product(MVP Product) which not only allows team members better understand the product but also improve the user experience of the target audience.
 
