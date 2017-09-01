@@ -258,56 +258,51 @@ Final Proposal               | 27-10-2017
 
 The following table is a detailed timeline of task completion, start and finish dates;
 
-|Phases                        | Milestone                     |  Start Date    |      End Date
-|----------------------------- | :---------------------------: | :------------: | -------------:
-|**Research**                  | Industry Research             |   02-09-2017   |     30-09-2017
-|                              | User Research                 |   02-09-2017   |     30-09-2017
-|                              | Competitive Analysis          |   05-09-2017   |     10-09-2017
-|**Requirement Backlog**       | Online Survey                 |   10-09-2017   |     12-09-2017
-|                              | Usability Testing             |   12-09-2017   |     15-09-2017
-|                              | Interview                     |   12-09-2017   |     15-09-2017
-|**Design**                    | Develop Wireframes            |   11-09-2017   |     15-09-2017
-|                              | Low-Fidelity User Testing     |   15-09-2017   |     03-10-2017
-|**Development**               | Develop Framer Prototype      |   03-10-2017   |     17-10-2017
-|                              | High-Fidelity User Testing    |   17-10-2017   |     20-10-2017
-
+Phases                    | Milestone                  | Start Date |   End Date
+------------------------- | :------------------------- | :--------: | ---------:
+**Research**              | Industry Research          | 02-09-2017 | 15-09-2017
+                          | Competitive Analysis       | 02-09-2017 | 10-09-2017
+                          | User Research              | 08-09-2017 | 30-09-2017
+**Requirement Gathering** | Surveys                    | 10-09-2017 | 30-09-2017
+                          | Usability Testing          | 12-09-2017 | 15-09-2017
+                          | Interview                  | 12-09-2017 | 15-09-2017
+**Design**                | Develop Wireframes         | 11-09-2017 | 15-09-2017
+                          | Low-Fidelity User Testing  | 15-09-2017 | 03-10-2017
+**Prototyping**           | Develop Framer Prototype   | 03-10-2017 | 17-10-2017
+                          | High-Fidelity User Testing | 17-10-2017 | 20-10-2017
 
 --------------------------------------------------------------------------------
 
 ### Phase 1: Research
 
-The first things that we need to do before we actually developing a product is we need to have an understanding about the domain that we are taking and the product itself. With a good research we will have a wide range of knowledge that can be used to improve the product idea. This research is not only limited to user research but also to industry research and competitive analysis.
+
+To begin the project, before any development commences, there must be a series of research based tasks completed to begin to understand the projects domain. The benefits of good research will lead to an array of knowledge that will lend to creating a project that is both an exciting idea, along with having a real user based that requires the product. This research is not only limited to understanding the users, it also requires an in depth look into the industry and competitive landscape of the applications scope.
 
 #### Milestone 1.1: Industry Research
 
-The industry research is one of the preliminary researches in the first phase of the product planning implementation. in the early stage (02-09-2017) we aim to take relevant industry research and investigation report in the product's macrosconical trends during the application design. For instance, by reading the industry research weekly, we aim to collect data like how the social software infulenced on human behavior and social interaction and the rising social application of our technological lives.
+The industry research is one of the preliminary research tasks in the first phase of the products implementation. In the early stages, a report must be completed on the industry that _Venu_ hopes to enter. This is about looking at the internal and external environment of the industry and searching for opportunities and threats that may potentially impact the development of the application.
 
 #### Milestone 1.2: Competitive Analysis
 
-We are trying to identify an application or product that having similarities with our product and evaluate their strategies to determine their strengths and weaknesses relatives to our product. This will help us to see if our product is fits or not in the overall market.In this part, we aim at a detailed analysis to analysis several aspercts from typical products to sum the merits and drawbacks of relevant product, try to improve ourselves.
+The Competitive Analysis is an expansion on the Industry Analysis which looks at the current direct and indirect competitors for the industry _Venu_ hopes to enter. Direct competitors are those who are working within the exact industry as _Venu_, while indirect are those competitors of which are not working in the industry, but are a potential substitute for the application. The benefit of this analysis is looking at what strengths and weaknesses these organisations hold and trying to exploit and mitigate those.
 
 #### Milestone 1.3: User Research
 
-This is part is basically only focuses on understanding user behaviors, needs, and motivations through observation techniques, task analysis, and other feedback methodologies which will be more detail in requirement backlog section.
+User research is a step undertaken to begin investigating the methods that users will use the application. During the user research it is essentially to look at the users behaviours, needs and motivations through various techniques that aim to observe and log their actions. This early user research will purely consist of basic gathering techniques to look at potential users of the application and what their needs are.
 
 --------------------------------------------------------------------------------
 
+### Phase 2: Requirements Gathering
 
-### Phase 2: Requirements
+The requirements are a set of all features of the application that have been discovered throughout the requirements gathering process. Requirements generally feature a name, description, priority and a user story/case attached. The requirements backlog should be heavily influenced by the research section of the project, however the following methods can also further assist in appropriate data collection.
 
-These are the methods that we will be used to gather the requirements:
+#### Milestone 2.1: Surveys
 
-#### Milestone 2.1: Online Survey
+The first step in understanding the users needs is through the use of surveys. The surveys can be both online and street surveys that look to question both the users and potential venues who would utilise the application. These surveys would allow the development team to understand what exactly features these users do and don't need, how they prioritise these features and what would convince their adoption. Some questions that could be covered would be; What are the users expectations? How can we satisfy the users? Does the user have a problem in this space?
 
-We will be giving an online survey through Google Forms to our target audience. Where will be asking about our project, is it helping the users? what the users expectations?how satisfied the users? what the users likes and dislikes? and etc. With this information, we can analyze the results in order to achieve more specific requirements.
+#### Milestone 2.2: Interview
 
-#### Milestone 2.2: Usability Testing
-
-This method refers to evaluating the product or service by testing it with representative users. Typically, we will be giving a several different tasks for each participants and during the test, participants will try to complete the tasks while we watch, listen and takes notes. The goal of this test is to identify any usability problems, collect qualitative and quantitative data and determine the participant's satisfaction with the product. Thus, we can improve our usability which will be user experience (UX) and user interface (UI) based on the analyzed result.
-
-#### Milestone 2.3: Interview
-
-Basically, the interview will be performed after the users do the usability testing since it will help us to confirm the problems that the users had while testing the product. With this method, we can get a deeper understanding of what users want.
+Interviews are a similar, but more personal method of collecting data from users than surveys. Interviews are about getting to the users, whether that be on the street or online and discussing the application with them and receiving feedback. These types of interviews can be both formal or informal and can be a source of invaluable, unbiased information on the application potential effectiveness.
 
 --------------------------------------------------------------------------------
 
@@ -320,18 +315,17 @@ During this phase, we will be creating wireframes that will helps us to arrange 
 The wireframes will be focused on the functionality, behavior, and priority of content. In other words, it focuses on what the screen does not how it looks.wireframes is a good way which allow us to clear understand the product without objection and help us to visualize the final product. Through sketches, presente the application interactions interface and layouts on papar to reach a consensus in our team.
 
 it's including:
-1.Product flow chart / UI flow;
-2. All product page-layouts and mockups
-3.site map
+1.  Product flow chart / UI flow;
+2.  All product page-layouts and mockups
+3.  site map
 
-At this stage, it is important to find out: 1.application design style exploration. 2. An overall visual design of key page 3. Key interaction perfomance.
+At this stage, it is important to find out: 1.application design style exploration. 2\. An overall visual design of key page 3\. Key interaction perfomance.
 
-After design the wireframes, we needs to collect data about: 1. To verify the product functionality. 2. The more controversial part of the design process(product interaction,vision). 3.Problems encountered in the design process and solutions(which interactive method is easy for user to accept).
+After design the wireframes, we needs to collect data about: 1\. To verify the product functionality. 2\. The more controversial part of the design process(product interaction,vision). 3.Problems encountered in the design process and solutions(which interactive method is easy for user to accept).
 
 #### Milestone 3.2: Low Fidelity User Testing
 
 After sketching and wireframe stage, the next step is define the main product UI guideline. The main color of the low fidelity prototype should be grayscale instead of use colours, which can help us to observe how does user understand the product and wiped off the distraction of color. This stage is helpful for the team to detect problems encountered in the first early design process, which including the product visual performance, text messaging, control and usage of the overall user experience.
-
 
 In the first user testing procedure, the testing process will be divided into 5 steps.
 
@@ -345,8 +339,8 @@ In the first user testing procedure, the testing process will be divided into 5 
 
 Around six or eight users will be recruited in the test plan. Each of them needs to take around 15 mins to complete the whole test tasks. We aim to invite university students as our main user as their activity and routine meet the goals of the product.
 
-item     |       Iteration 1        |  
--------- | :----------------------: |
+item     |       Iteration 1
+-------- | :----------------------:
 Date     | (15/09/2017- 03/10/2017) |
 Number   |   3 = Female 3 = Male    |
 User     |       Novice User        |
@@ -365,15 +359,11 @@ Axure will be the main digital mockup tools for the low-fi prototype, which is e
 
 --------------------------------------------------------------------------------
 
-### Phase 4: Development
+### Phase 4: Prototyping
 
 At the final stage of prototype development, we need to evaluate the data from the Low-FI prototype user testing and draw conclusion about the usability of the product and whether we achieve the user experience goal. A Hi-Fi prototype will be developed once we get enough raw data from the test, which can simulate the final visual effects, interatie effects and user experience. The high fidelity prototype is also the Minimum viable product(MVP Product) which not only allows team members better understand the product but also improve the user experience of the target audience.
 
-Before the high-fidelity prototype design phase, we need to define and analysis data from the low-fidelity prototype design phase as below:
-1: Overview: the main user experience tool
-2: Product description: use one sentence to descript the product positioning and the product core function.
-3: Observe product user experience: discover the obvious flaws of product design from the low-fi user testing, which including: functionality design, interaction design, visual design and service flow design. We should give the optimization proposal and suggestion as the next phase strategy.
-4: User requirements analysis: User suggestion analysis, User needs and user psychology analysis.
+Before the high-fidelity prototype design phase, we need to define and analysis data from the low-fidelity prototype design phase as below: 1: Overview: the main user experience tool 2: Product description: use one sentence to descript the product positioning and the product core function. 3: Observe product user experience: discover the obvious flaws of product design from the low-fi user testing, which including: functionality design, interaction design, visual design and service flow design. We should give the optimization proposal and suggestion as the next phase strategy. 4: User requirements analysis: User suggestion analysis, User needs and user psychology analysis.
 
 #### Milestone 4.1: Framer Prototype
 
@@ -381,19 +371,35 @@ The main tool we choose for developing the high-fidelity mockup is Framer. Frame
 
 #### Milestone 4.2: High Fidelity User Testing
 
+preparation for High Fidelity user testing:
+
 In order to achieve the UX goals through build Hi-Fi prototype, we formed a frame as our strategy to test the user experience when they interact with the product.
-1.	Functional analysis: we need to define the operating steps for user
-2.	Structure layer: the whole framework of the application should be shown clearly, and the relationship between each core interactive modules should be clearly identified.
-3.	Frame layer: the design should be have a logical conception and be well planned, which including the navigation design, information design, interface design and interactive performance design.
+
+1. Functional analysis: we need to define the operating steps for user.
+2. Structure layer: the whole framework of the application should be shown clearly, and the relationship between each core interactive modules should be clearly identified.
+3. Frame layer: the design should be have a logical conception and be well planned, which including the navigation design, information design, interface design and interactive performance design.
+
+Tasks during the High fidelity user testing:
+
+1. Introduction of the product
+2. Sign the user test agreement form
+3. Show the user test tasks list to user and guide them
+4. Recode or video the user test process
+5. Answer the questionnaire once the the test finished
+6. Give thanks and appreciation for users after user testing.
+
+After user testing: Summarize user experience, refine user suggestions and report the result with clear user needs, clear further goals,conclusions and analysis.
 
 ##### Participants
-item     |       Iteration 1       
--------- | :----------------------:
-Date     |  17/10/2017-20/10/2017
+
+item     |      Iteration 1
+-------- | :-------------------:
+Date     | 17/10/2017-20/10/2017
 Number   |  1 = Female 2 = Male
-User     |  Expert User
+User     |      Expert User
 Duration |  Duration = 15 days
-Age      |  18 - 30
+Age      |        18 - 30
+
 --------------------------------------------------------------------------------
 
 ## 6.0 Resources
@@ -401,3 +407,7 @@ Age      |  18 - 30
 - Computers with Framer software for prototype development
 - Balsamiq for Low Fidelity Prototype development
 - A smartphone which supports the Framer app, so that the prototype may be loaded onto it for testing purposes.
+
+## 7.0 References
+
+<https://www.usability.gov/what-and-why/user-research.html>
