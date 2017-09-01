@@ -259,6 +259,19 @@ Final Proposal               | 27-10-2017
 
 The following table is a detailed timeline of task completion, start and finish dates
 
+Phases   | Milestone         | Start Date | End Date
+:------- | :---------------- | :--------- | :---------
+Research | Industry Research | 02-09-2017 | 15-09-2017
+         | Industry Research | 02-09-2017 | 15-09-2017
+         | Industry Research | 02-09-2017 | 15-09-2017
+Research | Industry Research | 02-09-2017 | 15-09-2017
+         | Industry Research | 02-09-2017 | 15-09-2017
+         | Industry Research | 02-09-2017 | 15-09-2017
+
+### Phase 1: Research
+
+To begin the project, before any development commences, there must be a series of research based tasks completed to begin to understand the projects domain. The benefits of good research will lead to an array of knowledge that will lend to creating a project that is both an exciting idea, along with having a real user based that requires the product. This research is not only limited to understanding the users, it also requires an in depth look into the industry and competitive landscape of the applications scope.
+
 Phases                | Milestone                  | Start Date | End Date
 :-------------------- | :------------------------- | :--------- | :---------
 Research              | Industry Research          | 02-09-2017 | 15-09-2017
@@ -271,12 +284,6 @@ Design                | Develop Wireframes         | 11-09-2017 | 15-09-2017
                       | Low-Fidelity User Testing  | 15-09-2017 | 03-10-2017
 Prototyping           | Develop Framer Prototype   | 03-10-2017 | 17-10-2017
                       | High-Fidelity User Testing | 17-10-2017 | 20-10-2017
-
---------------------------------------------------------------------------------
-
-### Phase 1: Research
-
-To begin the project, before any development commences, there must be a series of research based tasks completed to begin to understand the projects domain. The benefits of good research will lead to an array of knowledge that will lend to creating a project that is both an exciting idea, along with having a real user based that requires the product. This research is not only limited to understanding the users, it also requires an in depth look into the industry and competitive landscape of the applications scope.
 
 #### Milestone 1.1: Industry Research
 
@@ -386,6 +393,6 @@ Daphne Raban, Mihai Moldovan, Quentin Jones (2010): An empirical study of critic
 
 Martini, M., Smith, M., & Youmans, R. (2014). A Comparison of Prototyping on Paper (POP) Software and Traditional Paper Prototyping for Developing Mobile Products with Optimal User Experience. Proceedings Of The Human Factors And Ergonomics Society Annual Meeting, 58(1), 1849-1853\. <http://dx.doi.org/10.1177/1541931214581387>
 
-User Research Basics | Usability.gov. (2017). Usability.gov. Retrieved 1 September 2017. <https://www.usability.gov/what-and-why/user-research.html>
+User Research Basics | Usability.gov. (2017). Usability.gov. Retrieved 1 September 2017\. <https://www.usability.gov/what-and-why/user-research.html>
 
 M. B. Catani and D. W. Biers, "Usability evaluation and prototype fidelity: Users and usability professionals," Proceedings of the Human Factors and Ergonomics Society Annual Meeting, vol. 42, no. 19, pp. 1331–1335, Oct. 1998.
