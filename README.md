@@ -259,8 +259,8 @@ Final Proposal               | 27-10-2017
 
 The following table is a detailed timeline of task completion, start and finish dates;
 
-Phases                    | Milestone                  | Start Date |   End Date
-------------------------- | :------------------------- | ---------: | ---------:
+Phases                    | Milestone                  | Start Date | End Date
+------------------------- | :------------------------- | ---------- | ----------
 **Research**              | Industry Research          | 02-09-2017 | 15-09-2017
                           | Competitive Analysis       | 02-09-2017 | 10-09-2017
                           | User Research              | 08-09-2017 | 30-09-2017
