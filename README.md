@@ -247,19 +247,18 @@ Final Proposal               | 27-10-2017
 
 The following table is a detailed timeline of task completion, start and finish dates;
 
-|Phases                        | Milestone                     |  Start Date    |      End Date
-|----------------------------- | :---------------------------: | :------------: | -------------:
-|**Research**                  | Industry Research             |   02-09-2017   |     30-09-2017
-|                              | User Research                 |   02-09-2017   |     30-09-2017
-|                              | Competitive Analysis          |   05-09-2017   |     10-09-2017
-|**Requirement Backlog**       | Online Survey                 |   10-09-2017   |     12-09-2017
-|                              | Usability Testing             |   12-09-2017   |     15-09-2017
-|                              | Interview                     |   12-09-2017   |     15-09-2017
-|**Design**                    | Develop Wireframes            |   11-09-2017   |     15-09-2017
-|                              | Low-Fidelity User Testing     |   15-09-2017   |     03-10-2017 
-|**Development**               | Develop Framer Prototype      |   03-10-2017   |     17-10-2017
-|                              | High-Fidelity User Testing    |   17-10-2017   |     20-10-2017
-
+Phases                  | Milestone                  | Start Date |   End Date
+----------------------- | :------------------------- | :--------: | ---------:
+**Research**            | Industry Research          | 02-09-2017 | 30-09-2017
+                        | Competitive Analysis       | 02-09-2017 | 30-09-2017
+                        | User Research              | 05-09-2017 | 10-09-2017
+**Requirement Backlog** | Online Survey              | 10-09-2017 | 12-09-2017
+                        | Usability Testing          | 12-09-2017 | 15-09-2017
+                        | Interview                  | 12-09-2017 | 15-09-2017
+**Design**              | Develop Wireframes         | 11-09-2017 | 15-09-2017
+                        | Low-Fidelity User Testing  | 15-09-2017 | 03-10-2017
+**Development**         | Develop Framer Prototype   | 03-10-2017 | 17-10-2017
+                        | High-Fidelity User Testing | 17-10-2017 | 20-10-2017
 
 --------------------------------------------------------------------------------
 
@@ -269,7 +268,7 @@ The first things that we need to do before we actually developing a product is w
 
 #### Milestone 1.1: Industry Research
 
-The industry research is one of the preliminary researches in the first phase of the product planning implementation. in the early stage (02-09-2017) we aim to take relevant industry research and investigation report in the product's macrosconical trends during the application design. For instance, by reading the industry research weekly, we aim to collect data like how the social software infulenced on human behavior and social interaction and the rising social application of our technological lives. 
+The industry research is one of the preliminary researches in the first phase of the product planning implementation. in the early stage (02-09-2017) we aim to take relevant industry research and investigation report in the product's macrosconical trends during the application design. For instance, by reading the industry research weekly, we aim to collect data like how the social software infulenced on human behavior and social interaction and the rising social application of our technological lives.
 
 #### Milestone 1.2: Competitive Analysis
 
@@ -280,7 +279,6 @@ We are trying to identify an application or product that having similarities wit
 This is part is basically only focuses on understanding user behaviors, needs, and motivations through observation techniques, task analysis, and other feedback methodologies which will be more detail in requirement backlog section.
 
 --------------------------------------------------------------------------------
-
 
 ### Phase 2: Requirements
 
@@ -308,18 +306,17 @@ During this phase, we will be creating wireframes that will helps us to arrange 
 
 The wireframes will be focused on the functionality, behavior, and priority of content. In other words, it focuses on what the screen does not how it looks.wireframes is a good way which allow us to clear understand the product without objection and help us to visualize the final product. Through sketches, presente the application interactions interface and layouts on papar to reach a consensus in our team.
 
-it's including: 
-1.Product flow chart / UI flow;
-2. All product page-layouts and mockups
-3.site map
+it's including: 1.Product flow chart / UI flow;
 
-At this stage, it is important to find out: 1.application design style exploration. 2. An overall visual design of key page 3. Key interaction perfomance.
+1. All product page-layouts and mockups 3.site map
 
-After design the wireframes, we needs to collect data about: 1. To verify the product functionality. 2. The more controversial part of the design process(product interaction,vision). 3.Problems encountered in the design process and solutions(which interactive method is easy for user to accept). 
+At this stage, it is important to find out: 1.application design style exploration. 2\. An overall visual design of key page 3\. Key interaction perfomance.
+
+After design the wireframes, we needs to collect data about: 1\. To verify the product functionality. 2\. The more controversial part of the design process(product interaction,vision). 3.Problems encountered in the design process and solutions(which interactive method is easy for user to accept).
 
 #### Milestone 3.2: Low Fidelity User Testing
 
-After sketching and wireframe stage, the next step is define the main product UI guideline. The main color of the low fidelity prototype should be grayscale instead of use colours, which can help us to observe how does user understand the product and wiped off the distraction of color. This stage is helpful for the team to detect problems encountered in the first early design process, which including the product visual performance, text messaging, control and usage of the overall user experience. 
+After sketching and wireframe stage, the next step is define the main product UI guideline. The main color of the low fidelity prototype should be grayscale instead of use colours, which can help us to observe how does user understand the product and wiped off the distraction of color. This stage is helpful for the team to detect problems encountered in the first early design process, which including the product visual performance, text messaging, control and usage of the overall user experience.
 
 In the first user testing procedure, the testing process will be divided into 5 steps.
 
@@ -333,13 +330,13 @@ In the first user testing procedure, the testing process will be divided into 5 
 
 Around six or eight users will be recruited in the test plan. Each of them needs to take around 15 mins to complete the whole test tasks. We aim to invite university students as our main user as their activity and routine meet the goals of the product.
 
-item     |       Iteration 1        |  
--------- | :----------------------: | 
-Date     | (15/09/2017- 03/10/2017) | 
-Number   |   3 = Female 3 = Male    | 
-User     |       Novice User        | 
-Duration |         19 days          | 
-Age      |         18 - 30          | 
+item     |       Iteration 1
+-------- | :----------------------:
+Date     | (15/09/2017- 03/10/2017) |
+Number   |   3 = Female 3 = Male    |
+User     |       Novice User        |
+Duration |         19 days          |
+Age      |         18 - 30          |
 
 ##### Location & Dates
 
@@ -357,11 +354,7 @@ Axure will be the main digital mockup tools for the low-fi prototype, which is e
 
 At the final stage of prototype development, we need to evaluate the data from the Low-FI prototype user testing and draw conclusion about the usability of the product and whether we achieve the user experience goal. A Hi-Fi prototype will be developed once we get enough raw data from the test, which can simulate the final visual effects, interatie effects and user experience. The high fidelity prototype is also the Minimum viable product(MVP Product) which not only allows team members better understand the product but also improve the user experience of the target audience.
 
-Before the high-fidelity prototype design phase, we need to define and analysis data from the low-fidelity prototype design phase as below:
-1: Overview: the main user experience tool 
-2: Product description: use one sentence to descript the product positioning and the product core function.
-3: Observe product user experience: discover the obvious flaws of product design from the low-fi user testing, which including: functionality design, interaction design, visual design and service flow design. We should give the optimization proposal and suggestion as the next phase strategy. 
-4: User requirements analysis: User suggestion analysis, User needs and user psychology analysis.
+Before the high-fidelity prototype design phase, we need to define and analysis data from the low-fidelity prototype design phase as below: 1: Overview: the main user experience tool 2: Product description: use one sentence to descript the product positioning and the product core function. 3: Observe product user experience: discover the obvious flaws of product design from the low-fi user testing, which including: functionality design, interaction design, visual design and service flow design. We should give the optimization proposal and suggestion as the next phase strategy. 4: User requirements analysis: User suggestion analysis, User needs and user psychology analysis.
 
 #### Milestone 4.1: Framer Prototype
 
@@ -369,15 +362,16 @@ The main tool we choose for developing the high-fidelity mockup is Framer. Frame
 
 #### Milestone 4.2: High Fidelity User Testing
 
-
 ##### Participants
-item     |       Iteration 1       
--------- | :----------------------: 
-Date     |  17/10/2017-20/10/2017
+
+item     |      Iteration 1
+-------- | :-------------------:
+Date     | 17/10/2017-20/10/2017
 Number   |  1 = Female 2 = Male
-User     |  Expert User
+User     |      Expert User
 Duration |  Duration = 15 days
-Age      |  18 - 30
+Age      |        18 - 30
+
 --------------------------------------------------------------------------------
 
 ## 6.0 Resources
