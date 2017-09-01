@@ -247,18 +247,18 @@ Final Proposal               | 27-10-2017
 
 The following table is a detailed timeline of task completion, start and finish dates;
 
-Phases                  | Milestone                  | Start Date |   End Date
------------------------ | :------------------------- | :--------: | ---------:
-**Research**            | Industry Research          | 02-09-2017 | 15-09-2017
-                        | Competitive Analysis       | 02-09-2017 | 10-09-2017
-                        | User Research              | 08-09-2017 | 30-09-2017
-**Requirement Backlog** | Online Survey              | 10-09-2017 | 30-09-2017
-                        | Usability Testing          | 12-09-2017 | 15-09-2017
-                        | Interview                  | 12-09-2017 | 15-09-2017
-**Design**              | Develop Wireframes         | 11-09-2017 | 15-09-2017
-                        | Low-Fidelity User Testing  | 15-09-2017 | 03-10-2017
-**Development**         | Develop Framer Prototype   | 03-10-2017 | 17-10-2017
-                        | High-Fidelity User Testing | 17-10-2017 | 20-10-2017
+Phases                    | Milestone                  | Start Date |   End Date
+------------------------- | :------------------------- | :--------: | ---------:
+**Research**              | Industry Research          | 02-09-2017 | 15-09-2017
+                          | Competitive Analysis       | 02-09-2017 | 10-09-2017
+                          | User Research              | 08-09-2017 | 30-09-2017
+**Requirement Gathering** | Surveys                    | 10-09-2017 | 30-09-2017
+                          | Usability Testing          | 12-09-2017 | 15-09-2017
+                          | Interview                  | 12-09-2017 | 15-09-2017
+**Design**                | Develop Wireframes         | 11-09-2017 | 15-09-2017
+                          | Low-Fidelity User Testing  | 15-09-2017 | 03-10-2017
+**Prototyping**           | Develop Framer Prototype   | 03-10-2017 | 17-10-2017
+                          | High-Fidelity User Testing | 17-10-2017 | 20-10-2017
 
 --------------------------------------------------------------------------------
 
@@ -280,21 +280,17 @@ User research is a step undertaken to begin investigating the methods that users
 
 --------------------------------------------------------------------------------
 
-### Phase 2: Requirements
+### Phase 2: Requirements Gathering
 
-These are the methods that we will be used to gather the requirements:
+The requirements are a set of all features of the application that have been discovered throughout the requirements gathering process. Requirements generally feature a name, description, priority and a user story/case attached. The requirements backlog should be heavily influenced by the research section of the project, however the following methods can also further assist in appropriate data collection.
 
-#### Milestone 2.1: Online Survey
+#### Milestone 2.1: Surveys
 
-We will be giving an online survey through Google Forms to our target audience. Where will be asking about our project, is it helping the users? what the users expectations?how satisfied the users? what the users likes and dislikes? and etc. With this information, we can analyze the results in order to achieve more specific requirements.
+The first step in understanding the users needs is through the use of surveys. The surveys can be both online and street surveys that look to question both the users and potential venues who would utilise the application. These surveys would allow the development team to understand what exactly features these users do and don't need, how they prioritise these features and what would convince their adoption. Some questions that could be covered would be; What are the users expectations? How can we satisfy the users? Does the user have a problem in this space?
 
-#### Milestone 2.2: Usability Testing
+#### Milestone 2.2: Interview
 
-This method refers to evaluating the product or service by testing it with representative users. Typically, we will be giving a several different tasks for each participants and during the test, participants will try to complete the tasks while we watch, listen and takes notes. The goal of this test is to identify any usability problems, collect qualitative and quantitative data and determine the participant's satisfaction with the product. Thus, we can improve our usability which will be user experience (UX) and user interface (UI) based on the analyzed result.
-
-#### Milestone 2.3: Interview
-
-Basically, the interview will be performed after the users do the usability testing since it will help us to confirm the problems that the users had while testing the product. With this method, we can get a deeper understanding of what users want.
+Interviews are a similar, but more personal method of collecting data from users than surveys. Interviews are about getting to the users, whether that be on the street or online and discussing the application with them and receiving feedback. These types of interviews can be both formal or informal and can be a source of invaluable, unbiased information on the application potential effectiveness.
 
 --------------------------------------------------------------------------------
 
@@ -350,7 +346,7 @@ Axure will be the main digital mockup tools for the low-fi prototype, which is e
 
 --------------------------------------------------------------------------------
 
-### Phase 4: Development
+### Phase 4: Prototyping
 
 At the final stage of prototype development, we need to evaluate the data from the Low-FI prototype user testing and draw conclusion about the usability of the product and whether we achieve the user experience goal. A Hi-Fi prototype will be developed once we get enough raw data from the test, which can simulate the final visual effects, interatie effects and user experience. The high fidelity prototype is also the Minimum viable product(MVP Product) which not only allows team members better understand the product but also improve the user experience of the target audience.
 
@@ -362,31 +358,24 @@ The main tool we choose for developing the high-fidelity mockup is Framer. Frame
 
 #### Milestone 4.2: High Fidelity User Testing
 
-<<<<<<< HEAD
+preparation for High Fidelity user testing:
+
 In order to achieve the UX goals through build Hi-Fi prototype, we formed a frame as our strategy to test the user experience when they interact with the product.
 
-1. Functional analysis: we need to define the operating steps for user
+1. Functional analysis: we need to define the operating steps for user.
 2. Structure layer: the whole framework of the application should be shown clearly, and the relationship between each core interactive modules should be clearly identified.
 3. Frame layer: the design should be have a logical conception and be well planned, which including the navigation design, information design, interface design and interactive performance design.
-=======
-preparation for High Fidelity user testing: 
 
-In order to achieve the UX goals through build Hi-Fi prototype, we formed a frame as our strategy to test the user experience when they interact with the product.
-1.	Functional analysis: we need to define the operating steps for user.
-2.	Structure layer: the whole framework of the application should be shown clearly, and the relationship between each core interactive modules should be clearly identified. 
-3.	Frame layer: the design should be have a logical conception and be well planned, which including the navigation design, information design, interface design and interactive performance design.
+Tasks during the High fidelity user testing:
 
-Tasks during the High fidelity user testing: 
-1.	Introduction of the product 
-2.  Sign the user test agreement form 
-3.  Show the user test tasks list to user and guide them
-4.  Recode or video the user test process 
-5.  Answer the questionnaire once the the test finished
-6.  Give thanks and appreciation for users after user testing.
+1. Introduction of the product
+2. Sign the user test agreement form
+3. Show the user test tasks list to user and guide them
+4. Recode or video the user test process
+5. Answer the questionnaire once the the test finished
+6. Give thanks and appreciation for users after user testing.
 
-After user testing: 
-Summarize user experience, refine user suggestions and report the result with clear user needs, clear further goals,conclusions and analysis.
->>>>>>> d890799508c9db4d6821df1471372c26c82d5049
+After user testing: Summarize user experience, refine user suggestions and report the result with clear user needs, clear further goals,conclusions and analysis.
 
 ##### Participants
 
@@ -407,3 +396,5 @@ Age      |        18 - 30
 - A smartphone which supports the Framer app, so that the prototype may be loaded onto it for testing purposes.
 
 ## 7.0 References
+
+<https://www.usability.gov/what-and-why/user-research.html>
