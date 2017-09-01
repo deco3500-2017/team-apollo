@@ -238,6 +238,7 @@ The team will use Google Drive to collaboratively work on tasks where it is seen
 The file naming conventions will be used to organise and identify the files.h e naming convention for every file (include code files) will follow this structure: reverseDate_FileName (example: 170901_Proposal would be appropriate for file named Proposal made on the 1st of September 2017).
 
 ### 4.4 Discord
+
 Where team members may determine it is more effective to communicate via voice, in scenarios where team meetings aren't an option, they make use a discord channel to communicate. Examples of this circumstance may be to discuss the implementation of a new feature, where it would be too hard and time consuming to communicate via Slack. Any key decisions determined within these voice chats should be shared via the Slack channel.
 
 ## 5.0 Project Plan
@@ -256,10 +257,10 @@ Final Proposal               | 27-10-2017
 
 ### 5.2 Project Phases
 
-The following table is a detailed timeline of task completion, start and finish dates;
+The following table is a detailed timeline of task completion, start and finish dates
 
-Phases                    | Milestone                  | Start Date |   End Date
-------------------------- | :------------------------- | :--------: | ---------:
+Phases                    | Milestone                  | Start Date | End Date
+------------------------- | -------------------------- | ---------- | ----------
 **Research**              | Industry Research          | 02-09-2017 | 15-09-2017
                           | Competitive Analysis       | 02-09-2017 | 10-09-2017
                           | User Research              | 08-09-2017 | 30-09-2017
@@ -341,12 +342,14 @@ The first user testing location will be conducted at Room 109, Building 78, Univ
 
 ##### Tools
 
-- Surveys and questionnaires with be created with either typeform for digital versions or Google Drive to create printable copies
+- Surveys and questionnaires with be created with either Typeform for digital versions or Google Drive to create printable copies
 - Wireframes will be created with Balsamiq
 
 --------------------------------------------------------------------------------
 
 ### Phase 4: Prototyping
+
+At the final stage of the development,
 
 At the final stage of prototype development, we need to evaluate the data from the Low-FI prototype user testing and draw conclusion about the usability of the product and whether we achieve the user experience goal. A Hi-Fi prototype will be developed once we get enough raw data from the test, which can simulate the final visual effects, interatie effects and user experience. The high fidelity prototype is also the Minimum viable product(MVP Product) which not only allows team members better understand the product but also improve the user experience of the target audience.
 
@@ -400,6 +403,12 @@ Age      |        18 - 30
 
 ## 7.0 References
 
+Daphne Raban, Mihai Moldovan, Quentin Jones (2010): An empirical study of critical mass and online community survival. In: CSCW '10 Proceedings of the 2010 ACM conference on Computer supported cooperative work, February 06 - 10, 2010, Savannah, Georgia, USA.
+  <http://dx.doi.org/10.1145/1718918.1718932>
+
+Martini, M., Smith, M., & Youmans, R. (2014). A Comparison of Prototyping on Paper (POP) Software and Traditional Paper Prototyping for Developing Mobile Products with Optimal User Experience. Proceedings Of The Human Factors And Ergonomics Society Annual Meeting, 58(1), 1849-1853\. <http://dx.doi.org/10.1177/1541931214581387>
+
+User Research Basics | Usability.gov. (2017). Usability.gov. Retrieved 1 September 2017.
 <https://www.usability.gov/what-and-why/user-research.html>
 
-<Daphne Raban, Mihai Moldovan, Quentin Jones (2010): An empirical study of critical mass and online community survival. In: CSCW '10 Proceedings of the 2010 ACM conference on Computer supported cooperative work, February 06 - 10, 2010, Savannah, Georgia, USA>
+M. B. Catani and D. W. Biers, "Usability evaluation and prototype fidelity: Users and usability professionals," Proceedings of the Human Factors and Ergonomics Society Annual Meeting, vol. 42, no. 19, pp. 1331–1335, Oct. 1998.
