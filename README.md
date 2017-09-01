@@ -321,6 +321,7 @@ After design the wireframes, we needs to collect data about: 1. To verify the pr
 
 After sketching and wireframe stage, the next step is define the main product UI guideline. The main color of the low fidelity prototype should be grayscale instead of use colours, which can help us to observe how does user understand the product and wiped off the distraction of color. This stage is helpful for the team to detect problems encountered in the first early design process, which including the product visual performance, text messaging, control and usage of the overall user experience. 
 
+
 In the first user testing procedure, the testing process will be divided into 5 steps.
 
 1. The user test will begin with a consent form for both the user and the tester to sign. (0-5 mins)
@@ -369,6 +370,10 @@ The main tool we choose for developing the high-fidelity mockup is Framer. Frame
 
 #### Milestone 4.2: High Fidelity User Testing
 
+In order to achieve the UX goals through build Hi-Fi prototype, we formed a frame as our strategy to test the user experience when they interact with the product.
+1.	Functional analysis: we need to define the operating steps for user
+2.	Structure layer: the whole framework of the application should be shown clearly, and the relationship between each core interactive modules should be clearly identified. 
+3.	Frame layer: the design should be have a logical conception and be well planned, which including the navigation design, information design, interface design and interactive performance design.
 
 ##### Participants
 item     |       Iteration 1       
