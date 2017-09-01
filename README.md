@@ -349,46 +349,25 @@ The first user testing location will be conducted at Room 109, Building 78, Univ
 
 ### Phase 4: Prototyping
 
-At the final stage of the development,
-
-At the final stage of prototype development, we need to evaluate the data from the Low-FI prototype user testing and draw conclusion about the usability of the product and whether we achieve the user experience goal. A Hi-Fi prototype will be developed once we get enough raw data from the test, which can simulate the final visual effects, interatie effects and user experience. The high fidelity prototype is also the Minimum viable product(MVP Product) which not only allows team members better understand the product but also improve the user experience of the target audience.
-
-Before the high-fidelity prototype design phase, we need to define and analysis data from the low-fidelity prototype design phase as below: 1: Overview: the main user experience tool 2: Product description: use one sentence to descript the product positioning and the product core function. 3: Observe product user experience: discover the obvious flaws of product design from the low-fi user testing, which including: functionality design, interaction design, visual design and service flow design. We should give the optimization proposal and suggestion as the next phase strategy. 4: User requirements analysis: User suggestion analysis, User needs and user psychology analysis.
+At the final stage of the development, all of the phases should be come together to create a working high-fidelity prototype through Framer. This prototype will hold no business logic code, but will be a strong glimpse into the full functionality of the application and allow the users to perform highly accurate tasks through testing. The hi-fi design will be a reflection of iteration undertaken throughout the wireframing phase and hold the visual properties outlined in the style guide. It is also worth noting, that the prototype will be an accurate representation of the perceived MVP of the project.
 
 #### Milestone 4.1: Framer Prototype
 
-The main tool we choose for developing the high-fidelity mockup is Framer. Framer is an application used for building hi-fi prototype which provide intuitive visual simplicity and specified approach for designers. It is use CoffeeScript, so that our team could use simple language like Version which can be compiled in Javascript.
+The main tool chosen for developing the high-fidelity mockup is Framer. Framer is an application used for building hi-fi prototypes which provide intuitive visual simplicity and specified approaches for designers. It utilises CoffeeScript to create highly accurate user interface and interaction design.
 
 #### Milestone 4.2: High Fidelity User Testing
 
-preparation for High Fidelity user testing:
+In order to achieve the user experience goals through the high-fidelity prototype, we formed a outline to test the user experience when users interact with the product.
 
-In order to achieve the UX goals through build Hi-Fi prototype, we formed a frame as our strategy to test the user experience when they interact with the product.
-
-1. Functional analysis: we need to define the operating steps for user.
-2. Structure layer: the whole framework of the application should be shown clearly, and the relationship between each core interactive modules should be clearly identified.
-3. Frame layer: the design should be have a logical conception and be well planned, which including the navigation design, information design, interface design and interactive performance design.
-
-Tasks during the High fidelity user testing:
-
-1. Introduction of the product
-2. Sign the user test agreement form
-3. Show the user test tasks list to user and guide them
-4. Recode or video the user test process
-5. Answer the questionnaire once the the test finished
-6. Give thanks and appreciation for users after user testing.
-
-After user testing: Summarize user experience, refine user suggestions and report the result with clear user needs, clear further goals,conclusions and analysis.
+1. The user test will begin with a consent form for both the user and the tester to sign (0-5 mins)
+2. We will provide a pre-test interview for users to understand about what the application is, how the test will run and how long the test will take (0-5 mins)
+3. The test task form will be prepared before the test, and the form will be provided for users to have a clear process and to assist them with completing the task. (5-10 mins)
+4. After the test, user needs to complete a post-test questionnaire form to provide their suggestions about the application (0-5 mins)
+5. At the conclusion of the test it is crucial for a debrief to be performed within the development team to evaluate and analyse the task and questionnaire form to improve the user experience and create resulting action items
 
 ##### Participants
 
-item     |      Iteration 1
--------- | :-------------------:
-Date     | 17/10/2017-20/10/2017
-Number   |  1 = Female 2 = Male
-User     |      Expert User
-Duration |  Duration = 15 days
-Age      |        18 - 30
+Around 6-8 users will be recruited for the usability test. Each of these user needs to take 15 mins to complete the entire test. The aim is to invite university students as our main users, as their activity and routine meet the goals of the product.
 
 --------------------------------------------------------------------------------
 
