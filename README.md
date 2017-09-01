@@ -6,11 +6,11 @@ Team Name: Team Apollo
 
 ## 1.0 Introduction
 
-_Venu_ is a project that intends to improve the quality of the community's nights when they go out to venues in their local city. Today there is currently no way of making an informed decision as to what locale or venue have the best atmosphere at the time people choose to go out. The best people can do currently is to choose from their favourite venues, or source information from friends or social media outlets on any given night out. By utilizing social and mobile technology in conjunction, _Venu_ will help people make a more informed decision before they out for the night.
+_Venu_ is a project that intends to improve the quality of the community's nights when they go out to venues in their local city. Today there is currently no way of knowing which venue currently has the best atmosphere, in real-time, and making a decision based on that. The best people can currently do is simply choose from their favourite venues, or source information from friends or social media on any given night out, which is not reliable. By utilizing social and mobile technology in conjunction, _Venu_ will help people make a more informed decision before they out for the night.
 
 ## 2.0 Concept
 
-The core concept of the service is to allow users access to a map that will give ratings of venues in real-time. The ratings will be based on two key metrics: _Buzz_ and _Vibe_. A Venue's _Buzz_ will have three qualities that are displayed to a user, determined by passively gathering data about that venue in real time. These three qualities will be Popularity, Movement, and Sound. Popularity will be determined based on how many users are at the venue at once, Movement will be determined by measurements of user's device accelerometers, and Sound will be determined based on the decibel reading of user's microphones. _Vibe_ will be manually input by our users, where they will have the ability to input atmosphere specific icons or phrases such as 'Loud', 'Social', 'Relaxed' etc..
+The core concept of the service is to allow users access to a map that will give ratings of venues in real-time. The ratings will be based on two key metrics: _Buzz_ and _Vibe_. A Venue's _Buzz_ will have three qualities that are displayed to a user, determined by passively gathering data about that venue in real time. These three qualities will be Popularity, Movement, and Sound. Popularity will be determined based on how many users are at the venue at once, which we can deduce based on using location services to track the location of our users. Movement will be determined by measurements of user's device accelerometers, this rating be used to indicate to users how much activity or dancing is happening at the venue. Sound will be determined based on the decibel reading of user's microphones, to indicate to users how loud the venue is. _Vibe_ will be manually input by our users, where they will have the ability to input atmosphere specific icons or phrases such as 'Loud', 'Social', 'Relaxed' etc..
 
 By viewing a Venue's Buzz and Vibe, a user should be able to make an accurate decision as to whether the Venue in question will provide the type of experience they're looking for. The idealized value of the app is that it will save its users time and money spent hopping between venues, as well as allowing them to experience new things and have more fun on their nights out. Venu will provide a new experience for its users also because there is not currently any similar service that would provide the same type of information to users. Review platforms such as Google, Yelp and Facebook don't provide any real time data which renders them useless to the patrons Venu is targeting. This is obvious because a Venue's atmosphere changes from hour to hour, which could not possibly be indicated by a long-term 5-star rating; a 5-star rating also does nothing to indicate the type of music, crowd, or atmosphere at a venue, which is what a patron really cares about.
 
@@ -32,17 +32,17 @@ The audience of the app will be patrons of nightclubs, bars and other entertainm
 
 - Paul loves hanging out with friends and having new experiences.
 - He went to University directly after high school.
-- Paul has been going to parties and nightclubs frequently since he turned 18
+- Paul has been going to parties and nightclubs frequently since he turned 18.
 
 **Goals:**
 
 - Paul wants to experience new things and make great memories with his friends while he is young.
-- Paul and his friends specifically love going to nightclubs which have a DJ who is really getting the crowd going.
+- Paul and his friends specifically love going to nightclubs which have a DJ who is really getting the crowd going, and they only like DJs who play EDM.
 
 **Frustrations:**
 
 - Paul finds that his nights out can be hit-and-miss.
-- Paul hates spending $20 on the entry-fee for a night club if it isn't fun inside.
+- Paul hates spending $20 on the entry-fee for a night club if it doesn't turn out to be fun inside.
 - Paul doesn't like sending messages out to all the people he knows to see if they're at a good club.
 
 #### 2.1.2 User Persona : Miranda
@@ -58,7 +58,7 @@ The audience of the app will be patrons of nightclubs, bars and other entertainm
 **Personality & History:**
 
 - Miranda likes to meet new people.
-- Miranda comes from a creative background, she used to be in a jazz band.
+- Miranda comes from a creative background: she used to be in a jazz band.
 - Miranda doesn't like loud places where too many very young adults are hanging out.
 
 **Goals:**
@@ -101,13 +101,13 @@ The context of the application is that it will be installed on a user's mobile d
 
 A key consideration that will have to be considered throughout development would be that of privacy. There are two key areas where this privacy concern will present itself:
 
-1. Privacy within their social network:
+1. Privacy within the user's social network:
 
 The product is going to have a social aspect to it to encourage users to share their good experiences and reviews. It is known that users of social media networks are comfortable doing this, however there is a line when they feel that sharing this information gives away too much information. An example of this is that users of Snapchat are generally comfortable sharing photos or videos of themselves in a clearly defined location at a clearly defined time, however a lot of users had a problem with Snapchat's SnapMaps feature, feeling that it gave away too much information by sharing their location in real-time. From these two observations it can be deduced that there is a certain cut-off point where a user feels uncomfortable sharing their location with too high of a resolution. Therefore the Venu application should be mindful of this when providing features which may potentially give away a user's location when used.
 
-1. The service breaching the user's privacy:
+2. The service breaching the user's privacy:
 
-Users of online services consider their privacy important. It is clearly documented that users dislike giving access to their devices peripherals, such as cameras and other sensors, however they are usually willing to make a concession based on the value that the service is providing them. For this reason, Venu needs to make it clear to a user that any access to the microphone and accelerometer required is done in a way that does not possibly breach their privacy, and the features they enable must be of value to the users.
+Users of online services consider their privacy important. It is clearly documented that users dislike giving access to their devices peripherals, such as cameras and other sensors, however they are usually willing to make a concession based on the value that the service is providing them. For this reason, Venu needs to make it clear to a user that any access to the microphone and accelerometer required, is done in a way that does not breach their privacy, and the features they enable must be of value to the users.
 
 ##### Critical Mass
 
@@ -123,19 +123,17 @@ as such, there are a few design considerations that arise out of concern for cri
 
 _Buzz Rating_
 
-Features such as the Buzz Rating will not be possible without a large number of users in each venue listed on the platform. Until these large numbers are sustained, it is worth trying to source this data from other sources.
+Features such as the _Buzz_ Rating will not be possible without a large number of users in each venue listed on the platform. Until these large numbers are sustained, it is worth trying to source this data from other sources.
 
-One example which will be implemented is to calculate the popularity of each venue outside of location tracking on users' phones. It is possible to determine how frequently users are tagging themselves at a venue in the Instagram stories, posted publicly to the world. Taking advantge of this, Venu will have a back end feature which scrapes public Instagram stories, determining popularity of venues based on how many people are tagging themselves there. This can continue indefinitely until Instagram changes the implementation of its Stories architecture, or until critical mass is reached.
+One example which will be implemented is to calculate the popularity of each venue using sources other than location tracking on users' devices. It is possible to determine how frequently users are tagging themselves at a venue in the Instagram stories, posted publicly to the world. Taking advantge of this, Venu will have a back-end feature which scrapes public Instagram stories, determining popularity of venues based on how many people are tagging themselves there. This can continue indefinitely until Instagram changes the implementation of its Stories architecture, or until critical mass is reached.
 
 ###### Strategies to gain Critical Mass more effectively
-
-**_~A new feature proposition by Luke.. Give it a read!~_**
 
 _Venue Accounts_
 
 A key determinant of the lifetime of a community is how strong the foundation of it is when it first begins. A stronger foundation is one where a number of users in the early community are sharing content frequently enough, which is valuable enough, for other users to justify remaining a part of that community. Standard patrons of the app will likely not be posting this high quality of content at the beginning of the platform, because its effectiveness is reduced with the lower amount of peer-users on the app.
 
-There is another type of user which would be encouraged to post high-quality content from the start: the venues themselves. A proposal to encourage strong foundations leading to critical mass is for Venues to be able to create their own type of user account with different permissions. Once verified, a venue account may share content which is visible only within the confines of its space within the app. This content may potentially be live announcements to the community, a few examples may be : "Happy hour begins at 5pm, and we have a special on Cider just for today, $7 for a jug!", or "Our resident DJ: DJ Plutonium, is going to be dropping his new mix at main bar between 11 and 12!!", or "Special Discount for Venu users: say the passphrase 'Buzz out of 10' at the bar for 1/2 price beer". These types of content will have a strong incentive behind them, because it will help venues attract patrons. They will also have the effect of providing valuable enough content to encourage early users to stay, even before enough mass is sustained for the other key features of the app to be fully functional.
+There is another type of user which would be encouraged to post high-quality content from the start: the venues themselves. A proposal to encourage strong community foundations at launch, which will help lead to critical mass later on, is for Venues to be able to create their own type of user account, with more features available to it. Once verified, a venue account may share content which is attached to the reviews for that venue. This content may potentially be live announcements to the community, a few examples may be : "Happy hour begins at 5pm, and we have a special on Cider just for today, $7 for a jug!", or "Our resident DJ: DJ Plutonium, is going to be dropping his new mix at main bar between 11 and 12!!", or "Special Discount for Venu users: say the passphrase 'Buzz out of 10' at the bar for 1/2 price beer". These types of content will have a strong incentive behind them, because it will help venues attract patrons. They will also have the effect of providing valuable enough content to encourage early users to stay, even before enough community mass is sustained for the other key features of the app to be fully functional.
 
 _City Release Plans_
 
@@ -147,9 +145,22 @@ In order to better focus efforts to gain a strong foothold of users at the begin
 
 From these two key points it can be deduced that by focusing on critical mass in confined locations first, the buzz surrounding the platform will help it spread as it moves to other cities.
 
-## 3.0 Team
+##### Incentives for users to leave reviews
+The application needs to be designed in a way that incentivises users to leave the reviews and provide us the information required for the platform to function. There are two key design choices which have been determined to help place these incentives.
 
-( Who is on your team, what are their responsibilities, and how will you work together? List all the members and their course code. Identify: )
+###### Limiting reviews
+
+In order to encourage users to leave a steady stream of reviews, users will not have permanent free access to the reviews of venues left around them. Instead, users will be given one free pass per day, which allows them to view all of the venues around them for a certain timeframe. This is intended to allow the users to decide on the first destination to go to before they head out for the night. Once this free pass has been used, users will need to provide a review for the venue they are at, to be able to gain another pass which lasts the same timeframe as before. This should encourage users to leave a constant stream of reviews in a give-a-review get-a-review fashion.
+
+###### Social Aspects
+
+The feature which limits reviews for users will be more biased towards negative reviews. This is because these reviews will be the ones for which the venue isn't entertaining the user, hence them trying to access more reviews to decide on the next venue to go to. To reverse this bias, social features will be added to the platform. This has been determined to be a good feature because Instagram and Snapchat users tend to share their experiences online when they are having fun, because they want their friends to see that they're having fun. Although the exact method that users will be able to share their current activity on the platform with friends has not been determined, it will be done to encourage users to share how much fun they're having at the current venue.
+
+##### Learned recommendations
+
+Over a long period of time a user's preferences of atmosphere and _Buzz_ Rating characteristics should become clear. Once our platform is certain that a user tends to prefer a certain type of atmosphere, the application should be able to recommend that they look at a particular venue. This feature can be considered a stretch-goal as it is less critical than the other features of the application.
+
+## 3.0 Team
 
 Student Name | Student Number | Position              | Course Code
 ------------ | :------------: | :-------------------- | ----------:
@@ -303,10 +314,16 @@ The design phase is about transferring the established requirements and user sto
 The wireframes will be focused on the functionality, behavior, and priority of content. In other words, it focuses on what the screen does not how it looks.wireframes is a good way which allow us to clear understand the product without objection and help us to visualize the final product. Through sketches, presente the application interactions interface and layouts on papar to reach a consensus in our team.
 
 it's including:
+<<<<<<< HEAD
 
 1. Product flow chart / UI flow;
 2. All product page-layouts and mockups
 3. site map
+=======
+1.  Product flow chart / UI flow;
+2.  All product page-layouts and mockups
+3.  site map
+>>>>>>> 901980d62935bdc532263fd92036c78333c6c0fe
 
 At this stage, it is important to find out: 1.application design style exploration. 2\. An overall visual design of key page 3\. Key interaction perfomance.
 
