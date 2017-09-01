@@ -262,8 +262,8 @@ The following table is a detailed timeline of task completion, start and finish 
 Phases   | Milestone         | Start Date | End Date
 :------- | :---------------- | :--------- | :---------
 Research | Industry Research | 02-09-2017 | 15-09-2017
-         | Industry Research | 02-09-2017 | 15-09-2017
-         | Industry Research | 02-09-2017 | 15-09-2017
+.         | Industry Research | 02-09-2017 | 15-09-2017
+ .        | Industry Research | 02-09-2017 | 15-09-2017
 Research | Industry Research | 02-09-2017 | 15-09-2017
          | Industry Research | 02-09-2017 | 15-09-2017
          | Industry Research | 02-09-2017 | 15-09-2017
