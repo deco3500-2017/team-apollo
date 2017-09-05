@@ -12,6 +12,14 @@
 
 - Do you go to social venues often? ; What day and time do you tend to go? ; Who do you go with?
 
+- How many times a week you would like to go to social venues? 
+
+- Could you describe your relationships with/to people in this social venues?
+
+- In what ways do you found those social venues without recommondation from friends.
+
+- How would you find out if a social venues you wanna go or not?
+
 - Do you think that there's any potential value to you in the project we're undertaking? ; Are there any specific features or ideas that may instantly come to mind when you think of using mobile technology to improve the current paradigm of going on a night out??
 
 - Would you say that there are any clearly defined categories that you can put social venues into? ; What are the categories?
