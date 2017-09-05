@@ -12,14 +12,6 @@
 
 - Do you go to social venues often? ; What day and time do you tend to go? ; Who do you go with?
 
-- How many times a week you would like to go to social venues? 
-
-- Could you describe your relationships with/to people in this social venues?
-
-- In what ways do you found those social venues without recommondation from friends.
-
-- How would you find out if a social venues you wanna go or not?
-
 - Do you think that there's any potential value to you in the project we're undertaking? ; Are there any specific features or ideas that may instantly come to mind when you think of using mobile technology to improve the current paradigm of going on a night out??
 
 - Would you say that there are any clearly defined categories that you can put social venues into? ; What are the categories?
@@ -33,3 +25,17 @@
 - Does the price of the venue play an important factor in your decision to go or your experience while there? This can be the price of entry, price of food or drinks, or more.
 
 - What's the most important thing in a venue to you? Do you find that venues with this thing tend to be more fun?
+
+#### Jenna's questions: ( you can edit it or delete it if it not appropriate ) 
+
+- How many times a week you would like to go to social venues? 
+
+- Could you describe your relationships with/to people in any social venues where you go there frequently?
+
+- In what ways do you find your favourite social venues without recommondation from friends.
+
+- How would you find out if a social venues you wanna go or not?
+
+- Tell me about a time when you share a social venues with your friends , what did you do?
+
+- What do you expect from an application which can help you to make decision about join a social activities.
