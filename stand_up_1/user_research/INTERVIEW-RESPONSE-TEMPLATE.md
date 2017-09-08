@@ -1,8 +1,20 @@
+## Notes for interviewer
+- The consent form needs to be printed and signed.
+- Remember to probe if the participant mentions anything interesting. You don't have to follow the structure exactly.
+- Try to record them with a phone or laptop if possible so that you don't have to type as they speak.
+
+## Introduce yourself to the participant
+
+## Explain the project and purpose for this interview
+The purpose of this research is to gather data about the requirements our users would have of an application that is being developed by us. The application is intended to help people make informed decisions about which social venue is best to go to, based on real-time live reviews and data about all the surrounding venues. We will be using this data to determine what a user such as yourself would and wouldn't value in the final version of the application. We are recording you today while we interview simply to keep a more accurate record of your responses, which we will transcribe later, and the footage will be deleted afterwards.
+
+You may ask us to stop the interview at any time. You may take as long as you like to respond. I'll start with a few questions about yourself and then we'll get into the more important questions about your experiences with social venues. Do you have any questions before we begin?
+
 ## Interviewee Details
 Name:
 Age:
 Occupation:
-Gender: 
+Gender:
 
 ## Interview questions
 
