@@ -26,16 +26,10 @@
 
 - What's the most important thing in a venue to you? Do you find that venues with this thing tend to be more fun?
 
-#### Jenna's questions: ( you can edit it or delete it if it not appropriate ) 
+- Could you describe your relationships with the people in any social venues you go frequently?
 
-- How many times a week you would like to go to social venues? 
+- In what ways do you usually find social venues without recommendation from friends?
 
-- Could you describe your relationships with/to people in any social venues where you go there frequently?
+- Tell me about a time when you recommended or shared a social venue with a friend, what did you do?
 
-- In what ways do you find your favourite social venues without recommondation from friends.
-
-- How would you find out if a social venues you wanna go or not?
-
-- Tell me about a time when you share a social venues with your friends , what did you do?
-
-- What do you expect from an application which can help you to make decision about join a social activities.
+- What do you expect from an application which is meant to help you to make a decision about which social venues to go to?
