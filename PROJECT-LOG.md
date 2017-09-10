@@ -14,9 +14,7 @@
 
 - First digital iteration of application through Balsamiq
 
-![Balsamiq Prototype](https://github.com/deco3500-2017/team-apollo/blob/master/images/balsamiq-001.png?raw=true "Balsamiq Prototype 001")
-
-![Balsamiq Prototype](https://github.com/deco3500-2017/team-apollo/blob/master/images/balsamiq-002.png?raw=true "Balsamiq Prototype 002")
+![Balsamiq Prototype](https://github.com/deco3500-2017/team-apollo/blob/master/images/balsamiq-001.png?raw=true "Balsamiq Prototype 001") ![Balsamiq Prototype](https://github.com/deco3500-2017/team-apollo/blob/master/images/balsamiq-002.png?raw=true "Balsamiq Prototype 002")
 
 # 11/09
 
