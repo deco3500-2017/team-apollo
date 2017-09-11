@@ -43,14 +43,3 @@ Strengths    | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam maur
 Weaknesses   | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mauris mauris, porttitor ac tristique sit amet, gravida eu mauris.
 Oppurtinites | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mauris mauris, porttitor ac tristique sit amet, gravida eu mauris.
 Threats      | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mauris mauris, porttitor ac tristique sit amet, gravida eu mauris.
-
-## Internal Environment
-
-This section about looking at our capabilities and how we can use these to take advantage of opportunities and avoid threats outlined above.
-
-Capability      | Valuable?   | Rare?       | Costly to Imitate? | Organised to Capture Value?
-:-------------- | :---------- | ----------- | ------------------ | ---------------------------
-**Lorem ipsum** | Lorem ipsum | Lorem ipsum | Lorem ipsum        | Lorem ipsum
-**Lorem ipsum** | Lorem ipsum | Lorem ipsum | Lorem ipsum        | Lorem ipsum
-**Lorem ipsum** | Lorem ipsum | Lorem ipsum | Lorem ipsum        | Lorem ipsum
-**Lorem ipsum** | Lorem ipsum | Lorem ipsum | Lorem ipsum        | Lorem ipsum
