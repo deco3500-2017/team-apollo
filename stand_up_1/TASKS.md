@@ -2,7 +2,7 @@
  - Come up with survey (DONE)
  - Create interview rough plan (DONE)
  - Consent forms ready (DONE)
- - Conduct the Interview & survey
+ - Conduct the Interview & survey (Luke DONE - )
  - Analyze interview & survey data
 
 ## Prototyping
@@ -12,7 +12,9 @@
  - Competitive Analysis
  - Industry Research (define the research objectives)
 
-## Plan for next two weeks
- - Discuss Plan for prototype before next stand up
- - Discuss User testing / Research plan before next stand up
- - Discuss Style Guide Plan
+ ## Potential Tasks to do before Stand Up 2
+ - User Testing with low-fi prototype (Jenna?)
+ - Iterate on low-fi prototype (Luke, Izhar, Jake)
+ - Begin Style Guide ready for next iteration of prototype (Jake, ?)
+ - Documentation of Intended Features (Luke, ?)
+ - Documentation to prove feasibility for intended features (Husheng?)
