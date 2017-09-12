@@ -12,34 +12,18 @@ Sociocultural    | Changing habits around the nightlife industry due to many Aus
 Technology       | The public is becoming ever more reliant on technology for decision-making (Opportunity).
 Physical/Natural | Nightlife venues are generally created surrounding a single or multiple precincts with some outliers. (Opportunity/Threat).
 
-### Industry Environment
-
-Industry: Real-time Venue Locator
-
-Section                       | Description
-:---------------------------- | :------------------------------------------------------------------------------------------------------------------------------
-Potential New Entrants        | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mauris mauris, porttitor ac tristique sit amet, gravida eu mauris.
-Bargaining Power of Buyers    | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mauris mauris, porttitor ac tristique sit amet, gravida eu mauris.
-Bargaining Power of Suppliers | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mauris mauris, porttitor ac tristique sit amet, gravida eu mauris.
-Threat of Substitutes         | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mauris mauris, porttitor ac tristique sit amet, gravida eu mauris.
-Intensity of Rivalry          | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mauris mauris, porttitor ac tristique sit amet, gravida eu mauris.
-
 ### Competitive Environment
 
-#### Competitor Name
+#### Direct Competition
 
-Section      | Description
-:----------- | :------------------------------------------------------------------------------------------------------------------------------
-Strengths    | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mauris mauris, porttitor ac tristique sit amet, gravida eu mauris.
-Weaknesses   | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mauris mauris, porttitor ac tristique sit amet, gravida eu mauris.
-Oppurtinites | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mauris mauris, porttitor ac tristique sit amet, gravida eu mauris.
-Threats      | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mauris mauris, porttitor ac tristique sit amet, gravida eu mauris.
+- Looop (<https://itunes.apple.com/us/app/looop-bar-atmosphere-in-real-time/id1028292971?mt=8>)
+- Real-time Google Ratings
 
-#### Competitor Name
+#### Indirect Competition
 
-Section      | Description
-:----------- | :------------------------------------------------------------------------------------------------------------------------------
-Strengths    | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mauris mauris, porttitor ac tristique sit amet, gravida eu mauris.
-Weaknesses   | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mauris mauris, porttitor ac tristique sit amet, gravida eu mauris.
-Oppurtinites | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mauris mauris, porttitor ac tristique sit amet, gravida eu mauris.
-Threats      | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mauris mauris, porttitor ac tristique sit amet, gravida eu mauris.
+- Google Search
+- TripAdvisor
+- Social Media Feeds (Venue pages)
+- Facebook Events
+- Discussion with friends (Facebook Messenger, Text Messaging)
+- Video sharing (Snapchat + Instagram)
