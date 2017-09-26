@@ -13,4 +13,4 @@
 - Find Venues to put into database, compile their data (Remember to create a venue for UQ exhibition)
 - Add Venues to the database
 - Ensure venue information is being sent to browser from database (either pin on map or print coordinates)
-- Set up Google Maps javascript API
+- Set up Google Maps javascript API -DONE
