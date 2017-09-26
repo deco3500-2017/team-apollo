@@ -21,3 +21,17 @@
 - Iteration on the design on the applications main functionality
 
 ![Application Sketch](https://github.com/deco3500-2017/team-apollo/blob/master/images/sketch-002.JPG?raw=true "Main Application Sketch 002")
+
+# 12/09
+- Pivot to functional prototype using a web app. Will comprise of a wepage using Google Maps API & Javascript to display locations. Backend MySQL database to store user and venue information. Real-Time measurement of device location, accelerometer and microphone data using HTML5 & Javascript.
+
+# 19/09
+- Delegation of tasks to do over the break and before the next stand up. Being tracked in the Stand Up 2 folder.
+
+# 22/09 
+- Group's Zone has been created to host the web app. 
+- Early aspects of database designed & built.
+- Google Maps Javascript API set up & ready for development.
+
+# 26/09
+- List of venues to use in the prototype developed. Relevant information for eavh venue compiled & ready for import into the database.
