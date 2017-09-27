@@ -17,22 +17,23 @@ This is a rough chronological order of how to develop the prototype from start t
 
 C = Client; S = Server;
 
-- S: Set Up Zone.
-- S: Set up Database on Zone.
-- S: Design Database Architecture and Implement on the zone.
-- S: Scrape & Import venue information into database.
-- S: Set up Venue Pull Response
-- C: Set up webpage and Google Maps Javascript API.
-- C: Develop UI Elements to be displayed on the map.
+- ~~S: Set Up Zone.~~
+- S: ~~Set up Database on Zone.~~
+- S: ~~Design Database Architecture and Implement on the zone.~~
+- S: ~~Scrape & Import venue information into database.~~
+- S: ~~Set up Venue Pull Response~~
+- C: ~~Set up webpage and Google Maps Javascript API.~~
 - C: Pull Venue Location information from Server using AJAX & populate the map with these icons on these locations
 - C: Develop Location, Microphone, Accelerometer device queries which happen every ~15 seconds, transform into relevant data for database.
-- C: Develop current location icon to display on map.
+- C: Develop current location to display on map.
+- C&S: Develop account creation / login page and database logic.
 - S: Develop AJAX Responses to populate tables with data received from users.
 - C: Develop AJAX Queries to push Location/Microphone/Accelerometer to server.
 - S: Develop function to clear old/irrelevant data from database (e.g. microphone data older than 1 hour should be deleted.. No need for 10 minute old microphone data of Venue A / User A if there is new Microphone data from Venue A / User A)
-- S: Set up Location/Microphone/Accelerometer Pull Response
-- C: Develop AJAX Pull for Location/Microphone/Accelerometer for each venue.
+- S: Set up Buzz Rating Pull Response
+- C: Develop AJAX Pull for Buzz Rating for each venue.
 - C: Map Location/Microphone/Accelerometer to each venue on device.
+- C: Develop UI Elements to be displayed on the map.
 - C: Develop UI features to display the Buzz ratings for each venue on the map.
 - C: Develop the detail views for each venue if tapped on.
 - ----- Stretch Goals
