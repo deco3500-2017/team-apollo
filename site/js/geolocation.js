@@ -6,12 +6,16 @@ function getLocation() {
   }
 }
 
+
 function showPosition(position) {
   console.log("Latitude: " + position.coords.latitude + " \nLongitude: " + position.coords.longitude);
+
+  var markerObject = {
+    lat: position.coords.latitude,
+    lng: position.coords.longitude,
+    title: "Current Location",
+    label: "A",
+  };
+
+  addMarker(markerObject);
 }
-
-$(document).ready(function() {
-
-  getLocation();
-  getVenues();
-});

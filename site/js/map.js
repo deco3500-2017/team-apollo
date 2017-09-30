@@ -2,6 +2,8 @@ var map;
 var service;
 var infowindow;
 
+/* initializes the map, focused on brisbane. Pins tracked venues on the map and gets the location of the current device.
+ */
 function initMap() {
   var brisbane = new google.maps.LatLng(-27.496404, 153.013416);
 
@@ -10,36 +12,15 @@ function initMap() {
     zoom: 15
   });
 
-  var request = {
-    location: brisbane,
-    radius: '1000',
-    // type: ['bar']
-    query: 'norman hotel'
-  };
-
-  // service = new google.maps.places.PlacesService(map);
-  // service.textSearch(request, callback);
+  getVenues();
+  getLocation();
 }
 
-function callback(results, status) {
-  if (status == google.maps.places.PlacesServiceStatus.OK) {
-    for (var i = 0; i < results.length; i++) {
-      var place = results[i];
-
-      console.log(place);
-      createMarker(place);
-
-      // console.log(place.name);
-      // console.log(place.geometry.location.lat().toFixed(6) + "," + place.geometry.location.lng().toFixed(6));
-      // console.log(place.opening_hours);
-    }
-  }
-}
-
-function createMarker(place) {
-  var placeLoc = place.geometry.location;
+//Create a marker on the map from a marker object
+function addMarker(markerObject) {
   var marker = new google.maps.Marker({
+    position: markerObject.latLng,
     map: map,
-    position: place.geometry.location
-  });
+    title: markerObject.title
+  })
 }
