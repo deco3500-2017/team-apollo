@@ -259,9 +259,10 @@ Phase 1 | Industry Research                 | 04-09-2017 | 08-09-2017
 Phase 2 | Surveys / User Testing            | 11-09-2017 | 15-09-2017
 /       | Iterate on Low-Fidelity Prototype | 18-09-2017 |
 /       | Style Guide                       | 25-09-2017 | 04-10-2017
-/       | Prototype (High-Fidelity)         | 25-09-2017 | 11-10-2017
+/       | Prototype (High-Fidelity)         | 25-09-2017 | 16-10-2017
 Phase 3 | Low-Fidelity User Testing         | 06-10-2017 | 29-09-2017
 /       | High-Fidelity User Testing        | 17-10-2017 | 19-10-2017
+/       | Iterate on High-Fidelity Prototype | 16-10-2017 |
 
 ### Phase 1: Research
 
