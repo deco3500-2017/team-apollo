@@ -105,7 +105,7 @@ A key consideration that will have to be considered throughout development would
 
 The product is going to have a social aspect to it to encourage users to share their good experiences and reviews. It is known that users of social media networks are comfortable doing this, however there is a line when they feel that sharing this information gives away too much information. An example of this is that users of Snapchat are generally comfortable sharing photos or videos of themselves in a clearly defined location at a clearly defined time, however a lot of users had a problem with Snapchat's SnapMaps feature, feeling that it gave away too much information by sharing their location in real-time. From these two observations it can be deduced that there is a certain cut-off point where a user feels uncomfortable sharing their location with too high of a resolution. Therefore the Venu application should be mindful of this when providing features which may potentially give away a user's location when used.
 
-2. The service breaching the user's privacy:
+1. The service breaching the user's privacy:
 
 Users of online services consider their privacy important. It is clearly documented that users dislike giving access to their devices peripherals, such as cameras and other sensors, however they are usually willing to make a concession based on the value that the service is providing them. For this reason, Venu needs to make it clear to a user that any access to the microphone and accelerometer required, is done in a way that does not breach their privacy, and the features they enable must be of value to the users.
 
@@ -250,18 +250,18 @@ Final Proposal  | 27-10-2017
 
 The following table is a detailed timeline of task completion, start and finish dates
 
-Phases                | Milestone                  | Start Date | End Date
-:-------------------- | :------------------------- | :--------- | :---------
-Iteration 1              | Industry Research          | 04-09-2017 | 08-09-2017
-/                     | Competitive Analysis       | 04-09-2017 | 08-09-2017
-/                     | User Research              | 04-09-2017 | 08-09-2017
-/                      | Begin low-fidelity Prototype| 04-09-2017 | 
-Iteration 2           | Surveys / User Testing     | 11-09-2017 | 15-09-2017
-/                     | Iterate on low-fidelity Prototype | 18-09-2017 | 
-/                     | Style Guide                | 25-09-2017 | 27-09-2017
-/                     | Low-Fidelity User Testing  | 27-09-2017 | 29-09-2017
-Iteration 3           | Framer Prototype           | 02-10-2017 | 23-10-2017
-/                     | High-Fidelity User Testing | 17-10-2017 | 19-10-2017
+Phases  | Milestone                         | Start Date | End Date
+:------ | :-------------------------------- | :--------- | :---------
+Phase 1 | Industry Research                 | 04-09-2017 | 08-09-2017
+/       | Competitive Analysis              | 04-09-2017 | 08-09-2017
+/       | User Research                     | 04-09-2017 | 08-09-2017
+/       | Begin low-fidelity Prototype      | 04-09-2017 |
+Phase 2 | Surveys / User Testing            | 11-09-2017 | 15-09-2017
+/       | Iterate on Low-Fidelity Prototype | 18-09-2017 |
+/       | Style Guide                       | 25-09-2017 | 04-10-2017
+/       | Prototype (High-Fidelity)         | 25-09-2017 | 11-10-2017
+Phase 3 | Low-Fidelity User Testing         | 06-10-2017 | 29-09-2017
+/       | High-Fidelity User Testing        | 17-10-2017 | 19-10-2017
 
 ### Phase 1: Research
 
