@@ -1,7 +1,7 @@
 #Husheng & Luke Tasks:
 - Query location of browser and pin that location on the map
 - Create a function which will determine whether the current user is at a venue or not based on location (has to be within a certain distance, choose the closest of the two if within this distance from two different venues)
-- Create logic on browser side which correctly queries the microphone and converts it do a numerical volume value
+- Create logic on browser side which correctly queries the microphone and converts it do a numerical volume value - DONE LUKE
 - Create logic on browser side which correctly queries the accelerometer and converts it to a usable numerical value
 - Create the logic to send accelerometer, microphone and location data to the database.
 - Create the logic to clear older database entries
