@@ -6,17 +6,20 @@
   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
   <script type="text/javascript" src="./js/utilityFunctions.js"></script>
   <script type="text/javascript" src="./js/map.js"></script>
-  <script type="text/javascript" src="./js/venueLogging.js"></script>
-  <script type="text/javascript" src="./js/ajax_test.js"></script>
   <script type="text/javascript" src="./js/geolocation.js"></script>
-  <script type="text/javascript" src="./js/main.js"></script>
 </head>
 
 <body>
-  <!-- <h3>My Google Maps Demo</h3> -->
+  <h3>My Google Maps Demo</h3>
   <div id="map"></div>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8Anl6qL_Q0mXyYznxz6jTnpIGQdNBJhs&callback=initMap&libraries=places">
   </script>
+
+  <p id="volume">HELLO</p>
+  <audio id="gum-local"></audio>
+  <button id="allowSound">ALLOW iPhone SOUND MONITORING</button>
+  <script type="text/javascript" src="./js/soundmeter.js"></script>
+  <script type="text/javascript" src="./js/audioCapture.js"></script>
 </body>
 
 </html>
