@@ -51,6 +51,7 @@ function mainloop() {
   setTimeout(mainloop, 15000);
 }
 
+/* The function where most of the application's logic will happen. This function repeats every 15 seconds so it should update all venues and send this device's data every time it is called */
 function mainloop2(currentLocation) {
   // console.log("mainloop2");
   // console.log("Latitude: " + currentLocation.coords.latitude + " \nLongitude: " + currentLocation.coords.longitude);
