@@ -19,6 +19,7 @@ function deviceMotionHandler(eventData) {
   var magnitude = Math.sqrt(Math.pow(acceleration.x, 2) + Math.pow(acceleration.y, 2) + Math.pow(acceleration.y, 2));
 
   moveVal = 0.998 * moveVal + 0.002 * magnitude;
+  moveVal = moveVal.toFixed(5);
 
   // console.log(moveVal);
 }

@@ -35,3 +35,22 @@ function getVenues() {
     }
   );
 }
+
+function sendBuzz(id, username, venue, audio, accelerometer) {
+  var buzzData = {
+    id: id,
+    username: username,
+    venue: venue,
+    audio: audio,
+    accelerometer: accelerometer
+  };
+
+  $.post("../server/buzzUpload.php", {
+      buzz: buzzData
+    },
+    function(data, status) {
+      var response = JSON.parse(data);
+      console.log(response.reply);
+      console.log(status);
+    });
+}

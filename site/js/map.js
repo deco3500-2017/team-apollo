@@ -6,6 +6,9 @@ var currentPosition;
 
 var polygonHolder = new Array();
 
+var username = "luke"
+var userID = 1;
+
 /* initializes the map, focused on brisbane. Pins tracked venues on the map and gets the location of the current device.
  */
 function initMap() {
@@ -56,9 +59,9 @@ function mainloop2(currentLocation) {
   var currentLatLngGoogle = new google.maps.LatLng(currentLatLngObject.lat, currentLatLngObject.lng);
 
   markCurrentLocation(currentLatLngObject);
-  var inVenue = checkIfInVenue(currentLatLngGoogle);
+  var venue = checkIfInVenue(currentLatLngGoogle);
 
-  if (inVenue != null) {
+  if (venue != null) {
     //We're in a venue, time to read our sensors and send them to the database
 
     //Read Audio Level
@@ -67,6 +70,9 @@ function mainloop2(currentLocation) {
 
     //Read Accelerometer Level
     console.log("accelerometer level = " + moveVal);
+
+    //Push to the server
+    sendBuzz(userID, username, venue.id, audioLevel, moveVal);
   } else {
     console.log("Not in a venue");
   }

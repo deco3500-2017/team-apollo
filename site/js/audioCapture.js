@@ -35,10 +35,10 @@ $(document).ready(function() {
   navigator.mediaDevices.getUserMedia(constraints).then(handleSuccess).catch(handleError);
 
   document.getElementById("allowSound").addEventListener("click", function() {
-    console.log("after the click");
-    console.log(soundMeter);
+    // console.log("after the click");
+    // console.log(soundMeter);
     soundMeter.context.resume();
-    console.log(soundMeter);
+    // console.log(soundMeter);
   });
 });
 
@@ -82,7 +82,7 @@ function handleSuccess(stream) {
       // console.log("setInterval happening & resuming context of this shit");
       // console.log(soundMeter);
       document.getElementById("volume").innerText = (soundMeter.slow);
-      audioLevel = soundMeter.slow;
+      audioLevel = soundMeter.slow.toFixed(5);
     }, 1000);
   });
 }

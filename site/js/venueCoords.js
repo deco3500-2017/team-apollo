@@ -469,7 +469,7 @@ var lukesHouseCoords = [{
 
 var lukesHouse = {
   coords: lukesHouseCoords,
-  id: 0
+  id: 14
 };
 
 venueArray.push(lukesHouse);
