@@ -1,7 +1,7 @@
-function getLatLng(venue) {
+function getLatLng(location) {
   var latLng = {
-    lat: parseFloat(venue["venueLat"]),
-    lng: parseFloat(venue["venueLong"])
+    lat: location.coords.latitude,
+    lng: location.coords.longitude
   };
   return latLng;
 }
