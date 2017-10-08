@@ -30,7 +30,10 @@ function initMap() {
   });
 
   if (navigator.geolocation) {
-    // setInterval(mainloop, 3000);
+    // setInterval(function() {
+    //   mainloop()
+    // }, 3000);
+
     mainloop();
   } else {
     console.log("Geolocation is not supported by this browser");
@@ -41,21 +44,31 @@ function initMap() {
 }
 
 function mainloop() {
-  console.log("mainloop");
   navigator.geolocation.getCurrentPosition(mainloop2);
+  setTimeout(mainloop, 15000);
 }
 
 function mainloop2(currentLocation) {
-  console.log("mainloop2");
-  console.log("Latitude: " + currentLocation.coords.latitude + " \nLongitude: " + currentLocation.coords.longitude);
+  // console.log("mainloop2");
+  // console.log("Latitude: " + currentLocation.coords.latitude + " \nLongitude: " + currentLocation.coords.longitude);
 
   var currentLatLngObject = getLatLng(currentLocation);
   var currentLatLngGoogle = new google.maps.LatLng(currentLatLngObject.lat, currentLatLngObject.lng);
 
   markCurrentLocation(currentLatLngObject);
   var inVenue = checkIfInVenue(currentLatLngGoogle);
-  if (inVenue) {
+
+  if (inVenue != null) {
     //We're in a venue, time to read our sensors and send them to the database
+
+    //Read Audio Level
+    console.log("audio level = " +
+      audioLevel);
+
+    //Read Accelerometer Level
+    console.log("accelerometer level = " + moveVal);
+  } else {
+    console.log("Not in a venue");
   }
 
   //Get data from database and link to our venues.
@@ -70,12 +83,14 @@ function markCurrentLocation(currentLocation) {
 }
 
 function checkIfInVenue(currentLocation) {
+  returnVal = null;
   polygonHolder.forEach(function(e) {
     if (google.maps.geometry.poly.containsLocation(currentLocation, e.polygon)) {
       console.log("In Venue with ID : " + e.id);
-      return e;
+      returnVal = e;
     }
   });
+  return returnVal;
 }
 
 

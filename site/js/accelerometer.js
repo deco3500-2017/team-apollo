@@ -20,5 +20,5 @@ function deviceMotionHandler(eventData) {
 
   moveVal = 0.998 * moveVal + 0.002 * magnitude;
 
-  console.log(moveVal);
+  // console.log(moveVal);
 }

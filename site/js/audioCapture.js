@@ -10,23 +10,37 @@
 
 'use strict';
 
-var audio = document.querySelector('audio');
-audio.pause();
-
-try {
-  window.AudioContext = window.AudioContext || window.webkitAudioContext;
-  window.audioContext = new AudioContext();
-} catch (e) {
-  alert('Web Audio API not supported.');
-}
-
-// Put variables in global scope to make them available to the browser console.
-var constraints = window.constraints = {
-  audio: true,
-  video: false
-};
-
+var audio;
 var soundMeter;
+var constraints;
+
+var audioLevel;
+
+$(document).ready(function() {
+  audio = document.querySelector('audio');
+
+  try {
+    window.AudioContext = window.AudioContext || window.webkitAudioContext;
+    window.audioContext = new AudioContext();
+  } catch (e) {
+    alert('Web Audio API not supported.');
+  }
+
+  // Put variables in global scope to make them available to the browser console.
+  constraints = window.constraints = {
+    audio: true,
+    video: false
+  };
+
+  navigator.mediaDevices.getUserMedia(constraints).then(handleSuccess).catch(handleError);
+
+  document.getElementById("allowSound").addEventListener("click", function() {
+    console.log("after the click");
+    console.log(soundMeter);
+    soundMeter.context.resume();
+    console.log(soundMeter);
+  });
+});
 
 function handleSuccess(stream) {
 
@@ -68,6 +82,7 @@ function handleSuccess(stream) {
       // console.log("setInterval happening & resuming context of this shit");
       // console.log(soundMeter);
       document.getElementById("volume").innerText = (soundMeter.slow);
+      audioLevel = soundMeter.slow;
     }, 1000);
   });
 }
@@ -75,16 +90,6 @@ function handleSuccess(stream) {
 function handleError(error) {
   console.log('navigator.getUserMedia error: ', error);
 }
-
-navigator.mediaDevices.getUserMedia(constraints).
-then(handleSuccess).catch(handleError);
-
-document.getElementById("allowSound").addEventListener("click", function() {
-  console.log("after the click");
-  console.log(soundMeter);
-  soundMeter.context.resume();
-  console.log(soundMeter);
-})
 
 // /*
 //  *  Copyright (c) 2015 The WebRTC project authors. All Rights Reserved.
