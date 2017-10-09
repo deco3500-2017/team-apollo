@@ -7,7 +7,7 @@ var currentPosition;
 var polygonHolder = new Array();
 
 var username = "luke"
-var userID = 1;
+var userID = 2;
 
 /* initializes the map, focused on brisbane. Pins tracked venues on the map and gets the location of the current device.
  */
@@ -32,18 +32,14 @@ function initMap() {
     e.polygon.setMap(map);
   });
 
-  if (navigator.geolocation) {
-    // setInterval(function() {
-    //   mainloop()
-    // }, 3000);
+  //Grab list of venues from db and add them to local venue storage. Venues are stores as Venue objects (defined in venueManager.js) in an array named venues which is globally accessible.
+  getVenues();
 
+  if (navigator.geolocation) {
     mainloop();
   } else {
     console.log("Geolocation is not supported by this browser");
   }
-
-  // getVenues();
-  // getLocation();
 }
 
 function mainloop() {
@@ -79,6 +75,7 @@ function mainloop2(currentLocation) {
   }
 
   //Get data from database and link to our venues.
+  pullBuzz();
 }
 
 function markCurrentLocation(currentLocation) {
