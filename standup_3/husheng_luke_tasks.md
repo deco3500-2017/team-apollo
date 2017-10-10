@@ -8,5 +8,5 @@
 - Create the logic to pull accelerometer data from the database and applies it to the relevant venue in the browser - DONE LUKE
 - Create the logic to pull volume data from the database and applies it to the relevant venue in the browser - DONE LUKE
 - Create the logic to pull location/popularity data from the database and applies it to the relevant venue in the browser - DONE LUKE
-- Create the logic to create an overall buzz rating from the popularity/accelerometer/sound statistics and apply it to the relevant venue in the browser 
+- Create the logic to create an overall buzz rating from the popularity/accelerometer/sound statistics and apply it to the relevant venue in the browser - DONE LUKE
 - Create the logic for a login screen (just a simple username, no password, input could be enough) .. needs to be implemented in a way that multiple people can't go on the app using the same username at the same time because otherwise things will break.
