@@ -11,5 +11,7 @@
 The observer needs to provid with more detailed instructions about the testing tasks they are going to perform
 Mentioned about how long they will be involove in this task （for example 10 - 15 minutes) 
 Encourage them to give any comment and think out loud while they interact with the product 
+
 - observation task
--
+The user will be interact with the prototype while we guide them with the following tasks. And we need to guide them when any difficulties happen.
+"The main homepage you are current in are the rating page, is it easy for you to understand what each functionalities are? 
