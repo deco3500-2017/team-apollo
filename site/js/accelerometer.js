@@ -1,9 +1,9 @@
-if (window.DeviceMotionEvent) {
-  console.log("Motion supported");
-  window.addEventListener('devicemotion', deviceMotionHandler, false);
-} else {
-  console.log("Motion NOT supported");
-};
+// if (window.DeviceMotionEvent) {
+//   console.log("Motion supported");
+//   window.addEventListener('devicemotion', deviceMotionHandler, false);
+// } else {
+//   console.log("Motion NOT supported");
+// };
 
 var moveVal = 0;
 

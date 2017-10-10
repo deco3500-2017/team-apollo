@@ -69,8 +69,8 @@ function handleSuccess(stream) {
     // console.log(soundMeter);
 
     setInterval(function() {
-      // document.getElementById("volume").innerText = (soundMeter.slow);
       audioLevel = soundMeter.slow.toFixed(5);
+      document.getElementById("volume").innerText = (audioLevel);
       // console.log(soundMeter);
     }, 25);
   });

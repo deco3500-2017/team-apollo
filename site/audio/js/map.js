@@ -6,45 +6,22 @@ var currentPosition;
 
 var polygonHolder = new Array();
 
-//hardcoded login information which should be set to whatever the user logs in with.
 var username = "luke"
 var userID = 2;
 
-//variables to store which permissions we've currently got.
-var motionAllowed, audioAllowed, geoAllowed = false;
+var a1, a2, a3 = false;
 
-//This function gets called once the page loads
-//Currently it starts the audio listener straight away (NEEDS FIXING LATER BECAUSE THIS ISN'T RIGHT) and attaches a listener to the button on the bottom which starts the mainloop when pressed.
 $(document).ready(function() {
-
   navigator.mediaDevices.getUserMedia(constraints).then(handleSuccess).catch(handleError);
 
-  //Note for HUSHENG : WHICHEVER BUTTON THE USER USES TO LOG IN / APPROVE ACCESS TO MICROPHONE & AUDIO SHOULD BE ATTACHED TO THE EVENT LISTENER BELOW INSTEAD OF THE "allowSound" ELEMENT. THE BELOW EVENT IS WHAT BEGINS THE MAINLOOP. ONCE YOU'VE GOT THE LOGIN FUNCTION WORKING WE ONLY WANT MAINLOOP TO BEGIN ONCE WE HAVE GOTTEN THE USERNAME AND USER ID AND SET THE VARIABLES ABOVE (userID and username).
   document.getElementById("allowSound").addEventListener("click", function() {
 
     soundMeter.context.resume();
-
-    if (window.DeviceMotionEvent) {
-      console.log("Motion supported");
-      motionAllowed = true;
-      window.addEventListener('devicemotion', deviceMotionHandler, false);
-    } else {
-      console.log("Motion NOT supported");
-    };
-
-    if (navigator.geolocation) {
-      geoAllowed = true;
-    } else {
-
-
-
-      console.log("Geolocation is not supported by this browser");
-    }
     mainloop();
   });
-});
+})
 
-/* This is the function which gets called once the google maps component is loaded.
+/* initializes the map, focused on brisbane. Pins tracked venues on the map and gets the location of the current device.
  */
 function initMap() {
   var brisbane = new google.maps.LatLng(-27.496404, 153.013416);
@@ -68,21 +45,21 @@ function initMap() {
   });
 
   //Grab list of venues from db and add them to local venue storage. Venues are stores as Venue objects (defined in venueManager.js) in an array named venues which is globally accessible.
-  getVenues();
+  // getVenues();
+
+  // if (navigator.geolocation) {
+  //   mainloop();
+  // } else {
+  //   console.log("Geolocation is not supported by this browser");
+  // }
 }
 
-
 function mainloop() {
-  if (geoAllowed) {
+  if (a3) {
     navigator.geolocation.getCurrentPosition(mainloop2);
-  } else {
-    alert("geoLocation not allowed on this browser");
   }
-
-  //runs the mainloop every 10 second
+  // console.log(audioLevel);
   setTimeout(mainloop, 10000);
-
-  // console.log(soundMeter);
 }
 
 /* The function where most of the application's logic will happen. This function repeats every 15 seconds so it should update all venues and send this device's data every time it is called */
@@ -116,7 +93,6 @@ function mainloop2(currentLocation) {
   pullBuzz();
 }
 
-//Creates a marker on the map at the browser's current location
 function markCurrentLocation(currentLocation) {
   var marker = new google.maps.Marker({
     position: currentLocation,
@@ -125,7 +101,6 @@ function markCurrentLocation(currentLocation) {
   });
 }
 
-//Returns null if not in a venue, otherwise returns the venue that we're in.
 function checkIfInVenue(currentLocation) {
   returnVal = null;
   polygonHolder.forEach(function(e) {
@@ -137,6 +112,8 @@ function checkIfInVenue(currentLocation) {
   return returnVal;
 }
 
+
+
 //Create a marker on the map from a marker object
 function addMarker(markerObject) {
   var marker = new google.maps.Marker({
@@ -145,3 +122,36 @@ function addMarker(markerObject) {
     title: markerObject.title
   })
 }
+
+
+/////
+//
+// console.log("Geolocation.js can see " + SECoords);
+
+// function getLocation() {
+//   if (navigator.geolocation) {
+//     navigator.geolocation.getCurrentPosition(showPosition);
+//   } else {
+//     console.log("Geolocation is not supported by this browser");
+//   }
+// }
+
+
+// function showPosition(position) {
+//   console.log("Latitude: " + position.coords.latitude + " \nLongitude: " + position.coords.longitude);
+// }
+//
+// var markerObject = {
+//   lat: position.coords.latitude,
+//   lng: position.coords.longitude,
+//   title: "Current Location",
+//   label: "A",
+// };
+//
+// addMarker(markerObject);
+//
+// polygonHolder.forEach(function(e) {
+//   google.maps.geometry.poly.containsLocation(position.latLng, e) ?
+//     console.log("In a venue") :
+//     console.log("NOT in a venue");
+// });

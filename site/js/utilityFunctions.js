@@ -35,8 +35,6 @@ function getVenues() {
         var newVenue = new Venue(e);
         venues.push(e);
       });
-
-      // console.log(venues);
     }
   );
 }
@@ -86,8 +84,6 @@ function pullBuzz() {
         buzzArray[i] = new emptyBuzz(i + 1);
       }
 
-      // console.log(buzzArray);
-
       response.forEach(function(e) {
         var rating = JSON.parse(e);
         var buzzRating = buzzArray[parseInt(rating.venueID) - 1];
@@ -105,7 +101,20 @@ function pullBuzz() {
 
       buzzHolder = buzzArray;
 
+      calculateBuzz();
+
       console.log("Buzz Ratings below: ");
       console.log(buzzHolder);
     });
+}
+
+function calculateBuzz() {
+  buzzHolder.forEach(function(e) {
+
+    var audioBuzz = Math.min((e.audio / 0.03), 1);
+    var accelerometerBuzz = Math.min((e.accelerometer / 15.0), 1);
+    var popBuzz = Math.min((e.popularity / 100.0), 1);
+
+    e.buzz = ((audioBuzz + accelerometerBuzz + popBuzz) / 3) * 100;
+  });
 }
