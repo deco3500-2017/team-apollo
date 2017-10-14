@@ -1,4 +1,4 @@
-Survey Questions
+# Survey Questions
 
 1. how old are you? (MCQ)
 2. what is your gender? (MCQ)
