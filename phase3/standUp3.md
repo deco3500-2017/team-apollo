@@ -13,3 +13,18 @@
 The user will complete an observation task after the user testing. We need to record anytime when user got stucked, and guide them afterwards. 
 
 "The main homepage you are current in are the rating page, is it easy for you to understand what each functionalities are? 
+
+
+#User Testing Results 
+
+## Questioner
+
+## To the Prototype
+- Users are easily confused with the word that we represent
+- Users mainly prefer a navigation bar instead of using slide to change section. Because it is easier to navigate and its pretty common with other app.
+- Users are mainly understand with the flow of the application.
+
+## To the Rating systems
+- Users mainly prefer to add additional information like the type of club is it such as, Jazz, Electric, etc.
+- Users suggested to microphone features to be an additional filter instead of using it for the overall rating. In additon, the users also find it hard to describes the situation of the venu into words if the parameter is based on Number of people, The movement and the sounds volume.
+- Users also suggested to create our own word for the rating words.
