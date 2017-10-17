@@ -35,3 +35,9 @@
 
 # 26/09
 - List of venues to use in the prototype developed. Relevant information for eavh venue compiled & ready for import into the database.
+
+# 17/10
+- Begun style guide and high-fidelty designs for the application.
+![App Icon](https://github.com/deco3500-2017/team-apollo/blob/master/images/AppIcon.png "App Icon")
+![Map View](https://github.com/deco3500-2017/team-apollo/blob/master/images/MapView.png "Map View")
+![List View](https://github.com/deco3500-2017/team-apollo/blob/master/images/ListView.png "List View")
