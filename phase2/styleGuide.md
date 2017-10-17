@@ -4,16 +4,16 @@ A style guide is a set of standards for the design of the Venu application, eith
 
 ## Colour Palette
 
-- Primary Colour #1:
-- Primary Colour #2:
-- Secondary Colour #1:
-- Secondary Colour #2:
-- Shades:
+- Colour #1: #EA6045
+- Colour #2: #F8CA4D
+- Colour #3: #F5E5C0
+- Colour #4: #3F5666
+- Colour #5: #2F3440
 
 ## Font Family
 
-- Font Family Headers:
-- Font Family Body:
+- Font Family Headers: Montserrat; Bold, Medium
+- Font Family Body: Open Sans; Light, Regular, Bold
 
 ## Typography
 
