@@ -12,6 +12,7 @@
   <script type="text/javascript" src="./js/soundmeter.js"></script>
   <script type="text/javascript" src="./js/audioCapture.js"></script>
   <script type="text/javascript" src="./js/map.js"></script>
+   <script type="text/javascript" src="./js/getImages.js"></script>
 </head>
 
 <body>
@@ -22,6 +23,60 @@
   <audio id="gum-local"></audio>
   <script type="text/javascript" src="./js/accelerometer.js"></script>
   <script type="text/javascript" src="./js/geolocation.js"></script>
+  
+  <img src="/site/img/1.jpg" alt="1" >
+  
+    <div id="Sign-Up"> 
+  <fieldset style="width:30%">
+   <legend>Registration Form</legend> 
+   <table border="0"> <tr> 
+   <form method="POST" action="/server/signup.php">
+   <td>UserName</td>
+   <td> <input type="text" name="user"></td> 
+   </tr> 
+   <tr> 
+   <td>Password</td>
+   <td>
+   <input type="password" name="pass">
+   </td> 
+	 </tr>
+	 <tr> 
+	 <td><input id="button" type="submit" name="submit" value="Sign-Up"></td>
+	 </tr> 
+	 </form> 
+	 </table> 
+	 </fieldset> 
+	 </div>
+	 
+	 
+	
+   
+	 	  <div id="Sign-In"> 
+  <fieldset style="width:30%">
+   <legend>Signin Form</legend> 
+   <table border="0"> <tr> 
+   <form method="POST" action="/server/login.php">
+   <td>UserName</td>
+   <td> <input type="text" name="user2"></td> 
+   </tr> 
+   <tr> 
+   <td>Password</td>
+   <td>
+   <input type="password" name="pass2">
+   </td> 
+	 </tr>
+	 <tr> 
+	 <td><input id="button" type="submit" name="submit2" value="Sign-In"></td>
+	 </tr> 
+	 </form> 
+	 </table> 
+	 </fieldset> 
+	 </div>
+ 
+	
+	 
+	  
+  
 </body>
 
 </html>
