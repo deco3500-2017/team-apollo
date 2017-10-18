@@ -48,6 +48,8 @@
 
 # 18/10
 - Iterating on high-fidelity designs
+
+
 ![Map View](https://github.com/deco3500-2017/team-apollo/blob/master/images/Map%20View.png "Map View")
 ![Map View - Venue Selected](https://github.com/deco3500-2017/team-apollo/blob/master/images/Map%20View%20-%20Venue%20Selected.png "List View")
 ![Venue View](https://github.com/deco3500-2017/team-apollo/blob/master/images/Venue%20View.png "Map View")
