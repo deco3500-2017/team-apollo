@@ -1,16 +1,21 @@
 body {
-  margin: 0; }
+  margin: 0;
+}
 
 .layer1 {
-  z-index: 1; }
+  z-index: 1;
+}
 
-.layer2, .default_window {
-  z-index: 2; }
+.layer2 {
+  z-index: 2;
+}
 
 .layer3 {
-  z-index: 3; }
+  z-index: 3;
+}
 
 .default_window {
+  @extend .layer2;
   background-color: FloralWhite;
   border: 1px solid #333;
   position: absolute;
@@ -18,11 +23,11 @@ body {
   top: 50vh;
   transform: translate(-50%, -50%);
   height: 80vh;
-  width: 80vw; }
+  width: 80vw;
+}
 
 #map {
   position: absolute;
   height: 100vh;
-  width: 100vw; }
-
-/*# sourceMappingURL=style.css.map */
+  width: 100vw;
+}
