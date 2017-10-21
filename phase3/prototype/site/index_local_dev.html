@@ -4,11 +4,13 @@
 <head>
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/login.css">
+  <link rel="stylesheet" href="./css/signup.css">
   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
   <script type="text/javascript" src="./js/login.js"></script>
+  <script type="text/javascript" src="./js/signup.js"></script>
   <!-- <script type="text/javascript" src="./js/venueManager.js"></script>
-  <script type="text/javascript" src="./js/utilityFunctions.js"></script>
-  <script type="text/javascript" src="./js/venueCoords.js"></script> -->
+    <script type="text/javascript" src="./js/utilityFunctions.js"></script>
+    <script type="text/javascript" src="./js/venueCoords.js"></script> -->
 
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8Anl6qL_Q0mXyYznxz6jTnpIGQdNBJhs&callback=initMap&libraries=places">
   </script>
@@ -21,32 +23,60 @@
 
 <body>
   <!-- <button id="allowSound">START MAIN LOOP</button> -->
-  <div id="welcomeScreen">
-    <div id="welcomeLogoHolder">
-    </div>
 
-    <div id="welcomeLoginHolder">
-      <div id="usernameField">
-        <input class="loginField" type="text" name="user2">
+  <!-- Main Map Element -->
+  <div id="map" class="layer1"></div>
+
+
+  <!-- Login Screen -->
+  <div id="login" class="fullscreen regularBackground">
+
+    <div class="inputHolder">
+      <div>
+        <input id="loginUsernameInput" class="inputField" type="text">
       </div>
-      <div id="passwordField">
-        <input class="loginField" type="password" name="pass2">
+
+      <div>
+        <input id="loginPasswordInput" class="inputField" type="password">
       </div>
-      <div id="loginButtonHolder">
-        <button id="loginButton" class="inputButton" value="Sign-In">
+
+      <div>
+        <button id="loginButton" class="inputButton" class="inputButton">
           Sign In
         </button>
       </div>
+
     </div>
 
-    <div id="welcomeSignUpHolder">
-      <h2 id="singUpText" class="centeredText">Don't have an account?</h2>
+    <div class="welcomeSignUpHolder">
+      <h2 class="centeredText">Don't have an account?</h2>
       <button class="inputButton" id="signUpButton">
         Sign Up
       </button>
     </div>
   </div>
-  <div id="map" class="layer1"></div>
+  </div>
+
+  <!-- Sign Up Screen -->
+  <!-- <div id="signUp" class="fullscreen regularBackground">
+    
+    <div class="inputHolder">
+      <div>
+        <input id="signupUsernameInput" class="inputField" type="text">
+      </div>
+      
+      <div>
+        <input id="signupPasswordInput" class="inputField" type="password">
+      </div>
+      
+      <div>
+        <button id="signupButton" class="inputButton" class="inputButton">
+          Sign Up
+        </button>
+      </div>
+      
+    </div>
+  </div> -->
 
 </body>
 

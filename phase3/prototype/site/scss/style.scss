@@ -34,9 +34,14 @@ form, fieldset, body {
 }
 
 .fullscreen {
+  @extend .layer2;
   position: absolute;
   height: 100vh;
   width: 100vw;
+}
+
+.regularBackground {
+  background-color: #eee;
 }
 
 .centeredBlock {
