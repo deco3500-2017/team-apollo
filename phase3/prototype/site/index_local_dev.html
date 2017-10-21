@@ -3,12 +3,16 @@
 
 <head>
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/login.css">
   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="./js/login.js"></script>
   <!-- <script type="text/javascript" src="./js/venueManager.js"></script>
   <script type="text/javascript" src="./js/utilityFunctions.js"></script>
   <script type="text/javascript" src="./js/venueCoords.js"></script> -->
+
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8Anl6qL_Q0mXyYznxz6jTnpIGQdNBJhs&callback=initMap&libraries=places">
   </script>
+
   <!-- <script type="text/javascript" src="./js/soundmeter.js"></script> -->
   <!-- <script type="text/javascript" src="./js/audioCapture.js"></script> -->
   <script type="text/javascript" src="./js/map_local_dev.js"></script>
@@ -16,70 +20,33 @@
 </head>
 
 <body>
-  <button id="allowSound">START MAIN LOOP</button>
-  <div id="welcomeScreen" class="default_window">
+  <!-- <button id="allowSound">START MAIN LOOP</button> -->
+  <div id="welcomeScreen">
+    <div id="welcomeLogoHolder">
+    </div>
+
+    <div id="welcomeLoginHolder">
+      <div id="usernameField">
+        <input class="loginField" type="text" name="user2">
+      </div>
+      <div id="passwordField">
+        <input class="loginField" type="password" name="pass2">
+      </div>
+      <div id="loginButtonHolder">
+        <button id="loginButton" class="inputButton" value="Sign-In">
+          Sign In
+        </button>
+      </div>
+    </div>
+
+    <div id="welcomeSignUpHolder">
+      <h2 id="singUpText" class="centeredText">Don't have an account?</h2>
+      <button class="inputButton" id="signUpButton">
+        Sign Up
+      </button>
+    </div>
   </div>
   <div id="map" class="layer1"></div>
-
-  <p id="volume">HELLO</p>
-  <audio id="gum-local"></audio>
-  <!-- <script type="text/javascript" src="./js/accelerometer.js"></script> -->
-  <!-- <script type="text/javascript" src="./js/geolocation.js"></script> -->
-
-  <img src="/site/img/1.jpg" alt="1">
-
-  <div id="Sign-Up">
-    <fieldset style="width:30%">
-      <legend>Registration Form</legend>
-      <table border="0">
-        <tr>
-          <form method="POST" action="/server/signup.php">
-            <td>UserName</td>
-            <td> <input type="text" name="user"></td>
-        </tr>
-        <tr>
-          <td>Password</td>
-          <td>
-            <input type="password" name="pass">
-          </td>
-        </tr>
-        <tr>
-          <td><input id="button" type="submit" name="submit" value="Sign-Up"></td>
-        </tr>
-        </form>
-      </table>
-    </fieldset>
-  </div>
-
-
-
-
-  <div id="Sign-In">
-    <fieldset style="width:30%">
-      <legend>Signin Form</legend>
-      <table border="0">
-        <tr>
-          <form method="POST" action="/server/login.php">
-            <td>UserName</td>
-            <td> <input type="text" name="user2"></td>
-        </tr>
-        <tr>
-          <td>Password</td>
-          <td>
-            <input type="password" name="pass2">
-          </td>
-        </tr>
-        <tr>
-          <td><input id="button" type="submit" name="submit2" value="Sign-In"></td>
-        </tr>
-        </form>
-      </table>
-    </fieldset>
-  </div>
-
-
-
-
 
 </body>
 
