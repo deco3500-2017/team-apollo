@@ -1,11 +1,11 @@
-function CustomMarker(latlng, map, args) {
+function CustomMarker(latlng, map, markerArray, id) {
 	console.log("creating a CustomMarker");
 
 	this.latlng = latlng;
-	this.args = args;
 	this.setMap(map);
 
-	this.meter;
+	this.id = id;
+	this.markerArray = markerArray;
 }
 
 function googleReady() {
@@ -21,39 +21,33 @@ function googleReady() {
 
 			div = this.div = document.createElement('div');
 
-			div.id = "div1";
+			div.venueID = this.id;
 
 			div.style.position = 'absolute';
 			div.style.cursor = 'pointer';
 			div.style.width = '4vh';
 			div.style.height = '4vh';
-			div.style.background = 'transparent';
+			div.style.background = 'white';
 			div.style.borderRadius = "50%";
-			div.style.border = "solid 2px red";
+			div.style.border = "solid 2px #EA6045";
 			div.style.overflow = "hidden";
 
 			fillMeter = document.createElement('div');
-
-			fillMeter.id = "div2";
 
 			fillMeter.style.position = 'absolute';
 			fillMeter.style.cursor = 'pointer';
 			fillMeter.style.width = '4vh';
 			fillMeter.style.height = '4vh';
-			fillMeter.style.background = 'blue';
+			fillMeter.style.background = '#EA6045';
 			fillMeter.style.top = "50%";
-
-			this.meter = fillMeter;
 
 			div.appendChild(fillMeter);
 
-			if (typeof (self.args.marker_id) !== 'undefined') {
-				div.dataset.marker_id = self.args.marker_id;
-			}
+			this.markerArray[this.id] = div;
 
 			google.maps.event.addDomListener(div, "click", function (event) {
 				console.log('You clicked on a custom marker!');
-				changeFill(div, 80);
+				markerClicked(div.venueID);
 				google.maps.event.trigger(self, "click");
 			});
 
@@ -83,8 +77,4 @@ function googleReady() {
 	// CustomMarker.prototype.changeFill = function (value) {
 	// 	this.meter.style.top = value + "%";
 	// }
-}
-
-function changeFill(div, val) {
-	div.children[0].style.top = val + "%";
 }

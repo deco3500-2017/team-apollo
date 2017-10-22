@@ -11,6 +11,8 @@ var currentPosition;
 
 var polygonHolder = new Array();
 
+var markerArray = new Array();
+
 //hardcoded login information which should be set to whatever the user logs in with.
 var username = "luke"
 var userID = 2;
@@ -68,29 +70,15 @@ function initMap() {
     zoom: 15
   });
 
-  venueArray.forEach(function (e) {
-    polygonHolder.push({
-      polygon: new google.maps.Polygon({
-        paths: e.coords
-      }),
-      id: e.id
-    });
-  });
+  googleReady();
 
-  polygonHolder.forEach(function (e) {
-    e.polygon.setMap(map);
-  });
+  prepareMarkersAndFences();
 
   //Grab list of venues from db and add them to local venue storage. Venues are stores as Venue objects (defined in venueManager.js) in an array named venues which is globally accessible.
-
   if (!isLocal) {
     getVenues();
   }
-
-  googleReady();
-  createSmartMarker(brisbane.latLng, map);
 }
-
 
 function mainloop() {
   if (geoAllowed) {
@@ -160,4 +148,24 @@ function addMarker(markerObject) {
     map: map,
     title: markerObject.title
   })
+}
+
+function prepareMarkersAndFences() {
+  venueArray.forEach(function (e) {
+    polygonHolder.push({
+      polygon: new google.maps.Polygon({
+        paths: e.coords
+      }),
+      id: e.id
+    });
+
+    var markerLatLng = new google.maps.LatLng(e.point.lat, e.point.lng);
+    createSmartMarker(markerLatLng, map, markerArray, e.id);
+  });
+
+  console.log(markerArray);
+
+  polygonHolder.forEach(function (e) {
+    e.polygon.setMap(map);
+  });
 }
