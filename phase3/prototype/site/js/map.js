@@ -88,7 +88,7 @@ function initMap() {
   }
 
   googleReady();
-  // createSmartMarker(brisbane.latLng, map);
+  createSmartMarker(brisbane.latLng, map);
 }
 
 

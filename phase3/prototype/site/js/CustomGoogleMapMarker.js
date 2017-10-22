@@ -1,59 +1,79 @@
 function CustomMarker(latlng, map, args) {
+	console.log("creating a CustomMarker");
+
 	this.latlng = latlng;
 	this.args = args;
 	this.setMap(map);
+
+	this.meter;
 }
 
 function googleReady() {
 	CustomMarker.prototype = new google.maps.OverlayView();
-};
 
-CustomMarker.prototype.draw = function () {
+	CustomMarker.prototype.draw = function () {
 
-	var self = this;
+		var self = this;
 
-	var div = this.div;
+		var div = this.div;
 
-	if (!div) {
+		if (!div) {
 
-		div = this.div = document.createElement('div');
+			div = this.div = document.createElement('div');
 
-		div.className = 'marker';
+			div.id = "div1";
 
-		div.style.position = 'absolute';
-		div.style.cursor = 'pointer';
-		div.style.width = '20px';
-		div.style.height = '20px';
-		div.style.background = 'blue';
+			div.style.position = 'absolute';
+			div.style.cursor = 'pointer';
+			div.style.width = '4vh';
+			div.style.height = '4vh';
+			div.style.background = 'transparent';
+			div.style.borderRadius = "50%";
+			div.style.border = "solid 2px red";
+			div.style.overflow = "hidden";
 
-		if (typeof (self.args.marker_id) !== 'undefined') {
-			div.dataset.marker_id = self.args.marker_id;
+			fillMeter = document.createElement('div');
+
+			fillMeter.id = "div2";
+
+			fillMeter.style.position = 'absolute';
+			fillMeter.style.cursor = 'pointer';
+			fillMeter.style.width = '4vh';
+			fillMeter.style.height = '4vh';
+			fillMeter.style.background = 'blue';
+			fillMeter.style.top = "50%";
+
+			div.appendChild(fillMeter);
+
+			if (typeof (self.args.marker_id) !== 'undefined') {
+				div.dataset.marker_id = self.args.marker_id;
+			}
+
+			google.maps.event.addDomListener(div, "click", function (event) {
+				alert('You clicked on a custom marker!');
+				google.maps.event.trigger(self, "click");
+			});
+
+			var panes = this.getPanes();
+			panes.overlayImage.appendChild(div);
 		}
 
-		google.maps.event.addDomListener(div, "click", function (event) {
-			alert('You clicked on a custom marker!');
-			google.maps.event.trigger(self, "click");
-		});
+		var point = this.getProjection().fromLatLngToDivPixel(this.latlng);
 
-		var panes = this.getPanes();
-		panes.overlayImage.appendChild(div);
-	}
+		if (point) {
+			div.style.left = (point.x - 10) + 'px';
+			div.style.top = (point.y - 20) + 'px';
+		}
+	};
 
-	var point = this.getProjection().fromLatLngToDivPixel(this.latlng);
+	CustomMarker.prototype.remove = function () {
+		if (this.div) {
+			this.div.parentNode.removeChild(this.div);
+			this.div = null;
+		}
+	};
 
-	if (point) {
-		div.style.left = (point.x - 10) + 'px';
-		div.style.top = (point.y - 20) + 'px';
-	}
-};
-
-CustomMarker.prototype.remove = function () {
-	if (this.div) {
-		this.div.parentNode.removeChild(this.div);
-		this.div = null;
-	}
-};
-
-CustomMarker.prototype.getPosition = function () {
-	return this.latlng;
-};
+	CustomMarker.prototype.getPosition = function () {
+		return this.latlng;
+	};
+}

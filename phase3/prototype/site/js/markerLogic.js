@@ -6,4 +6,6 @@ function createSmartMarker(latlng, map) {
             marker_id: '123'
         }
     );
+
+    // overlay.draw();
 }
