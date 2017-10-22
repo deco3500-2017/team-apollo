@@ -38,7 +38,6 @@ form, fieldset, body {
 }
 
 .fullscreen {
-  @extend .layer2;
   position: absolute;
   top:0;
   height: 100vh;
@@ -65,7 +64,6 @@ form, fieldset, body {
 }
 
 .default_window {
-  @extend .layer2;
   background-color: FloralWhite;
   border: 1px solid #333;
 }
