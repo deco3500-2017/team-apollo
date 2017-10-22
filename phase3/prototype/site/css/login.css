@@ -1,7 +1,7 @@
 h2 {
   font-size: 60px; }
 
-.devBorder, #welcomeLogoHolder {
+.devBorder, .welcomeLogoHolder {
   border: 2px solid black; }
 
 .devColor1 {
@@ -14,7 +14,7 @@ form, fieldset, body {
 .layer1 {
   z-index: 1; }
 
-.layer2, .default_window, #welcomeScreen {
+.layer2, .fullscreen, .welcomeScreen, .default_window {
   z-index: 2; }
 
 .layer3 {
@@ -23,10 +23,13 @@ form, fieldset, body {
 .hidden {
   display: none; }
 
-.fullscreen, #welcomeScreen {
+.fullscreen, .welcomeScreen {
   position: absolute;
   height: 100vh;
   width: 100vw; }
+
+.regularBackground {
+  background-color: #eee; }
 
 .centeredBlock {
   margin: 0 auto 0 auto; }
@@ -34,7 +37,7 @@ form, fieldset, body {
 .centeredText {
   text-align: center; }
 
-.bigGrid, #welcomeScreen {
+.bigGrid, .welcomeScreen {
   display: grid;
   grid-template-columns: repeat(24, 1fr);
   grid-gap: 10px;
@@ -49,47 +52,15 @@ form, fieldset, body {
   height: 100vh;
   width: 100vw; }
 
-#welcomeScreen {
+.welcomeScreen {
   background-color: white; }
 
-#welcomeLogoHolder {
-  grid-column: 3 / 23;
-  grid-row: 4 / 10; }
-
-#welcomeLoginHolder {
-  grid-column: 5 / 21;
-  grid-row: 12 / 18;
-  display: grid;
-  grid-template-rows: 1fr 1fr 2vh auto;
-  grid-template-columns: auto;
-  grid-gap: 20px; }
-
-#welcomeSignUpHolder {
-  grid-column: 5 / 21;
-  grid-row: 19 / 23;
-  display: grid;
-  grid-template-rows: 1fr auto;
-  grid-template-columns: auto; }
-
-#usernameField {
-  grid-row: 1;
-  grid-column: 1; }
-
-#passwordField {
-  grid-row: 2;
-  grid-column: 1; }
-
-#loginButtonHolder {
-  grid-row: 4;
-  grid-column: 1; }
-
-.loginField {
-  border: none;
-  border-bottom: 1px solid #333;
-  width: 100%;
-  height: 100%;
-  font-size: 60px;
-  text-align: center; }
+.welcomeSignUpHolder {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 66%; }
 
 .inputButton {
   width: 100%;
@@ -97,13 +68,5 @@ form, fieldset, body {
   font-size: 60px;
   border: 1px solid #333;
   background-color: yellow; }
-
-#signUpText {
-  grid-row: 1;
-  grid-column: 1; }
-
-#signUpButton {
-  grid-row: 3;
-  grid-column: 1; }
 
 /*# sourceMappingURL=login.css.map */
