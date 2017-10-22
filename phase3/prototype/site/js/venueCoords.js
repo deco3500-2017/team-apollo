@@ -39,7 +39,7 @@ var AEBCoords = [{
 var AEBPoint = {
   lng: 153.015082,
   lat: -27.499623,
-}
+};
 
 var redroomCoords = [{
   lng: 153.015845,
@@ -70,6 +70,11 @@ var redroomCoords = [{
   lat: -27.497537
 }
 ];
+
+var redroomPoint = {
+  lng: 153.015987,
+  lat: -27.497470
+};
 
 var RECoords = [{
   lng: 152.992493,
@@ -109,6 +114,11 @@ var RECoords = [{
 }
 ];
 
+var REPoint = {
+  lng: 152.992589,
+  lat: -27.486338
+};
+
 var regattaCoords = [{
   lng: 152.995965,
   lat: -27.482792
@@ -130,6 +140,11 @@ var regattaCoords = [{
   lat: -27.482792
 }
 ];
+
+var regattaPoint = {
+  lng: 152.996360,
+  lat: -27.482545,
+};
 
 var normanCoords = [{
   lng: 153.035131,
@@ -165,6 +180,11 @@ var normanCoords = [{
 }
 ];
 
+var normanPoint = {
+  lng: 153.035400,
+  lat: -27.491972
+}
+
 var archiveCoords = [{
   lng: 153.012546,
   lat: -27.478963
@@ -195,6 +215,11 @@ var archiveCoords = [{
 }
 ];
 
+var archivePoint = {
+  lng: 153.012726,
+  lat: -27.479097
+}
+
 var boundaryCoords = [{
   lng: 153.012061,
   lat: -27.478849
@@ -216,6 +241,11 @@ var boundaryCoords = [{
   lat: -27.478849
 }
 ];
+
+var boundaryPoint = {
+  lng: 153.012299,
+  lat: -27.479105
+};
 
 var lycheeCoords = [{
   lng: 153.012637,
@@ -239,6 +269,11 @@ var lycheeCoords = [{
 }
 ];
 
+var lycheePoint = {
+  lng: 153.012695,
+  lat: -27.478434
+}
+
 var foxCoords = [{
   lng: 153.017254,
   lat: -27.474149
@@ -260,6 +295,11 @@ var foxCoords = [{
   lat: -27.474149
 }
 ];
+
+var foxPoint = {
+  lng: 153.017456,
+  lat: -27.474321,
+}
 
 var treasuryCoords = [{
   lng: 153.023369,
@@ -283,6 +323,11 @@ var treasuryCoords = [{
 }
 ];
 
+var treasuryPoint = {
+  lng: 153.023697,
+  lat: -27.472660
+}
+
 var SECoords = [{
   lng: 153.028272,
   lat: -27.469592
@@ -304,6 +349,11 @@ var SECoords = [{
   lat: -27.469592
 }
 ];
+
+var SEPoint = {
+  lng: 153.028458,
+  lat: -27.469671
+}
 
 var ricsCoords = [{
   lng: 153.034787,
@@ -335,6 +385,11 @@ var ricsCoords = [{
 }
 ];
 
+var ricsPoint = {
+  lng: 153.034500,
+  lat: -27.458483
+}
+
 var foundryCoords = [{
   lng: 153.033054,
   lat: -27.457600
@@ -357,94 +412,112 @@ var foundryCoords = [{
 }
 ];
 
+var foundryPoint = {
+  lng: 153.033264,
+  lat: -27.457617
+}
+
 //Obects used to relate a geofence back to the venue in the database. IDs match their IDs in the database.
 var redroom = {
   coords: redroomCoords,
-  id: 1
+  id: 1,
+  point: redroomPoint
 };
 
 venueArray.push(redroom);
 
 var thefox = {
   coords: foxCoords,
-  id: 2
+  id: 2,
+  point: foxPoint
 };
 
 venueArray.push(thefox);
 
 var archive = {
   coords: archiveCoords,
-  id: 3
+  id: 3,
+  point: archivePoint
 };
 
 venueArray.push(archive);
 
 var lychee = {
   coords: lycheeCoords,
-  id: 4
+  id: 4,
+  point: lycheePoint
 };
 
 venueArray.push(lychee);
 
 var norman = {
   coords: normanCoords,
-  id: 5
+  id: 5,
+  point: normanPoint
 };
 
 venueArray.push(norman);
 
 var treasury = {
   coords: treasuryCoords,
-  id: 6
+  id: 6,
+  point: treasuryPoint
 };
 
 venueArray.push(treasury);
 
 var aeb = {
   coords: AEBCoords,
-  id: 7
+  id: 7,
+  point: AEBPoint
 };
 
 venueArray.push(aeb);
 
 var re = {
   coords: RECoords,
-  id: 8
+  id: 8,
+  point: REPoint
 };
 
 venueArray.push(re);
 
 var regatta = {
   coords: regattaCoords,
-  id: 9
+  id: 9,
+  point: regattaPoint
 };
 
 venueArray.push(regatta);
 
 var boundary = {
   coords: boundaryCoords,
-  id: 10
+  id: 10,
+  point: boundaryPoint
 };
 
 venueArray.push(boundary);
 
 var rics = {
   coords: ricsCoords,
-  id: 11
+  id: 11,
+  point: ricsPoint
 };
 
 venueArray.push(rics);
 
 var stockexchange = {
   coords: SECoords,
-  id: 12
+  id: 12,
+  point: SEPoint
 };
 
 venueArray.push(stockexchange);
 
 var foundry = {
   coords: foundryCoords,
-  id: 13
+  id: 13,
+  point: foundryPoint
 };
 
 venueArray.push(foundry);
@@ -472,9 +545,15 @@ var lukesHouseCoords = [{
 }
 ];
 
+var lukesPoint = {
+  lng: 153.021378,
+  lat: -27.510546
+}
+
 var lukesHouse = {
   coords: lukesHouseCoords,
-  id: 14
+  id: 14,
+  point: lukesPoint
 };
 
 venueArray.push(lukesHouse);
