@@ -18,7 +18,6 @@ function Venue(id) {
 }
 
 Venue.prototype.addVenueInfo = function (venueObject) {
-  this.id = venueObject.venueID;
   this.name = venueObject.venueName;
   this.description = venueObject.description;
   this.fb = venueObject.venueFB;
@@ -66,12 +65,11 @@ function getVenues() {
     venues: "locations",
   },
     function (data, status) {
-      console.log("got venues");
       var returnVenues = JSON.parse(data);
 
       returnVenues.forEach(function (e) {
-        var newVenue = new Venue(e);
-        venues.push(e);
+        var venueInfo = JSON.parse(e);
+        getVenueByID(venueInfo.venueID).addVenueInfo(venueInfo);
       });
     }
   );

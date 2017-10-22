@@ -564,7 +564,4 @@ venueArray.forEach(function (e) {
   venues.push(new Venue(e.id));
   getVenueByID(e.id).point = e.point;
   getVenueByID(e.id).coords = e.coords;
-})
-
-console.log("instantiated venues");
-console.log(venues);
+});

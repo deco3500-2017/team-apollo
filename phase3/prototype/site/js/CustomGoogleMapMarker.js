@@ -1,6 +1,4 @@
 function CustomMarker(latlng, map, venueObject) {
-	console.log("creating a CustomMarker");
-	console.log(venueObject);
 
 	this.latlng = latlng;
 	this.setMap(map);

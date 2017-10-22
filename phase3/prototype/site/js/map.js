@@ -80,6 +80,8 @@ function initMap() {
   //Grab list of venues from db and add them to local global venue storage. This array can be found in the venueManager.js file.
   if (!isLocal) {
     getVenues();
+    //AT THIS POINT ALL OF THE VENUES AND ALL OF THEIR INFORMATION WILL BE STORED IN THE 'VENUES' ARRAY
+    console.log(venues);
   }
 }
 
