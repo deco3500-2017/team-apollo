@@ -1,7 +1,7 @@
 var runAudio = false;
 var runLocation = false;
 var runAccelerometer = false;
-var isLocal = true;
+var isLocal = false;
 
 var map;
 var service;
@@ -81,6 +81,7 @@ function initMap() {
   if (!isLocal) {
     getVenues();
     //AT THIS POINT ALL OF THE VENUES AND ALL OF THEIR INFORMATION WILL BE STORED IN THE 'VENUES' ARRAY
+    console.log("LOADED THE FOLLOWING VENUES AT THE END OF initMap() in MAP.JS")
     console.log(venues);
   }
 }

@@ -61,18 +61,16 @@ function makeMarker(latLng, title) {
 }
 
 function getVenues() {
-  $.post("../server/ajax_test.php", {
+  $.post("https://deco3500-venu.uqcloud.net/luke/server/ajax_test.php", {
     venues: "locations",
-  },
-    function (data, status) {
-      var returnVenues = JSON.parse(data);
+  }).done(function (data, status) {
+    var returnVenues = JSON.parse(data);
 
-      returnVenues.forEach(function (e) {
-        var venueInfo = JSON.parse(e);
-        getVenueByID(venueInfo.venueID).addVenueInfo(venueInfo);
-      });
-    }
-  );
+    returnVenues.forEach(function (e) {
+      var venueInfo = JSON.parse(e);
+      getVenueByID(venueInfo.venueID).addVenueInfo(venueInfo);
+    });
+  }, "json");
 }
 
 function sendBuzz(id, username, venue, audio, accelerometer) {
