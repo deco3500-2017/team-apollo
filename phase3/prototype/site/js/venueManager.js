@@ -10,6 +10,7 @@ class Venue {
     this.accelerometer = null;
     this.popularity = null;
     this.buzz = null;
+    this.marker = null;
   }
 
   updatebuzz(audio, accelerometer, popularity, buzz) {
@@ -25,6 +26,10 @@ class Venue {
 
   clearReview(review) {
     delete this.reviews.review.id;
+  }
+
+  addMarker(markerObject) {
+    this.marker = markerObject;
   }
 }
 

@@ -43,6 +43,8 @@ function googleReady() {
 			fillMeter.style.background = 'blue';
 			fillMeter.style.top = "50%";
 
+			this.meter = fillMeter;
+
 			div.appendChild(fillMeter);
 
 			if (typeof (self.args.marker_id) !== 'undefined') {
@@ -50,7 +52,8 @@ function googleReady() {
 			}
 
 			google.maps.event.addDomListener(div, "click", function (event) {
-				alert('You clicked on a custom marker!');
+				console.log('You clicked on a custom marker!');
+				changeFill(div, 80);
 				google.maps.event.trigger(self, "click");
 			});
 
@@ -76,4 +79,12 @@ function googleReady() {
 	CustomMarker.prototype.getPosition = function () {
 		return this.latlng;
 	};
+
+	// CustomMarker.prototype.changeFill = function (value) {
+	// 	this.meter.style.top = value + "%";
+	// }
+}
+
+function changeFill(div, val) {
+	div.children[0].style.top = val + "%";
 }
