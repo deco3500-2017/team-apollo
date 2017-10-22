@@ -1,11 +1,13 @@
-function CustomMarker(latlng, map, markerArray, id) {
+function CustomMarker(latlng, map, venueObject) {
 	console.log("creating a CustomMarker");
+	console.log(venueObject);
 
 	this.latlng = latlng;
 	this.setMap(map);
 
-	this.id = id;
-	this.markerArray = markerArray;
+	this.id = venueObject.id;
+
+	this.venue = venueObject;
 }
 
 function googleReady() {
@@ -43,7 +45,7 @@ function googleReady() {
 
 			div.appendChild(fillMeter);
 
-			this.markerArray[this.id] = div;
+			this.venue.marker = div;
 
 			google.maps.event.addDomListener(div, "click", function (event) {
 				console.log('You clicked on a custom marker!');

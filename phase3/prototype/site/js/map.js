@@ -21,44 +21,45 @@ var userID = 2;
 var motionAllowed, audioAllowed, geoAllowed = false;
 
 //This function gets called once the page loads
-//Currently it starts the audio listener straight away (NEEDS FIXING LATER BECAUSE THIS ISN'T RIGHT) and attaches a listener to the button on the bottom which starts the mainloop when pressed.
 $(document).ready(function () {
 
+  //THIS EVENT LISTENER IS ATTACHED TO WHICHEVER BUTTON THE USER PRESSES TO LET US BEGIN RECORDING USING THEIR SENSORS. IT STARTS THE SENSORS AND THE MAIN LOOP.
+  document.getElementById("allowSound").addEventListener("click", startSensorsAndMainLoop);
+});
+
+//This function lets the accelerometer / microphone / geolocation service start running. Then calls the main loop.
+function startSensorsAndMainLoop() {
   if (runAudio) {
     navigator.mediaDevices.getUserMedia(constraints).then(handleSuccess).catch(handleError);
   }
 
-  //Note for HUSHENG : WHICHEVER BUTTON THE USER USES TO LOG IN / APPROVE ACCESS TO MICROPHONE & AUDIO SHOULD BE ATTACHED TO THE EVENT LISTENER BELOW INSTEAD OF THE "allowSound" ELEMENT. THE BELOW EVENT IS WHAT BEGINS THE MAINLOOP. ONCE YOU'VE GOT THE LOGIN FUNCTION WORKING WE ONLY WANT MAINLOOP TO BEGIN ONCE WE HAVE GOTTEN THE USERNAME AND USER ID AND SET THE VARIABLES ABOVE (userID and username).
-  document.getElementById("allowSound").addEventListener("click", function () {
+  soundMeter.context.resume();
 
-    soundMeter.context.resume();
+  //attach accelerometer event listener
+  if (runAccelerometer) {
+    if (window.DeviceMotionEvent) {
+      console.log("Motion supported");
+      motionAllowed = true;
+      window.addEventListener('devicemotion', deviceMotionHandler, false);
+    } else {
+      console.log("Motion NOT supported");
+    };
+  }
 
-    //attach accelerometer event listener
-    if (runAccelerometer) {
-      if (window.DeviceMotionEvent) {
-        console.log("Motion supported");
-        motionAllowed = true;
-        window.addEventListener('devicemotion', deviceMotionHandler, false);
-      } else {
-        console.log("Motion NOT supported");
-      };
+  //attach geolocation stuff
+  if (runLocation) {
+    if (navigator.geolocation) {
+      geoAllowed = true;
+    } else {
+      console.log("Geolocation is not supported by this browser");
     }
+  }
 
-    //attach geolocation stuff
-    if (runLocation) {
-      if (navigator.geolocation) {
-        geoAllowed = true;
-      } else {
-        console.log("Geolocation is not supported by this browser");
-      }
-    }
-
-    //call the main loop
-    if (!isLocal) {
-      mainloop();
-    }
-  });
-});
+  //call the main loop
+  if (!isLocal) {
+    mainloop();
+  }
+};
 
 /* This is the function which gets called once the google maps component is loaded. it initialises the map variable to store a reference to the javascript map.
 */
@@ -70,11 +71,13 @@ function initMap() {
     zoom: 15
   });
 
+  //an event which is necessary in another function to let it instantiate some stuff which uses Google.
   googleReady();
 
+  //This function creates all of the markers and geofences on the map.
   prepareMarkersAndFences();
 
-  //Grab list of venues from db and add them to local venue storage. Venues are stores as Venue objects (defined in venueManager.js) in an array named venues which is globally accessible.
+  //Grab list of venues from db and add them to local global venue storage. This array can be found in the venueManager.js file.
   if (!isLocal) {
     getVenues();
   }
@@ -151,7 +154,7 @@ function addMarker(markerObject) {
 }
 
 function prepareMarkersAndFences() {
-  venueArray.forEach(function (e) {
+  venues.forEach(function (e) {
     polygonHolder.push({
       polygon: new google.maps.Polygon({
         paths: e.coords
@@ -160,10 +163,10 @@ function prepareMarkersAndFences() {
     });
 
     var markerLatLng = new google.maps.LatLng(e.point.lat, e.point.lng);
-    createSmartMarker(markerLatLng, map, markerArray, e.id);
+    createSmartMarker(markerLatLng, map, e);
   });
 
-  console.log(markerArray);
+  // console.log(markerArray);
 
   polygonHolder.forEach(function (e) {
     e.polygon.setMap(map);

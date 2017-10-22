@@ -1,6 +1,8 @@
 //An array to store all of the venues as objects with an ID and its coordinates
 var venueArray = new Array();
 
+//Boring stuff below.. But we declare the Point and Geofence coordinates for each venue, as well as its ID below, and store them in 'venueArray'. Then we put that data into the appropriate venue object in the main 'venue' array (in venuemanager.js), as you can see above.
+
 //All of the geofence data for all of the venues
 var AEBCoords = [{
   lng: 153.015701,
@@ -557,3 +559,12 @@ var lukesHouse = {
 };
 
 venueArray.push(lukesHouse);
+
+venueArray.forEach(function (e) {
+  venues.push(new Venue(e.id));
+  getVenueByID(e.id).point = e.point;
+  getVenueByID(e.id).coords = e.coords;
+})
+
+console.log("instantiated venues");
+console.log(venues);

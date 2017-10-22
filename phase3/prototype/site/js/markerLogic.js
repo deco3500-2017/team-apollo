@@ -1,12 +1,9 @@
-function createSmartMarker(latlng, map, markerArray, id) {
+function createSmartMarker(latlng, map, venueObject) {
     new CustomMarker(
         latlng,
         map,
-        markerArray,
-        id
+        venueObject
     );
-
-    // overlay.draw();
 }
 
 function changeFill(div, val) {
@@ -15,4 +12,5 @@ function changeFill(div, val) {
 
 function markerClicked(id) {
     console.log("The marker of venue ID " + id + " was just clicked");
+    changeFill(getVenueByID(id).marker, 100);
 }
