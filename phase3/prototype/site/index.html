@@ -23,11 +23,24 @@
   <script type="text/javascript" src="./js/audioCapture.js"></script>
   <script type="text/javascript" src="./js/map.js"></script>
   <!-- <script type="text/javascript" src="./js/getImages.js"></script> -->
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
 </head>
 
 <body>
   <button id="allowSound" class="layer0">START MAIN LOOP</button>
-  <div id="map"></div>
+  <div id="map" class="layer1"></div>
+  
+  <div class="search layer2">
+        <div class="addon-search">
+	        <i class="fa fa-search"></i>
+	    </div>
+        <input type="text" class="search-field" placeholder="Search">
+	</div>
+  
 
   <!-- <p id="volume">HELLO</p> -->
   <audio id="gum-local"></audio>
@@ -35,7 +48,7 @@
   <!-- <script type="text/javascript" src="./js/geolocation.js"></script> -->
 
   <!-- Login Screen -->
-  <div id="login" class="fullscreen regularBackground">
+  <div id="login" class="fullscreen regularBackground layer3">
 
     <button id="hideLogin">HIDE LOGIN SCREEN</button>
 
@@ -65,7 +78,7 @@
   </div>
 
   <!-- Sign Up Screen -->
-  <div id="signUp" class="fullscreen regularBackground hidden">
+  <div id="signUp" class="fullscreen regularBackground hidden layer3">
 
     <div class="inputHolder">
       <div>
