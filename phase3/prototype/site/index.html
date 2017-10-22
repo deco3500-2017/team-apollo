@@ -3,8 +3,7 @@
 
 <head>
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/login.css">
-  <link rel="stylesheet" href="./css/signup.css">
+  <link rel="stylesheet" href="./css/login_signup.css">
 
   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 
@@ -16,20 +15,24 @@
   <script type="text/javascript" src="./js/venueCoords.js"></script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8Anl6qL_Q0mXyYznxz6jTnpIGQdNBJhs&callback=initMap&libraries=places">
   </script>
+
+  <script type="text/javascript" src="./js/CustomGoogleMapMarker.js"></script>
+  <script type="text/javascript" src="./js/markerLogic.js"></script>
+
   <script type="text/javascript" src="./js/soundmeter.js"></script>
   <script type="text/javascript" src="./js/audioCapture.js"></script>
   <script type="text/javascript" src="./js/map.js"></script>
-  <script type="text/javascript" src="./js/getImages.js"></script>
+  <!-- <script type="text/javascript" src="./js/getImages.js"></script> -->
 </head>
 
 <body>
-  <!-- <button id="allowSound">START MAIN LOOP</button> -->
+  <button id="allowSound" class="layer0">START MAIN LOOP</button>
   <div id="map"></div>
 
   <!-- <p id="volume">HELLO</p> -->
   <audio id="gum-local"></audio>
   <script type="text/javascript" src="./js/accelerometer.js"></script>
-  <script type="text/javascript" src="./js/geolocation.js"></script>
+  <!-- <script type="text/javascript" src="./js/geolocation.js"></script> -->
 
   <!-- Login Screen -->
   <div id="login" class="fullscreen regularBackground">

@@ -17,6 +17,10 @@ form, fieldset, body {
   margin: 0;
 }
 
+.layer0 {
+  z-index: 0;
+}
+
 .layer1 {
   z-index: 1;
 }
@@ -36,6 +40,7 @@ form, fieldset, body {
 .fullscreen {
   @extend .layer2;
   position: absolute;
+  top:0;
   height: 100vh;
   width: 100vw;
 }
@@ -67,6 +72,7 @@ form, fieldset, body {
 
 #map {
   position: absolute;
+  top: 0;
   height: 100vh;
   width: 100vw;
 }
