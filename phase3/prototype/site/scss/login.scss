@@ -30,3 +30,17 @@
   border: 1px solid #333;
   background-color: yellow;
 }
+
+#hideLogin {
+  width: 66%;
+
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  font-size: 40px;
+  height: 60px;
+
+  @extend .devBorder;
+}

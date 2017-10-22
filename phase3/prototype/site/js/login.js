@@ -1,6 +1,7 @@
 $("document").ready(function () {
   $("#loginSubmit").bind("click", loginClick);
   $("#signUpButton").bind("click", signUpClick);
+  $("#hideLogin").bind("click", hideLogin);
 });
 
 function loginClick() {
@@ -23,4 +24,9 @@ function signUpClick() {
   console.log("going to sign up page");
   $("#login").hide();
   $("#signUp").show();
+}
+
+function hideLogin() {
+  console.log("hiding login");
+  $("#login").hide();
 }
