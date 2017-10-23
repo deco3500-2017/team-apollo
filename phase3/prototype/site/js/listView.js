@@ -2,6 +2,10 @@ var venuesByDistance = [];
 
 $(document).ready(function () {
     $("#listButton").bind("click", showList);
+
+    $("#listButton").bind("click", { val: 1 }, changeActive);
+    $("#mapButton").bind("click", { val: 2 }, changeActive);
+    $("#profileButton").bind("click", { val: 3 }, changeActive);
 })
 
 function showList() {
@@ -59,17 +63,41 @@ function addVenueHTML(id, title, distance) {
 
     var listHTML =
         "<li class='item'> \
-            <div class='item-img'> \
-                <img src='./img/9.jpg' class='venu-icon' /> \
-        </div> \
-      <div class='item-content'> \
-        <p class='item-title'>" + title + " </p> \
-        <p class='item-detail'> Less than " + ((distance / 1000) + 1).toFixed(1) + "km Away </p> \
-      </div> \
-      <div class='item-rating'> \
-        <i class='fa fa-thermometer-0 rating'></i> \
-      </div> \
+    <div class='item-img'> \
+    <img src='./img/" + id + ".jpg' class='venu-icon' /> \
+    </div> \
+    <div class='item-content'> \
+    <p class='item-title'>" + title + " </p> \
+    <p class='item-detail'> Less than " + ((distance / 1000) + 1).toFixed(1) + "km Away </p> \
+    </div> \
+    <div class='item-rating'> \
+    <i class='fa fa-thermometer-0 rating'></i> \
+    </div> \
     </li>";
 
     return listHTML;
+}
+
+function changeActive(iconNum) {
+    switch (iconNum.data.val) {
+        case 1:
+            $("#listIcon").addClass("active");
+            $("#mapIcon").removeClass("active");
+            $("#profileIcon").removeClass("active");
+            break;
+
+        case 2:
+            $("#listIcon").removeClass("active");
+            $("#mapIcon").addClass("active");
+            $("#profileIcon").removeClass("active");
+
+            $("#listview").addClass("hidden");
+            break;
+
+        case 3:
+            $("#listIcon").removeClass("active");
+            $("#mapIcon").removeClass("active");
+            $("#profileIcon").addClass("active");
+            break;
+    }
 }
