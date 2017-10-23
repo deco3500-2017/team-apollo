@@ -17,6 +17,7 @@ Team Name: Team Apollo
 ## 2.0 Prototype
 
 **High Fidelity:** INSERT LINK HERE
+
 **Low Fidelity:** INSERT LINK HERE
 
 ## 3.0 Project Summary
