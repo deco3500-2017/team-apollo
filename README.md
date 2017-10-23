@@ -6,15 +6,19 @@ Team Name: Team Apollo
 
 ## 1.0 Promotional Material
 
-- Poster
-- Website
-- Information Brochure
+### Poster
+
+// Image here
+
+### Information Brochure
+
+// Image here
 
 ## 2.0 Prototype
 
-- High Fidelity
-- Low Fidelity
-- Balsamiq
+**High Fidelity:** INSERT LINK HERE
+
+**Low Fidelity:** INSERT LINK HERE
 
 ## 3.0 Project Summary
 
@@ -22,7 +26,33 @@ _Venu_ is a project that intends to improve the quality of the community's night
 
 ## 4.0 Project Process
 
-Content will go here
+### Phase 1: Research
+
+- Industry Research
+- Competitive Analysis
+- User Research
+- Wireframes
+
+### Phase 2: Requirements
+
+- Surveys
+- Interviews
+- User Testing
+- Wireframes
+
+### Phase 3: Design
+
+- Venu Branding
+- Style Guide
+- Low-fidelity Designs
+- Invision Prototype
+
+### Phase 4: Prototyping
+
+- Design Functionality & Capabilities 
+- Develop Backend
+- Integrate Prototype Designs
+- High-Fidelity User Testing
 
 ## 5.0 Project Contributions
 
