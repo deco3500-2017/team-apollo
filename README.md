@@ -6,15 +6,18 @@ Team Name: Team Apollo
 
 ## 1.0 Promotional Material
 
-- Poster
-- Website
-- Information Brochure
+### Poster
+
+// Image here
+
+### Information Brochure
+
+// Image here
 
 ## 2.0 Prototype
 
-- High Fidelity
-- Low Fidelity
-- Balsamiq
+**High Fidelity:** INSERT LINK HERE
+**Low Fidelity:** INSERT LINK HERE
 
 ## 3.0 Project Summary
 
