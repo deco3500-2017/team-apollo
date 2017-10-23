@@ -1,0 +1,180 @@
+
+.container{
+	position: relative;
+	height: calc(100vh - 48px);
+	overflow: auto;
+	background-color: #f6f6f6;
+}
+
+.back-btn a{
+	color: white;
+	position: absolute;
+	font-size: 35px;
+	top: 10px;
+	left: 15px;
+}
+
+.slide{
+	height: 35vh;
+	background-position: center;
+	background-size: cover;
+}
+
+.slide:nth-child(1) {background-image: url("site/img/5.jpg");}
+
+.venu-label{
+	background-color: rgba(50, 50, 50, 0.8);
+	width: 100%;
+	position: absolute;
+	top: 22vh;
+	left: 0;
+	color: white;
+}
+
+.venu-name{
+	margin: 10px 10px 0px 10px;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.venu-type{
+	margin: 0px 10px 10px 10px;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.venu-rating{
+	float: right;
+	position: absolute;
+	right: 10px;
+	top: 21vh;
+	background-color: white;
+	width: 70px;
+	height: 70px;
+	font-size: 50px;
+	text-align: center;
+	color: #EA6045;
+	border: 2px solid #EA6045;
+	border-radius: 50px;
+}
+
+.rating{
+	margin: auto;
+	vertical-align: middle;
+}
+
+.profile-btns{
+	display: flex;
+	padding: 15px 10px 10px 10px;
+	font-size: 30px;
+	color: #6b6b6b;
+	border-top: 1px solid rgba(0, 0, 0, 0.15);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.label-btn{
+	font-size: 16px;
+	font-weight: 300;
+	margin: 10px 0px 0px 0px;
+}
+
+.fav-btn{
+	flex: 1;
+	text-align: center;
+}
+
+.web-btn{
+	flex: 1;
+	text-align: center;
+}
+
+.call-btn{
+	flex: 1;
+	text-align: center;
+}
+
+.active2{
+	color: #EA6045 !important;
+}
+
+.rating-graph{
+	height: 25vh;
+	background-color: #4b4b4b;
+}
+
+.rating-point{
+	display: flex;
+	padding: 20px 10px;
+	border-top: 1px solid rgba(0, 0, 0, 0.15);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.label-point{
+	font-size: 16px;
+	font-weight: 600;
+	margin: 0px 0px 10px 0px;
+}
+
+.point{
+	font-size: 25px;
+	font-weight: 300;
+	margin: 0;
+	color: #505256;
+}
+
+.capacity{
+	flex: 1;
+	text-align: center;
+	color: #30a1e8;
+}
+
+.volume{
+	flex: 1;
+	text-align: center;
+	color: #ab30e8;
+}
+
+.movement{
+	flex: 1;
+	text-align: center;
+	color: #60d05c;
+}
+
+.venu-map{
+	height: 20vh;
+	background-color: #4b4b4b;
+}
+
+.detail-venu{
+	padding: 25px 10px;
+}
+
+.detail{
+	display: flex;
+	font-size: 16px;
+	color: #6b6b6b;
+}
+
+.ic{
+	flex: 1;
+	text-align: center;
+	margin: auto;
+	font-size: 30px;
+}
+
+.des{
+	flex: 4;
+	padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
