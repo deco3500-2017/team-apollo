@@ -15,6 +15,7 @@ function Venue(id) {
   marker = null;
   coords = null;
   point = null;
+  distance = null;
 }
 
 Venue.prototype.addVenueInfo = function (venueObject) {

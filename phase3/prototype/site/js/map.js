@@ -119,6 +119,9 @@ function mainloop2(currentLocation) {
   var currentLatLngObject = getLatLng(currentLocation);
   var currentLatLngGoogle = new google.maps.LatLng(currentLatLngObject.lat, currentLatLngObject.lng);
 
+  //Calculate the distance to each venue and apply it to their data
+  calculateDistances(currentLatLngGoogle);
+
   markCurrentLocation(currentLatLngObject);
   var venue = checkIfInVenue(currentLatLngGoogle);
 
@@ -204,4 +207,15 @@ function updateMarkers() {
   venues.forEach(function (e) {
     changeFill(e.marker, e.buzz);
   })
+}
+
+function calculateDistances(currentLatLng) {
+  venues.forEach(function (e) {
+    var venueLatLng = new google.maps.LatLng(e.point.lat, e.point.lng);
+    var distance = google.maps.geometry.spherical.computeDistanceBetween(currentLatLng, venueLatLng);
+
+    e.distance = distance;
+  });
+
+  showList();
 }
