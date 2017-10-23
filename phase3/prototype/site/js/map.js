@@ -68,7 +68,8 @@ function initMap() {
 
   map = new google.maps.Map(document.getElementById('map'), {
     center: brisbane,
-    zoom: 15
+    zoom: 15,
+    disableDefaultUI: true,
   });
 
   //an event which is necessary in another function to let it instantiate some stuff which uses Google.
