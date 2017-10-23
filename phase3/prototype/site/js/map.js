@@ -20,17 +20,25 @@ var audioON = false;
 
 function microphoneON() {
   if (runAudio = true && audioON == false) {
+    audioON = true;
     console.log(soundMeter);
     console.log("microphone should be on now");
     soundMeter.context.resume();
     console.log(soundMeter);
   }
+
+  // document.getElementById("map").removeEventListener("click");
+  // document.getElementById("map").removeEventListener("touchmove");
 }
 
 //This function gets called once the page loads
 $(document).ready(function () {
 
   document.getElementById("map").addEventListener("click", microphoneON);
+  document.getElementById("map").addEventListener("touchmove", microphoneON);
+  document.getElementById("map").addEventListener("touchstart", microphoneON);
+  document.getElementById("map").addEventListener("mousedown", microphoneON);
+  document.getElementById("map").addEventListener("dragstart", microphoneON);
 
   //THIS EVENT LISTENER IS ATTACHED TO WHICHEVER BUTTON THE USER PRESSES TO LET US BEGIN RECORDING USING THEIR SENSORS. IT STARTS THE SENSORS AND THE MAIN LOOP.
   document.getElementById("allowSound").addEventListener("click", startSensorsAndMainLoop);
@@ -146,6 +154,9 @@ function mainloop2(currentLocation) {
 
   //Update the map markers
   updateMarkers();
+
+  //Update the list thermometers if they exist
+  updateListThermometers();
 }
 
 //Creates a marker on the map at the browser's current location
@@ -218,4 +229,13 @@ function calculateDistances(currentLatLng) {
   });
 
   console.log(venues);
+}
+
+function updateListThermometers() {
+
+  if ($("#list1")) { //The list thermometers have been created
+    venues.forEach(function (e) {
+      $("#list" + e.id).css("height", Math.min(e.buzz + 25, 98) + "%");
+    })
+  }
 }

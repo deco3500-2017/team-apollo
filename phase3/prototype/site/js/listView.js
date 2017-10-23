@@ -55,6 +55,7 @@ function addVenuesToList() {
 
         console.log("should be appending something to the listview");
         $("#listViewList").append(addVenueHTML(venue.id, venue.name, venue.distance));
+        $("#list" + venue.id).css("height", Math.min(venue.buzz + 25, 98) + "%");
     })
 }
 
@@ -64,14 +65,15 @@ function addVenueHTML(id, title, distance) {
     var listHTML =
         "<li class='item'> \
     <div class='item-img'> \
-    <img src='./img/" + id + ".jpg' class='venu-icon' /> \
+        <img src='./img/" + id + ".jpg' class='venu-icon' /> \
     </div> \
     <div class='item-content'> \
-    <p class='item-title'>" + title + " </p> \
-    <p class='item-detail'> Less than " + ((distance / 1000) + 1).toFixed(1) + "km Away </p> \
+        <p class='item-title'>" + title + " </p> \
+        <p class='item-detail'> Less than " + ((distance / 1000) + 1).toFixed(1) + "km Away </p> \
     </div> \
-    <div class='item-rating'> \
-    <i class='fa fa-thermometer-0 rating'></i> \
+    <div class='thermometer-holder'> \
+        <div class='bottom-circle'></div> \
+        <div class='mercury' id='list" + id + "'></div> \
     </div> \
     </li>";
 
