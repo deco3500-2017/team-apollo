@@ -12,5 +12,6 @@ function changeFill(div, val) {
 
 function markerClicked(id) {
     console.log("The marker of venue ID " + id + " was just clicked");
-    changeFill(getVenueByID(id).marker, 100);
+    showVenueProfile(id);
+    // changeFill(getVenueByID(id).marker, 100);
 }
