@@ -1,0 +1,144 @@
+body{
+	margin: 0;
+	background-color: #f6f6f6;
+}
+
+.navbar{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: auto;
+	width: 100vw;
+	padding: 5px 0;
+	background-color: #f6f6f6;
+	box-shadow: 0px -.1px 5px .1px rgba(0, 0, 0, 0.5);
+	font-size: 30px;
+	display: flex;
+}
+
+.list-btn{
+	flex: 1;
+	text-align: center;
+}
+
+.map-btn{
+	flex: 1;
+	text-align: center;
+}
+
+.profile-btn{
+	flex: 1;
+	text-align: center;
+}
+
+.icon{
+	color: #6d7079;
+}
+
+.active{
+	color: #F8CA4D !important;
+	font-size: 35px !important;
+}
+
+.listview{
+	height: calc(100vh - 48px);
+	overflow: auto;
+	background-color: #fafafa;
+}
+
+.listview ul{
+	padding: 0;
+	margin: 0;
+}
+
+.listview a{
+	text-decoration: none;
+}
+
+.item{
+	display: flex;
+	padding: 15px;
+	border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.item:hover{
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.item:nth-last-child(1){
+	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.item-img{
+	flex: 1;
+	text-align: center;
+	margin: auto;
+}
+
+.venu-icon{
+	width: 60px;
+	height: 60px;
+	vertical-align: middle;
+	border-radius: 50px;
+}
+
+.item-content{
+	flex: 3;
+	padding-left: 20px;
+}
+
+.item-title{
+	font-size: 18px;
+	font-weight: 600;
+	color: #2F3440;
+	margin: 8px 0px 7px 0px;
+}
+
+.item-detail{
+	font-size: 14px;
+	font-weight: 300;
+	margin: 0;
+	color: #525252;
+}
+
+.item-rating{
+	flex: 1;
+	text-align: center;
+	margin: auto;
+}
+
+.rating{
+	font-size: 40px !important;
+	vertical-align: middle;
+	color: #EA6045;
+}
+
+
+.addon-search{
+	font-size: 18px;
+	width: 5%;
+	float: left;
+	text-align: center;
+	margin: 0px 13px 0px 20px;
+}
+
+.search-field{
+	border: 0px solid black;
+	width: 82%;
+	background-color: rgba(255, 255, 255, 0);
+	font-size: 18px;
+}
+
+input:focus{
+	outline: none;
+}
+
+.search{
+	padding: 13px 0px 11px 0px;
+	width: 100vw;
+	background-color: #f6f6f6;
+}
+
+
+
+
