@@ -1,13 +1,19 @@
 var venuesByDistance = [];
 
-// $(document).ready(function () {
-//     $("#listButton").bind("click", showList);
-// })
+$(document).ready(function () {
+    $("#listButton").bind("click", showList);
+})
 
 function showList() {
+    console.log("should be showing list");
+    clearList();
     populateList();
 
-    // $("#listView").show();
+    $("#listview").toggleClass("hidden");
+}
+
+function clearList() {
+    $("#listViewList").empty();
 }
 
 function populateList() {
@@ -41,6 +47,29 @@ function sortByDistance() {
 
 function addVenuesToList() {
     venuesByDistance.forEach(function (e) {
-        //insert html object into list object
+        var venue = getVenueByID(e[0]);
+
+        console.log("should be appending something to the listview");
+        $("#listViewList").append(addVenueHTML(venue.id, venue.name, venue.distance));
     })
+}
+
+function addVenueHTML(id, title, distance) {
+    var imgSrc; //Need to create a way to get image source from ID;
+
+    var listHTML =
+        "<li class='item'> \
+            <div class='item-img'> \
+                <img src='./img/9.jpg' class='venu-icon' /> \
+        </div> \
+      <div class='item-content'> \
+        <p class='item-title'>" + title + " </p> \
+        <p class='item-detail'> Less than " + ((distance / 1000) + 1).toFixed(1) + "km Away </p> \
+      </div> \
+      <div class='item-rating'> \
+        <i class='fa fa-thermometer-0 rating'></i> \
+      </div> \
+    </li>";
+
+    return listHTML;
 }

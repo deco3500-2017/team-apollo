@@ -83,16 +83,16 @@ function sendBuzz(id, username, venue, audio, accelerometer) {
     accelerometer: accelerometer
   };
 
-  console.log("sending buzz : ");
-  console.log(buzzData);
+  // console.log("sending buzz : ");
+  // console.log(buzzData);
 
   $.post("https://deco3500-venu.uqcloud.net/luke/server/buzzUpload.php", {
     buzz: buzzData
   },
     function (data, status) {
       var response = JSON.parse(data);
-      console.log("response from buzzUpload");
-      console.log(response);
+      // console.log("response from buzzUpload");
+      // console.log(response);
     });
 }
 
@@ -113,8 +113,8 @@ function pullBuzz() {
   },
     function (data, status) {
       var response = JSON.parse(data);
-      console.log("Pull Data : ");
-      console.log(response);
+      // console.log("Pull Data : ");
+      // console.log(response);
 
       //temporary place to store all of the buzz values
       var buzzArray = new Array(14);
@@ -156,7 +156,7 @@ function pullBuzz() {
       //Put the buzz values in to the main venue array.
       saveBuzzIntoVenue();
 
-      console.log("Venues below: ");
+      // console.log("Venues below: ");
       console.log(venues);
     });
 }

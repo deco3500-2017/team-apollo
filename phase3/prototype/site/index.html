@@ -4,6 +4,7 @@
 <head>
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/login_signup.css">
+  <link rel="stylesheet" href="./css/listview_style.css">
 
   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 
@@ -43,18 +44,18 @@
   </div>
 
   <div class="navbar layer1">
-    <div class="list-btn">
-      <a class="" href="#">
+    <div id="listButton" class="list-btn">
+      <a class="">
         <i class="fa fa-bars icon"></i>
       </a>
     </div>
     <div class="map-btn">
-      <a class="" href="#">
+      <a class="">
         <i class="fa fa-map-marker icon active"></i>
       </a>
     </div>
     <div class="profile-btn">
-      <a class="" href="#">
+      <a class="">
         <i class="fa fa-user icon"></i>
       </a>
     </div>
@@ -124,9 +125,24 @@
     </div>
   </div>
 
+  <!-- The component with the button which users use to grant access to the sensors -->
   <div id="accessGrant" class="hidden layer2">
     <h4>Grant access to GPS, Microphone and Accelerometer Data</h4>
     <button id="allowSound" class="layer0">OK</button>
+  </div>
+
+  <!-- The listview component -->
+  <div id="listview" class="listview hidden">
+
+    <div class="search-list">
+      <div class="addon-search-list">
+        <i class="fa fa-search"></i>
+      </div>
+      <input type="text" class="search-field-list" placeholder="Search">
+    </div>
+
+    <ul id="listViewList">
+    </ul>
   </div>
 
 </body>
