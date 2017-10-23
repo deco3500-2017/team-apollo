@@ -1,6 +1,6 @@
-var runAudio = true;
-var runLocation = true;
-var runAccelerometer = true;
+var runAudio = false;
+var runLocation = false;
+var runAccelerometer = false;
 var isLocal = false;
 
 var map;
@@ -16,8 +16,21 @@ var markerArray = new Array();
 //variables to store which permissions we've currently got.
 var motionAllowed, audioAllowed, geoAllowed = false;
 
+var audioON = false;
+
+function microphoneON() {
+  if (runAudio = true && audioON == false) {
+    console.log(soundMeter);
+    console.log("microphone should be on now");
+    soundMeter.context.resume();
+    console.log(soundMeter);
+  }
+}
+
 //This function gets called once the page loads
 $(document).ready(function () {
+
+  document.getElementById("map").addEventListener("click", microphoneON);
 
   //THIS EVENT LISTENER IS ATTACHED TO WHICHEVER BUTTON THE USER PRESSES TO LET US BEGIN RECORDING USING THEIR SENSORS. IT STARTS THE SENSORS AND THE MAIN LOOP.
   document.getElementById("allowSound").addEventListener("click", startSensorsAndMainLoop);
@@ -25,6 +38,10 @@ $(document).ready(function () {
 
 //This function lets the accelerometer / microphone / geolocation service start running. Then calls the main loop.
 function startSensorsAndMainLoop() {
+  runAudio = true;
+  runLocation = true;
+  runAccelerometer = true;
+
   $("#accessGrant").hide();
 
   if (runAudio) {

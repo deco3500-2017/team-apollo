@@ -16,7 +16,7 @@ var constraints;
 
 var audioLevel;
 
-$(document).ready(function() {
+$(document).ready(function () {
   audio = document.querySelector('audio');
 
   try {
@@ -38,6 +38,8 @@ $(document).ready(function() {
   // });
 });
 
+var soundMeter;
+
 function handleSuccess(stream) {
 
   audio.srcObject = stream;
@@ -48,15 +50,15 @@ function handleSuccess(stream) {
 
   var audioTracks = stream.getAudioTracks();
   console.log('Using audio device: ' + audioTracks[0].label);
-  stream.oninactive = function() {
+  stream.oninactive = function () {
     console.log('Stream ended');
   };
   window.stream = stream; // make variable available to browser console
   audio.srcObject = stream;
 
-  var soundMeter = window.soundMeter = new SoundMeter(window.audioContext);
+  soundMeter = window.soundMeter = new SoundMeter(window.audioContext);
 
-  soundMeter.connectToSource(stream, function(e) {
+  soundMeter.connectToSource(stream, function (e) {
     if (e) {
       alert(e);
       return;
@@ -68,7 +70,7 @@ function handleSuccess(stream) {
     // console.log("after");
     // console.log(soundMeter);
 
-    setInterval(function() {
+    setInterval(function () {
       // document.getElementById("volume").innerText = (soundMeter.slow);
       audioLevel = soundMeter.slow.toFixed(5);
       // console.log(soundMeter);
