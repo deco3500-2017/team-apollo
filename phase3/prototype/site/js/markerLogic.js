@@ -7,7 +7,7 @@ function createSmartMarker(latlng, map, venueObject) {
 }
 
 function changeFill(div, val) {
-    div.children[0].style.top = val + "%";
+    div.children[0].style.top = (100 - val) + "%";
 }
 
 function markerClicked(id) {

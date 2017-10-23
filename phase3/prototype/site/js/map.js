@@ -110,7 +110,7 @@ function mainloop() {
   }
 
   //runs the mainloop every 10 seconds
-  setTimeout(mainloop, 10000);
+  setTimeout(mainloop, 5000);
 }
 
 /* The function where most of the application's logic will happen. This function repeats every 15 seconds so it should update all venues and send this device's data every time it is called */
@@ -140,6 +140,9 @@ function mainloop2(currentLocation) {
 
   //Get data from database and link to our venues.
   pullBuzz();
+
+  //Update the map markers
+  updateMarkers();
 }
 
 //Creates a marker on the map at the browser's current location
@@ -195,4 +198,10 @@ function prepareMarkersAndFences() {
   polygonHolder.forEach(function (e) {
     e.polygon.setMap(map);
   });
+}
+
+function updateMarkers() {
+  venues.forEach(function (e) {
+    changeFill(e.marker, e.buzz);
+  })
 }
