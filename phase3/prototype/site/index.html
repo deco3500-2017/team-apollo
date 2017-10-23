@@ -31,7 +31,6 @@
 </head>
 
 <body>
-  <button id="allowSound" class="layer0">START MAIN LOOP</button>
   <div id="map" class="layer1"></div>
 
   <div class="search layer2">
@@ -40,25 +39,25 @@
     </div>
     <input type="text" class="search-field" placeholder="Search">
   </div>
-  
+
   <div class="navbar layer1">
-		<div class="list-btn">
-			<a class="" href="#">
-				<i class="fa fa-bars icon"></i>
-			</a>
-		</div>
-		<div class="map-btn">
-			<a class="" href="#">
-				<i class="fa fa-map-marker icon active"></i>
-			</a>
-		</div>
-		<div class="profile-btn">
-			<a class="" href="#">
-				<i class="fa fa-user icon"></i>
-			</a>
-		</div>
-		
-	</div>
+    <div class="list-btn">
+      <a class="" href="#">
+        <i class="fa fa-bars icon"></i>
+      </a>
+    </div>
+    <div class="map-btn">
+      <a class="" href="#">
+        <i class="fa fa-map-marker icon active"></i>
+      </a>
+    </div>
+    <div class="profile-btn">
+      <a class="" href="#">
+        <i class="fa fa-user icon"></i>
+      </a>
+    </div>
+
+  </div>
 
 
   <!-- <p id="volume">HELLO</p> -->
@@ -124,7 +123,10 @@
     </div>
   </div>
 
-
+  <div id="accessGrant" class="hidden layer2">
+    <h4>Grant access to GPS, Microphone and Accelerometer Data</h4>
+    <button id="allowSound" class="layer0">OK</button>
+  </div>
 
 </body>
 

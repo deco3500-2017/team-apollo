@@ -138,7 +138,22 @@ input:focus{
 	font-size: 35px !important;
 }
 
+#accessGrant {
+	position: absolute;
+	padding: 30px;
+	width: 30vw;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
 
+	button {
+		@extend .centeredBlock;
+		border: solid 1px black;
+		width: 30px;
+		height: 30px;
+	}
+}
 
 
 

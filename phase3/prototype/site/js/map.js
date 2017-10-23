@@ -1,6 +1,6 @@
-var runAudio = false;
-var runLocation = false;
-var runAccelerometer = false;
+var runAudio = true;
+var runLocation = true;
+var runAccelerometer = true;
 var isLocal = false;
 
 var map;
@@ -12,10 +12,6 @@ var currentPosition;
 var polygonHolder = new Array();
 
 var markerArray = new Array();
-
-//hardcoded login information which should be set to whatever the user logs in with.
-var username = "luke"
-var userID = 2;
 
 //variables to store which permissions we've currently got.
 var motionAllowed, audioAllowed, geoAllowed = false;
@@ -29,11 +25,13 @@ $(document).ready(function () {
 
 //This function lets the accelerometer / microphone / geolocation service start running. Then calls the main loop.
 function startSensorsAndMainLoop() {
+  $("#accessGrant").hide();
+
   if (runAudio) {
     navigator.mediaDevices.getUserMedia(constraints).then(handleSuccess).catch(handleError);
   }
 
-  soundMeter.context.resume();
+  // soundMeter.context.resume();
 
   //attach accelerometer event listener
   if (runAccelerometer) {
@@ -143,6 +141,8 @@ function checkIfInVenue(currentLocation) {
     if (google.maps.geometry.poly.containsLocation(currentLocation, e.polygon)) {
       console.log("In Venue with ID : " + e.id);
       returnVal = e;
+    } else {
+      console.log("not in a venue");
     }
   });
   return returnVal;
@@ -169,6 +169,9 @@ function prepareMarkersAndFences() {
     var markerLatLng = new google.maps.LatLng(e.point.lat, e.point.lng);
     createSmartMarker(markerLatLng, map, e);
   });
+
+  console.log("made polygons : ");
+  console.log(polygonHolder);
 
   // console.log(markerArray);
 

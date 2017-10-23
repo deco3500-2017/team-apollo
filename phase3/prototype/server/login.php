@@ -1,5 +1,7 @@
 <?php
 
+header('Access-Control-Allow-Origin: *');
+
 // session_start();
 
 require "base_functions.php";
@@ -19,7 +21,7 @@ if(isset($_POST['user'], $_POST['pass'])) {
 	}
 	
 	//Prepare a statement to check that no one has already taken this username
-	if (!$checkPass = $conn->prepare("SELECT username, password FROM users WHERE username = ?")){
+	if (!$checkPass = $conn->prepare("SELECT username, password, userID FROM users WHERE username = ?")){
 		// Close the database connection.
 		$conn->close();
 		returnError(1, "Selection parameters are incorrect", $conn->connect_error);
@@ -37,7 +39,7 @@ if(isset($_POST['user'], $_POST['pass'])) {
 	$checkPass->execute();
 	
 	//store results
-	$checkPass->bind_result($username, $password);
+	$checkPass->bind_result($username, $password, $userID);
 	
 	while ($checkPass->fetch()) {
 		// Verify the POST password against the password stored to authorise user.
@@ -45,7 +47,8 @@ if(isset($_POST['user'], $_POST['pass'])) {
 			// Return a success message if the password is correct.
 			$return = array("success"=> 1,
 			"success_name"=>"Correct Password",
-			"success_message"=>"The password for the current user is correct.");
+			"success_message"=>"The password for the current user is correct.",
+			"userID"=>$userID);
 			
 			// Close the database connection.
 			$conn->close();

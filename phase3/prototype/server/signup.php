@@ -1,5 +1,7 @@
 <?php
 
+header('Access-Control-Allow-Origin: *');
+
 require "base_functions.php";
 
 if(isset($_POST['user'], $_POST['pass'])) {

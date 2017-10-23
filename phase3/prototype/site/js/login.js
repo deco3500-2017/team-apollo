@@ -1,3 +1,6 @@
+var userID;
+var username;
+
 $("document").ready(function () {
   $("#loginSubmit").bind("click", loginClick);
   $("#signUpButton").bind("click", signUpClick);
@@ -5,15 +8,19 @@ $("document").ready(function () {
 });
 
 function loginClick() {
-  var username = $("#loginUsernameInput").val();
-  var password = $("#loginPasswordInput").val();
+  var loginUsername = $("#loginUsernameInput").val();
+  var loginPassword = $("#loginPasswordInput").val();
 
-  console.log("ABOUT TO TRY LOGIN WITH : " + username + ", " + password);
+  console.log("ABOUT TO TRY LOGIN WITH : " + loginUsername + ", " + loginPassword);
 
-  $.post("https://deco3500-venu.uqcloud.net/luke/server/login.php", { user: username, pass: password }, (data => {
-    if (JSON.parse(data).success == 1) {
-      console.log("SUCCESSFULLY LOGGED IN");
+  $.post("https://deco3500-venu.uqcloud.net/luke/server/login.php", { user: loginUsername, pass: loginPassword }, (data => {
+    var parsedResult = JSON.parse(data);
+    if (parsedResult.success == 1) {
+      console.log("SUCCESSFULLY LOGGED IN : userID = " + parsedResult.userID);
+      userID = parsedResult.userID;
+      username = loginUsername;
       $("#login").hide();
+      $("#accessGrant").show();
     } else {
       console.log("NOT SUCCESSFULLY LOGGED IN");
     }

@@ -82,11 +82,16 @@ function sendBuzz(id, username, venue, audio, accelerometer) {
     accelerometer: accelerometer
   };
 
-  $.post("../server/buzzUpload.php", {
+  console.log("sending buzz : ");
+  console.log(buzzData);
+
+  $.post("https://deco3500-venu.uqcloud.net/luke/server/buzzUpload.php", {
     buzz: buzzData
   },
     function (data, status) {
       var response = JSON.parse(data);
+      console.log("response from buzzUpload");
+      console.log(response);
     });
 }
 
@@ -102,12 +107,13 @@ buzzHolder = new Array();
 
 //This function will pull all of the ratings from the database then calculate & store the popularity, avg(audio), avg(accelerometer) in the buzzHolder above. Each venue's data will be stored in the index-1 of it's ID. E.g. Venue with id = 1 will be stored in buzzHolder[0]
 function pullBuzz() {
-  $.post("../server/buzzDownload.php", {
+  $.post("https://deco3500-venu.uqcloud.net/luke/server/buzzDownload.php", {
     buzz: "yes"
   },
     function (data, status) {
       var response = JSON.parse(data);
-      // console.log(response);
+      console.log("Pull Data : ");
+      console.log(response);
 
       //temporary place to store all of the buzz values
       var buzzArray = new Array(14);
@@ -149,8 +155,8 @@ function pullBuzz() {
       //Put the buzz values in to the main venue array.
       saveBuzzIntoVenue();
 
-      console.log("Buzz Ratings below: ");
-      console.log(buzzHolder);
+      console.log("Venues below: ");
+      console.log(venues);
     });
 }
 
@@ -168,10 +174,10 @@ function calculateBuzz() {
 
 function saveBuzzIntoVenue() {
   buzzHolder.forEach(function (e) {
-    venues[e.id].audio = e.audio;
-    venues[e.id].accelerometer = e.accelerometer;
-    venues[e.id].popularity = e.popularity;
-    venues[e.id].buzz = e.buzz;
+    getVenueByID(e.id).audio = e.audio;
+    getVenueByID(e.id).accelerometer = e.accelerometer;
+    getVenueByID(e.id).popularity = e.popularity;
+    getVenueByID(e.id).buzz = e.buzz;
   })
 }
 
