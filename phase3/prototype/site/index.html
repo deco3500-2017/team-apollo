@@ -36,6 +36,19 @@
 </head>
 
 <body>
+
+  <!-- The component with the button which users use to grant access to the sensors -->
+  <div id="accessGrantHolder" class="hidden layer4">
+    <div id="accessGrant" class="hidden layer2">
+      <p class="ag-title"> One last thing... </p>
+      <p class="ag-content">Before you can use Venu, please grant access to your GPS, Microphone and Accelerometer Sensors. You can find out more
+        about how we use this data
+        <a class="inline-link">Here</a>
+      </p>
+      <button id="allowSound" class="layer0">OK</button>
+    </div>
+  </div>
+
   <div id="map" class="layer1"></div>
 
   <div id="searchField" class="search layer2 hidden">
@@ -136,14 +149,6 @@
       <button class="backLogin" id="loginButton">
         Back to Login
       </button>
-    </div>
-  </div>
-
-  <!-- The component with the button which users use to grant access to the sensors -->
-  <div id="accessGrantHolder" class="hidden layer4">
-    <div id="accessGrant" class="hidden">
-      <h4>Grant access to GPS, Microphone and Accelerometer Data</h4>
-      <button id="allowSound" class="layer0">OK</button>
     </div>
   </div>
 
