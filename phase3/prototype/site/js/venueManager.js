@@ -189,7 +189,7 @@ function calculateBuzz() {
 
 function saveBuzzIntoVenue() {
   buzzHolder.forEach(function (e) {
-    console.log(e);
+    // console.log(e);
     getVenueByID(e.id).audio = parseInt(Math.min((e.audio / 0.03), 1) * 100);
     getVenueByID(e.id).accelerometer = parseInt(Math.min((e.accelerometer / 15.0), 1) * 100);
     getVenueByID(e.id).popularity = e.popularity;

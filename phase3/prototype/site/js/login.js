@@ -5,6 +5,8 @@ $("document").ready(function () {
   $("#loginSubmit").bind("click", loginClick);
   $("#signUpButton").bind("click", signUpClick);
   $("#hideLogin").bind("click", hideLogin);
+
+  $("#wrongPassButton").bind("click", hideWrongPass);
 });
 
 function loginClick() {
@@ -29,6 +31,7 @@ function loginClick() {
       $("#searchField").removeClass("hidden");
     } else {
       console.log("NOT SUCCESSFULLY LOGGED IN");
+      $("#popup").removeClass("hidden");
     }
   }));
 }
@@ -42,4 +45,8 @@ function signUpClick() {
 function hideLogin() {
   console.log("hiding login");
   $("#login").hide();
+}
+
+function hideWrongPass() {
+  $("#popup").addClass("hidden");
 }
