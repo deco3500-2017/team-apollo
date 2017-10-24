@@ -173,7 +173,7 @@ function calculateBuzz() {
 
     var audioBuzz = Math.min((e.audio / 0.03), 1);
     var accelerometerBuzz = Math.min((e.accelerometer / 15.0), 1);
-    var popBuzz = Math.min((e.popularity / 100.0), 1);
+    var popBuzz = Math.min((e.popularity / 50.0), 1);
 
     e.buzz = ((audioBuzz + accelerometerBuzz + popBuzz) / 3) * 100;
   });
@@ -181,8 +181,8 @@ function calculateBuzz() {
 
 function saveBuzzIntoVenue() {
   buzzHolder.forEach(function (e) {
-    getVenueByID(e.id).audio = e.audio;
-    getVenueByID(e.id).accelerometer = e.accelerometer;
+    getVenueByID(e.id).audio = parseInt(Math.min((e.audio / 0.03), 1) * 100);
+    getVenueByID(e.id).accelerometer = parseInt(Math.min((e.accelerometer / 15.0), 1) * 100);
     getVenueByID(e.id).popularity = e.popularity;
     getVenueByID(e.id).buzz = e.buzz;
   })

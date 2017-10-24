@@ -157,6 +157,9 @@ function mainloop2(currentLocation) {
 
   //Update the list thermometers if they exist
   updateListThermometers();
+
+  //Update the venue profile buzz numbers
+  updateVenueProfile();
 }
 
 //Creates a marker on the map at the browser's current location
@@ -238,4 +241,14 @@ function updateListThermometers() {
       $("#list" + e.id).css("height", Math.min(e.buzz + 25, 98) + "%");
     })
   }
+}
+
+function updateVenueProfile() {
+  venues.forEach(function (e) {
+    if ($("#venuePop_" + e.id)) {
+      $("#venuePop_" + e.id).html(e.popularity);
+      $("#venueAud_" + e.id).html(e.audio + "%");
+      $("#venueAcc_" + e.id).html(e.accelerometer + "%");
+    }
+  })
 }

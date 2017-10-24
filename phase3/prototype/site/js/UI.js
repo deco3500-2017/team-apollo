@@ -169,15 +169,15 @@ function populateVenueProfile(id) {
   <div class='rating-point'> \
     <div class='capacity'> \
       <p class='label-point'> \ CAPACITY </p> \
-      <p class='point'> \ 50% </p> \
+      <p class='point' id='venuePop_" + venue.id + "'> " + venue.popularity + " </p> \
     </div> \
     <div class='volume'> \
       <p class='label-point'> \ VOLUME </p> \
-      <p class='point'> \ 20% </p> \
+      <p class='point' id='venueAud_" + venue.id + "'> " + venue.audio + "% </p> \
     </div> \
     <div class='movement'> \
       <p class='label-point'> \ MOVEMENT </p> \
-      <p class='point'> \ 80% </p> \
+      <p class='point' id='venueAcc_" + venue.id + "'> " + venue.accelerometer + "% </p> \
     </div> \
   </div> \
   \
