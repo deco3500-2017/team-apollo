@@ -79,7 +79,7 @@ function addVenueListHTML(id, title, distance) {
 function changeActive(iconNum) {
     switch (iconNum.data.val) {
         case 1:
-            // $("#venueProfile").addClass("hidden");
+            $("#venueProfile").addClass("hidden");
 
             showList();
             $("#listIcon").addClass("active");
@@ -88,13 +88,17 @@ function changeActive(iconNum) {
             break;
 
         case 2:
+            $("#listview").addClass("hidden");
+            $("#venueProfile").addClass("hidden");
+
             $("#listIcon").removeClass("active");
             $("#mapIcon").addClass("active");
             $("#profileIcon").removeClass("active");
             break;
 
         case 3:
-            // $("#listview").addClass("hidden");
+            $("#listview").addClass("hidden");
+            $("#venueProfile").addClass("hidden");
 
             // showVenueProfile();
             $("#listIcon").removeClass("active");
