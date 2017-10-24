@@ -36,6 +36,17 @@
 </head>
 
 <body>
+	
+	<!-- The component with the button which users use to grant access to the sensors -->
+  <div class="pop-up">
+	  <div class="bg-darker layer2"> </div>
+	  <div id="accessGrant" class="hidden layer2">
+		<p class="ag-title"> Alert </p>
+	    <p class="ag-content">Grant access to GPS, Microphone and Accelerometer Data</p>
+	    <button id="allowSound" class="layer0">OK</button>
+	  </div>
+  </div>
+	
   <div id="map" class="layer1"></div>
 
   <div class="search layer2">
@@ -139,11 +150,7 @@
     </div>
   </div>
 
-  <!-- The component with the button which users use to grant access to the sensors -->
-  <div id="accessGrant" class="hidden layer2">
-    <h4>Grant access to GPS, Microphone and Accelerometer Data</h4>
-    <button id="allowSound" class="layer0">OK</button>
-  </div>
+  
 
   <!-- The listview component -->
   <div id="listview" class="listview hidden">
