@@ -30,6 +30,10 @@ form, fieldset, body {
   z-index: 3;
 }
 
+.layer4 {
+	z-index: 4;
+}
+
 .hidden {
   display: none;
 }
@@ -154,6 +158,13 @@ input:focus{
 		width: 30px;
 		height: 30px;
 	}
+}
+
+#accessGrantHolder {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(100, 100, 100, 0.8);
 }
 
 

@@ -53,7 +53,8 @@ function startSensorsAndMainLoop() {
   runLocation = true;
   runAccelerometer = true;
 
-  $("#accessGrant").hide();
+  $("#accessGrantHolder").addClass("hidden");
+  $("#accessGrant").addClass("hidden");
 
   if (runAudio) {
     navigator.mediaDevices.getUserMedia(constraints).then(handleSuccess).catch(handleError);

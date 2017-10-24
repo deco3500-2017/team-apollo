@@ -38,7 +38,7 @@
 <body>
   <div id="map" class="layer1"></div>
 
-  <div class="search layer2">
+  <div id="searchField" class="search layer2 hidden">
     <div class="addon-search">
       <i class="fa fa-search"></i>
     </div>
@@ -140,9 +140,11 @@
   </div>
 
   <!-- The component with the button which users use to grant access to the sensors -->
-  <div id="accessGrant" class="hidden layer2">
-    <h4>Grant access to GPS, Microphone and Accelerometer Data</h4>
-    <button id="allowSound" class="layer0">OK</button>
+  <div id="accessGrantHolder" class="hidden layer4">
+    <div id="accessGrant" class="hidden">
+      <h4>Grant access to GPS, Microphone and Accelerometer Data</h4>
+      <button id="allowSound" class="layer0">OK</button>
+    </div>
   </div>
 
   <!-- The listview component -->
