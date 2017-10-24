@@ -23,13 +23,13 @@ function googleReady() {
 
 			div.venueID = this.id;
 
-			div.style.position = 'absolute';
 			div.style.cursor = 'pointer';
 			div.style.width = '4vh';
 			div.style.height = '4vh';
 			div.style.background = 'white';
 			div.style.borderRadius = "50%";
 			div.style.border = "solid 2px #EA6045";
+			div.style.position = "fixed";
 			div.style.overflow = "hidden";
 
 			fillMeter = document.createElement('div');
