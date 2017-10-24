@@ -39,6 +39,9 @@ $(document).ready(function () {
   document.getElementById("map").addEventListener("touchstart", microphoneON);
   document.getElementById("map").addEventListener("mousedown", microphoneON);
   document.getElementById("map").addEventListener("dragstart", microphoneON);
+  document.getElementById("listButton").addEventListener("click", microphoneON);
+  document.getElementById("mapButton").addEventListener("click", microphoneON);
+  document.getElementById("profileButton").addEventListener("click", microphoneON);
 
   //THIS EVENT LISTENER IS ATTACHED TO WHICHEVER BUTTON THE USER PRESSES TO LET US BEGIN RECORDING USING THEIR SENSORS. IT STARTS THE SENSORS AND THE MAIN LOOP.
   document.getElementById("allowSound").addEventListener("click", startSensorsAndMainLoop);
