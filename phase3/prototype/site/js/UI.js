@@ -66,8 +66,8 @@ function addVenueListHTML(id, title, distance) {
         <img src='./img/" + id + ".jpg' class='venu-icon' /> \
     </div> \
     <div class='item-content'> \
-        <p class='item-title'>" + title + " </p> \
-        <p class='item-detail'> Less than " + ((distance / 1000) + 1).toFixed(1) + "km Away </p> \
+        <p class='item-title open-sans'>" + title + " </p> \
+        <p class='item-detail open-sans'> Less than " + ((distance / 1000) + 1).toFixed(1) + "km Away </p> \
     </div> \
     <div class='thermometer-holder'> \
         <div class='bottom-circle'></div> \
@@ -153,8 +153,8 @@ function populateVenueProfile(id) {
   \
   <div class='venu-label'> \
   \
-    <p class='venu-name'> \ " + venue.name + "</p> \
-    <p class='venu-type'> \ " + venue.type + " </p> \
+    <p class='venu-name open-sans bold'> \ " + venue.name + "</p> \
+    <p class='venu-type open-sans'> \ " + venue.type + " </p> \
     \
   </div> \
   \
@@ -168,17 +168,17 @@ function populateVenueProfile(id) {
   <div class='profile-btns'> \
     <div class='fav-btn'> \
       <i class='fa fa-heart active2'> \
-        <p class='label-btn'> \ FAVOURITE </p> \
+        <p class='label-btn open-sans'> \ FAVOURITE </p> \
       </i> \
     </div> \
     <div class='web-btn'> \
       <i class='fa fa-link'> \
-        <a class='label-btn' target='_blank' href='" + venue.site + "'> \ WEBSITE </a> \
+        <a class='label-btn open-sans' target='_blank' href='" + venue.site + "'> \ WEBSITE </a> \
       </i> \
     </div> \
     <div class='call-btn'> \
       <i class='fa fa-phone'> \
-        <p class='label-btn'> \ CALL </p> \
+        <p class='label-btn open-sans'> \ CALL </p> \
       </i> \
     </div> \
   </div> \
@@ -189,15 +189,15 @@ function populateVenueProfile(id) {
   \
   <div class='rating-point'> \
     <div class='capacity'> \
-      <p class='label-point'> \ CAPACITY </p> \
+      <p class='label-point open-sans'> \ CAPACITY </p> \
       <p class='point' id='venuePop_" + venue.id + "'> " + venue.popularity + " </p> \
     </div> \
     <div class='volume'> \
-      <p class='label-point'> \ VOLUME </p> \
+      <p class='label-point open-sans'> \ VOLUME </p> \
       <p class='point' id='venueAud_" + venue.id + "'> " + venue.audio + "% </p> \
     </div> \
     <div class='movement'> \
-      <p class='label-point'> \ MOVEMENT </p> \
+      <p class='label-point open-sans'> \ MOVEMENT </p> \
       <p class='point' id='venueAcc_" + venue.id + "'> " + venue.accelerometer + "% </p> \
     </div> \
   </div> \
@@ -211,7 +211,7 @@ function populateVenueProfile(id) {
         <i class='fa fa-map-marker'> \</i> \
       </div> \
       <div class='des'> \
-        <p class='detail-des'> \ " + venue.address + " </p> \
+        <p class='detail-des open-sans'> \ " + venue.address + " </p> \
       </div> \
     </div> \
     <div class='detail'> \
@@ -219,7 +219,7 @@ function populateVenueProfile(id) {
         <i class='fa fa-clock-o'></i> \
       </div> \
       <div class='des'> \
-        <p class='detail-des'> \
+        <p class='detail-des open-sans'> \
           <strong> Open now </strong> - Closes 3 am </p> \
       </div> \
     </div> \

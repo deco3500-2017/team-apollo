@@ -1,5 +1,13 @@
 @import "variables";
 
+.open-sans {
+	font-family: $open-sans;
+}
+
+.bold {
+	font-weight: bold;
+}
+
 .devBorder {
   border: 2px solid black;
 }
