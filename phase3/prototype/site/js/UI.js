@@ -54,12 +54,14 @@ function addVenuesToList() {
         console.log("should be appending something to the listview");
         $("#listViewList").append(addVenueListHTML(venue.id, venue.name, venue.distance));
         $("#list" + venue.id).css("height", Math.min(venue.buzz + 25, 98) + "%");
+
+        $("#venueList_" + venue.id).bind("click", { val: venue.id }, displayVenue);
     })
 }
 
 function addVenueListHTML(id, title, distance) {
     var listHTML =
-        "<li class='item'> \
+        "<li class='item' id='venueList_" + id + "'> \
     <div class='item-img'> \
         <img src='./img/" + id + ".jpg' class='venu-icon' /> \
     </div> \
@@ -103,7 +105,6 @@ function changeActive(iconNum) {
             $("#venueProfile").addClass("hidden");
             showProfile();
 
-            // showVenueProfile();
             $("#listIcon").removeClass("active");
             $("#mapIcon").removeClass("active");
             $("#profileIcon").addClass("active");
@@ -219,4 +220,9 @@ function hideVenueProfile() {
 function showProfile() {
     console.log("should be showing profile");
     $("#accountPage").removeClass("hidden");
+}
+
+function displayVenue(venueID) {
+    console.log("should be displaying venue with id " + venueID);
+    markerClicked(venueID.data.val);
 }
