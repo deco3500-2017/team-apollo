@@ -190,6 +190,13 @@ input:focus{
 	font-weight: bold;
 }
 
+#loginBackground {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	background-color: $grey;
+}
+
 
 
 

@@ -22,7 +22,7 @@ function loginClick() {
 
       $('#username3').append("<h2>" + username + "</h2>");
 
-      $("#login").addClass("hidden");
+      $("#loginBackground").addClass("hidden");
       $("#accessGrantHolder").removeClass("hidden");
       $("#accessGrant").removeClass("hidden");
       $("#map").removeClass("hidden");

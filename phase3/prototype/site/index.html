@@ -83,35 +83,38 @@
   <!-- <script type="text/javascript" src="./js/geolocation.js"></script> -->
 
   <!-- Login Screen -->
-  <div id="login" class="fullscreen bg-img layer3">
+  <div id="loginBackground" class="layer3">
+    <div id="login" class="fullscreen bg-img layer3">
 
-    <div class="bg-darker"> </div>
+      <div class="bg-darker"> </div>
 
-    <img class="venu-logo" src="img/VenuLogo.png">
+      <img class="venu-logo" src="img/VenuLogo.png">
 
-    <div class="inputHolder">
-      <div>
-        <input id="loginUsernameInput" class="inputField" type="text" placeholder="Username">
+      <div class="inputHolder">
+        <div>
+          <input id="loginUsernameInput" class="inputField" type="text" placeholder="Username">
+        </div>
+
+        <div>
+          <input id="loginPasswordInput" class="inputField" type="password" placeholder="Password">
+        </div>
+
+        <div>
+          <button id="loginSubmit" class="inputButton" class="inputButton">
+            SIGN IN
+          </button>
+        </div>
+
       </div>
 
-      <div>
-        <input id="loginPasswordInput" class="inputField" type="password" placeholder="Password">
+      <button id="hideLogin" class="backLogin">HIDE LOGIN SCREEN</button>
+
+      <div class="welcomeSignUpHolder">
+        <h3 class="sign-up">Not a member?
+          <a class="sign-up-btn" id="signUpButton"> SIGN UP </a>
+        </h3>
       </div>
 
-      <div>
-        <button id="loginSubmit" class="inputButton" class="inputButton">
-          SIGN IN
-        </button>
-      </div>
-
-    </div>
-
-    <button id="hideLogin" class="backLogin">HIDE LOGIN SCREEN</button>
-
-    <div class="welcomeSignUpHolder">
-      <h3 class="sign-up">Not a member?
-        <a class="sign-up-btn" id="signUpButton"> SIGN UP </a>
-      </h3>
     </div>
   </div>
 
