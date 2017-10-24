@@ -249,6 +249,7 @@ function updateVenueProfile() {
       $("#venuePop_" + e.id).html(e.popularity);
       $("#venueAud_" + e.id).html(e.audio + "%");
       $("#venueAcc_" + e.id).html(e.accelerometer + "%");
+      $("#venue_thermo_" + e.id).css("height", Math.min(e.buzz + 10, 98) + "%");
     }
   })
 }
