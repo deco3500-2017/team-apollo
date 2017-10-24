@@ -21,8 +21,8 @@ function Venue(id) {
 }
 
 Venue.prototype.addVenueInfo = function (venueObject) {
-  console.log("getting venue object from server:");
-  console.log(venueObject);
+  // console.log("getting venue object from server:");
+  // console.log(venueObject);
   this.name = venueObject.venueName;
   this.description = venueObject.description;
   this.fb = venueObject.venueFB;

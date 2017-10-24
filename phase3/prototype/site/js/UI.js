@@ -120,15 +120,17 @@ function clearVenueProfile() {
     $("#venueProfile").empty();
 }
 
+/* <img src='./img/" + venue.id + ".jpg' class='venu-image' /> \ */
+
 function populateVenueProfile(id) {
     var venue = getVenueByID(id);
 
     var venueProfileHTML = "<div id='venueProfileBack' class='back-btn'> \
       <i class='fa fa-angle-left'> \</i> \
   </div> \
-  \
   <div id='slides'> \
     <div class='slide'> \
+    <img src='./img/" + venue.id + ".jpg' class='venu-image' /> \
     </div> \
   </div> \
   \
@@ -151,7 +153,7 @@ function populateVenueProfile(id) {
     </div> \
     <div class='web-btn'> \
       <i class='fa fa-link'> \
-        <p class='label-btn'> \ WEBSITE </p> \
+        <a class='label-btn' target='_blank' href='" + venue.site + "'> \ WEBSITE </a> \
       </i> \
     </div> \
     <div class='call-btn'> \
