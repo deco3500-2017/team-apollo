@@ -108,8 +108,8 @@ function initMap() {
   if (!isLocal) {
     getVenues();
     //AT THIS POINT ALL OF THE VENUES AND ALL OF THEIR INFORMATION WILL BE STORED IN THE 'VENUES' ARRAY
-    console.log("LOADED THE FOLLOWING VENUES AT THE END OF initMap() in MAP.JS")
-    console.log(venues);
+    // console.log("LOADED THE FOLLOWING VENUES AT THE END OF initMap() in MAP.JS")
+    // console.log(venues);
   }
 }
 
@@ -140,16 +140,16 @@ function mainloop2(currentLocation) {
     //We're in a venue, time to read our sensors and send them to the database
 
     //Read Audio Level
-    console.log("audio level = " +
-      audioLevel);
+    // console.log("audio level = " +
+    //   audioLevel);
 
     //Read Accelerometer Level
-    console.log("accelerometer level = " + moveVal);
+    // console.log("accelerometer level = " + moveVal);
 
     //Push to the server
     sendBuzz(userID, username, venue.id, audioLevel, moveVal);
   } else {
-    console.log("Not in a venue");
+    // console.log("Not in a venue");
   }
 
   //Get data from database and link to our venues.
@@ -179,10 +179,10 @@ function checkIfInVenue(currentLocation) {
   returnVal = null;
   polygonHolder.forEach(function (e) {
     if (google.maps.geometry.poly.containsLocation(currentLocation, e.polygon)) {
-      console.log("In Venue with ID : " + e.id);
+      // console.log("In Venue with ID : " + e.id);
       returnVal = e;
     } else {
-      console.log("not in a venue");
+      // console.log("not in a venue");
     }
   });
   return returnVal;
@@ -234,7 +234,7 @@ function calculateDistances(currentLatLng) {
     e.distance = distanceToVenue;
   });
 
-  console.log(venues);
+  // console.log(venues);
 }
 
 function updateListThermometers() {

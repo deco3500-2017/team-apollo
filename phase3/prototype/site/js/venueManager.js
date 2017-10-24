@@ -163,7 +163,7 @@ function pullBuzz() {
       saveBuzzIntoVenue();
 
       // console.log("Venues below: ");
-      console.log(venues);
+      // console.log(venues);
     });
 }
 
