@@ -97,6 +97,8 @@ function initMap() {
     center: brisbane,
     zoom: 15,
     disableDefaultUI: true,
+    maxZoom: 16,
+    minZoom: 13,
   });
 
   //an event which is necessary in another function to let it instantiate some stuff which uses Google.
