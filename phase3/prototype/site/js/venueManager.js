@@ -112,6 +112,12 @@ function emptyBuzz(i) {
 
 buzzHolder = new Array();
 
+oldBuzzHolder = new Array();
+
+for (i = 0; i < 20; i++) {
+  oldBuzzHolder[i] = new emptyBuzz(i + 1);
+}
+
 //This function will pull all of the ratings from the database then calculate & store the popularity, avg(audio), avg(accelerometer) in the buzzHolder above. Each venue's data will be stored in the index-1 of it's ID. E.g. Venue with id = 1 will be stored in buzzHolder[0]
 function pullBuzz() {
   $.post("https://deco3500-venu.uqcloud.net/luke/server/buzzDownload.php", {
@@ -156,6 +162,8 @@ function pullBuzz() {
       //move the values to the permanent buzz holder
       buzzHolder = buzzArray;
 
+      addRandomBuzz();
+
       //calculate the overall buzz value for each of the venues
       calculateBuzz();
 
@@ -181,6 +189,7 @@ function calculateBuzz() {
 
 function saveBuzzIntoVenue() {
   buzzHolder.forEach(function (e) {
+    console.log(e);
     getVenueByID(e.id).audio = parseInt(Math.min((e.audio / 0.03), 1) * 100);
     getVenueByID(e.id).accelerometer = parseInt(Math.min((e.accelerometer / 15.0), 1) * 100);
     getVenueByID(e.id).popularity = e.popularity;
@@ -190,4 +199,51 @@ function saveBuzzIntoVenue() {
 
 function getVenueByID(id) {
   return venues[id - 1];
+}
+
+function addRandomBuzz() {
+
+
+  for (i = 0; i < venues.length; i++) {
+    if (i != 6 && i != 0) {
+      buzzHolder[i] = oldBuzzHolder[i];
+    }
+  }
+
+  // console.log(buzzHolder);
+
+
+  buzzHolder.forEach(function (e) {
+    if (e.id != 7 && e.id != 1) {
+      var newAudio = Math.random() * 0.003;
+      var negative = Math.random();
+      if (negative < 0.5) {
+        e.audio = Math.max(e.audio - newAudio, 0);
+      } else {
+        // console.log("min of " + e.audio + " -  " + newAudio + " and 0.03 = " + Math.min(e.audio + newAudio, 0.03));
+        e.audio = Math.min(e.audio + newAudio, 0.03);
+      }
+
+      var newPop = parseInt(Math.random() * 2);
+      var negativePop = Math.random();
+      if (negativePop < 0.5) {
+        e.popularity = Math.max(e.popularity - newPop, 0);
+      } else {
+        e.popularity = e.popularity + newPop;
+      }
+
+      var newAcc = Math.random() * 3;
+      var negativeAcc = Math.random();
+      if (negativeAcc < 0.5) {
+        e.accelerometer = Math.max(e.accelerometer - newAcc, 0);
+      } else {
+        e.accelerometer = Math.min(e.accelerometer + newAcc, 15);
+      }
+
+      if (e.popularity == 0) {
+        e.audio = 0;
+        e.accelerometer = 0;
+      }
+    }
+  });
 }
