@@ -12,13 +12,8 @@ Team Name: Team Apollo
 
 ### Information Flyer
 
-<img src="https://github.com/deco3500-2017/team-apollo/blob/master/images/pamphlet-01.jpg" width="48">
-
-<img src="https://github.com/deco3500-2017/team-apollo/blob/master/images/pamphlet-02.jpg" width="48">
-
-![Information Flyer 001](https://github.com/deco3500-2017/team-apollo/blob/master/images/pamphlet-01.jpg "Information Flyer 001")
-
-![Information Flyer 002](https://github.com/deco3500-2017/team-apollo/blob/master/images/pamphlet-02.jpg "Information Flyer 002")
+<img src="https://github.com/deco3500-2017/team-apollo/blob/master/images/pamphlet-01.jpg" width="200">
+<img src="https://github.com/deco3500-2017/team-apollo/blob/master/images/pamphlet-02.jpg" width="200">
 
 ## 2.0 Prototype
 
