@@ -70,59 +70,63 @@
   <!-- <script type="text/javascript" src="./js/geolocation.js"></script> -->
 
   <!-- Login Screen -->
-  <div id="login" class="fullscreen regularBackground layer3">
+  <div id="login" class="fullscreen bg-img layer3">
 
-    <button id="hideLogin">HIDE LOGIN SCREEN</button>
+  	<div class="bg-darker"> </div>
 
+    <img class="venu-logo" src="img/VenuLogo.png">
+	
     <div class="inputHolder">
       <div>
-        <input id="loginUsernameInput" class="inputField" type="text">
+        <input id="loginUsernameInput" class="inputField" type="text" placeholder="Username">
       </div>
 
       <div>
-        <input id="loginPasswordInput" class="inputField" type="password">
+        <input id="loginPasswordInput" class="inputField" type="password" placeholder="Password">
       </div>
 
       <div>
         <button id="loginSubmit" class="inputButton" class="inputButton">
-          Sign In
+          SIGN IN
         </button>
       </div>
 
     </div>
+    
+    <button id="hideLogin" class="backLogin">HIDE LOGIN SCREEN</button>
 
     <div class="welcomeSignUpHolder">
-      <h2 class="centeredText">Don't have an account?</h2>
-      <button class="inputButton" id="signUpButton">
-        Sign Up
-      </button>
+      <h3 class="sign-up">Not a member? <a class="sign-up-btn" id="signUpButton"> SIGN UP </a> </h3>
     </div>
   </div>
 
   <!-- Sign Up Screen -->
-  <div id="signUp" class="fullscreen regularBackground hidden layer3">
+  <div id="signUp" class="fullscreen bg-img hidden layer3">
+  
+  	<div class="bg-darker"> </div>
+  	
+  	<img class="venu-logo" src="img/VenuLogo.png">
 
     <div class="inputHolder">
       <div>
-        <input id="signupUsernameInput" class="inputField" type="text">
+        <input id="signupUsernameInput" class="inputField" type="text" placeholder="Username">
       </div>
 
       <div>
-        <input id="signupPasswordInput" class="inputField" type="password">
+        <input id="signupPasswordInput" class="inputField" type="password" placeholder="Password">
       </div>
 
       <div>
         <button id="signUpSubmit" class="inputButton" class="inputButton">
-          Sign Up
+          SIGN UP
         </button>
       </div>
 
     </div>
 
     <div class="welcomeSignUpHolder">
-      <h2 class="centeredText">Back to Login</h2>
-      <button class="inputButton" id="loginButton">
-        Sign In
+      <button class="backLogin" id="loginButton">
+        Back to Login
       </button>
     </div>
   </div>

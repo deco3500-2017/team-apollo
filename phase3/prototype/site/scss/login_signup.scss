@@ -13,6 +13,21 @@
   @extend .devBorder;
 }
 
+.bg-img{
+	background-image: url("../img/bg1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.bg-darker{
+	background-color: rgba(0, 0, 0, 0.4);
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
 .welcomeSignUpHolder {
   position: absolute;
   top: 80%;
@@ -21,41 +36,63 @@
   width: 66%;
 }
 
+.venu-logo{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
 #hideLogin {
   width: 66%;
+  
+  color: #c5c5c5;
 
   position: absolute;
-  top: 10%;
+  top: 65%;
   left: 50%;
   transform: translateX(-50%);
 
-  font-size: 20px;
-  height: 50px;
-
-  @extend .devBorder;
+  font-size: 14px;
 }
 
 .inputField {
   @extend .centeredText;
   
   width: 100%;
-  padding: 10px;
-  margin-bottom: $gap6;
+  padding: 10px 0;
+  margin-bottom: $gap4;
 
   font-size: 20px;
 
   border: none;
 
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .inputButton {
   width: 100%;
   padding: 10px;
+  
+  color: white;
+  letter-spacing: 3px;
 
   font-size: 20px;
-  border: 1px solid #333;
+  border: 0px solid #333;
   background-color: $yellow;
+}
+
+.sign-up{
+	@extend .centeredText;
+	
+	font-weight: 300;
+	color: white;	
+	letter-spacing: 1px;
+}
+
+.sign-up-btn{
+	font-weight: 500;
+	text-decoration: underline;
 }
 
 .inputHolder {
@@ -65,4 +102,16 @@
   transform: translate(-50%, -50%);
 
   width: 66%;
+}
+
+.backLogin{
+	width: 100%;
+	padding: 10px;
+	
+	color: white;
+	letter-spacing: 2px;
+	
+	font-size: 16px;
+	border: 0px solid #333;
+	background-color: rgba(255, 255, 255, 0);
 }
