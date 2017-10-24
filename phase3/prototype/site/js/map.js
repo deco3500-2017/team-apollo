@@ -134,7 +134,7 @@ function mainloop2(currentLocation) {
   //Calculate the distance to each venue and apply it to their data
   calculateDistances(currentLatLngGoogle);
 
-  markCurrentLocation(currentLatLngObject);
+  // markCurrentLocation(currentLatLngObject);
   var venue = checkIfInVenue(currentLatLngGoogle);
 
   if (venue != null) {
