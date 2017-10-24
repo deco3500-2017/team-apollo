@@ -4,39 +4,56 @@ var venueArray = new Array();
 //Boring stuff below.. But we declare the Point and Geofence coordinates for each venue, as well as its ID below, and store them in 'venueArray'. Then we put that data into the appropriate venue object in the main 'venue' array (in venuemanager.js), as you can see above.
 
 //All of the geofence data for all of the venues
-var AEBCoords = [{
-  lng: 153.015701,
-  lat: -27.499112
-},
-{
-  lng: 153.015550,
-  lat: -27.499226
-},
-{
-  lng: 153.014697,
-  lat: -27.499464
-},
-{
-  lng: 153.014751,
-  lat: -27.499845
-},
-{
-  lng: 153.015443,
-  lat: -27.499640
-},
-{
-  lng: 153.015684,
-  lat: -27.499869
-},
-{
-  lng: 153.015894,
-  lat: -27.499688
-},
-{
-  lng: 153.015701,
-  lat: -27.499112
-}
-];
+var AEBCoords = [
+  {
+    lng: 153.014059,
+    lat: -27.499212
+  }, {
+    lng: 153.014810,
+    lat: -27.500735
+  }, {
+    lng: 153.016677,
+    lat: -27.499650
+  }, {
+    lng: 153.015894,
+    lat: -27.498736
+  }, {
+    lng: 153.014059,
+    lat: -27.499212
+  }];
+
+//   lng: 153.015701,
+//   lat: -27.499112
+// },
+// {
+//   lng: 153.015550,
+//   lat: -27.499226
+// },
+// {
+//   lng: 153.014697,
+//   lat: -27.499464
+// },
+// {
+//   lng: 153.014751,
+//   lat: -27.499845
+// },
+// {
+//   lng: 153.015443,
+//   lat: -27.499640
+// },
+// {
+//   lng: 153.015684,
+//   lat: -27.499869
+// },
+// {
+//   lng: 153.015894,
+//   lat: -27.499688
+// },
+// {
+//   lng: 153.015701,
+//   lat: -27.499112
+// }
+// ];
 
 var AEBPoint = {
   lng: 153.015082,

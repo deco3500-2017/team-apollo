@@ -39,7 +39,7 @@ function googleReady() {
 			fillMeter.style.width = '4vh';
 			fillMeter.style.height = '4vh';
 			fillMeter.style.background = '#EA6045';
-			fillMeter.style.top = "0%";
+			fillMeter.style.top = "100%";
 
 			div.appendChild(fillMeter);
 

@@ -176,8 +176,16 @@
 	height: 100%;
 }
 
-
-
+.venue-thermo-holder {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -55%);
+	width: 8px;
+	height: 40px;
+	border: 2px solid red;
+	border-radius: 6px;
+}
 
 
 

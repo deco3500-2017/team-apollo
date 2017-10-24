@@ -39,6 +39,9 @@ $(document).ready(function () {
   document.getElementById("map").addEventListener("touchstart", microphoneON);
   document.getElementById("map").addEventListener("mousedown", microphoneON);
   document.getElementById("map").addEventListener("dragstart", microphoneON);
+  document.getElementById("listButton").addEventListener("click", microphoneON);
+  document.getElementById("mapButton").addEventListener("click", microphoneON);
+  document.getElementById("profileButton").addEventListener("click", microphoneON);
 
   //THIS EVENT LISTENER IS ATTACHED TO WHICHEVER BUTTON THE USER PRESSES TO LET US BEGIN RECORDING USING THEIR SENSORS. IT STARTS THE SENSORS AND THE MAIN LOOP.
   document.getElementById("allowSound").addEventListener("click", startSensorsAndMainLoop);
@@ -105,8 +108,8 @@ function initMap() {
   if (!isLocal) {
     getVenues();
     //AT THIS POINT ALL OF THE VENUES AND ALL OF THEIR INFORMATION WILL BE STORED IN THE 'VENUES' ARRAY
-    console.log("LOADED THE FOLLOWING VENUES AT THE END OF initMap() in MAP.JS")
-    console.log(venues);
+    // console.log("LOADED THE FOLLOWING VENUES AT THE END OF initMap() in MAP.JS")
+    // console.log(venues);
   }
 }
 
@@ -118,7 +121,7 @@ function mainloop() {
   }
 
   //runs the mainloop every 10 seconds
-  setTimeout(mainloop, 5000);
+  setTimeout(mainloop, 3000);
 }
 
 /* The function where most of the application's logic will happen. This function repeats every 15 seconds so it should update all venues and send this device's data every time it is called */
@@ -137,16 +140,16 @@ function mainloop2(currentLocation) {
     //We're in a venue, time to read our sensors and send them to the database
 
     //Read Audio Level
-    console.log("audio level = " +
-      audioLevel);
+    // console.log("audio level = " +
+    //   audioLevel);
 
     //Read Accelerometer Level
-    console.log("accelerometer level = " + moveVal);
+    // console.log("accelerometer level = " + moveVal);
 
     //Push to the server
     sendBuzz(userID, username, venue.id, audioLevel, moveVal);
   } else {
-    console.log("Not in a venue");
+    // console.log("Not in a venue");
   }
 
   //Get data from database and link to our venues.
@@ -176,10 +179,10 @@ function checkIfInVenue(currentLocation) {
   returnVal = null;
   polygonHolder.forEach(function (e) {
     if (google.maps.geometry.poly.containsLocation(currentLocation, e.polygon)) {
-      console.log("In Venue with ID : " + e.id);
+      // console.log("In Venue with ID : " + e.id);
       returnVal = e;
     } else {
-      console.log("not in a venue");
+      // console.log("not in a venue");
     }
   });
   return returnVal;
@@ -212,9 +215,9 @@ function prepareMarkersAndFences() {
 
   // console.log(markerArray);
 
-  polygonHolder.forEach(function (e) {
-    e.polygon.setMap(map);
-  });
+  // polygonHolder.forEach(function (e) {
+  //   e.polygon.setMap(map);
+  // });
 }
 
 function updateMarkers() {
@@ -231,7 +234,7 @@ function calculateDistances(currentLatLng) {
     e.distance = distanceToVenue;
   });
 
-  console.log(venues);
+  // console.log(venues);
 }
 
 function updateListThermometers() {
@@ -249,6 +252,7 @@ function updateVenueProfile() {
       $("#venuePop_" + e.id).html(e.popularity);
       $("#venueAud_" + e.id).html(e.audio + "%");
       $("#venueAcc_" + e.id).html(e.accelerometer + "%");
+      $("#venue_thermo_" + e.id).css("height", Math.min(e.buzz + 10, 98) + "%");
     }
   })
 }

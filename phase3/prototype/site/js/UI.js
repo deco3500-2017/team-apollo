@@ -116,6 +116,19 @@ function showVenueProfile(id) {
     clearVenueProfile();
     populateVenueProfile(id);
 
+    venue = getVenueByID(id);
+
+    $("#venue_thermo_" + venue.id).css("height", Math.min(venue.buzz + 10, 98) + "%");
+
+    //create the map for the venue profile
+    var venuePoint = new google.maps.LatLng(venue.point.lat, venue.point.lng);
+
+    venueMap = new google.maps.Map(document.getElementById('venue_map'), {
+        center: venuePoint,
+        zoom: 15,
+        disableDefaultUI: true,
+    });
+
     console.log("Should be showing venue profile");
     $("#venueProfile").removeClass("hidden");
 }
@@ -146,7 +159,10 @@ function populateVenueProfile(id) {
   </div> \
   \
   <div class='venu-rating'> \
-    <i class='fa fa-thermometer-3 rating'> \</i> \
+  <div class='venue-thermo-holder'> \
+  <div class='bottom-circle'></div> \
+  <div class='mercury' id='venue_thermo_" + id + "'></div> \
+</div> \
   </div> \
   \
   <div class='profile-btns'> \
@@ -185,7 +201,7 @@ function populateVenueProfile(id) {
     </div> \
   </div> \
   \
-  <div class='venu-map'> \
+  <div id='venue_map' class='venu-map'> \
   </div> \
   \
   <div class='detail-venu'> \

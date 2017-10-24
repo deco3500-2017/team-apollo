@@ -72,10 +72,10 @@
   <!-- Login Screen -->
   <div id="login" class="fullscreen bg-img layer3">
 
-  	<div class="bg-darker"> </div>
+    <div class="bg-darker"> </div>
 
     <img class="venu-logo" src="img/VenuLogo.png">
-	
+
     <div class="inputHolder">
       <div>
         <input id="loginUsernameInput" class="inputField" type="text" placeholder="Username">
@@ -92,20 +92,22 @@
       </div>
 
     </div>
-    
+
     <button id="hideLogin" class="backLogin">HIDE LOGIN SCREEN</button>
 
     <div class="welcomeSignUpHolder">
-      <h3 class="sign-up">Not a member? <a class="sign-up-btn" id="signUpButton"> SIGN UP </a> </h3>
+      <h3 class="sign-up">Not a member?
+        <a class="sign-up-btn" id="signUpButton"> SIGN UP </a>
+      </h3>
     </div>
   </div>
 
   <!-- Sign Up Screen -->
   <div id="signUp" class="fullscreen bg-img hidden layer3">
-  
-  	<div class="bg-darker"> </div>
-  	
-  	<img class="venu-logo" src="img/VenuLogo.png">
+
+    <div class="bg-darker"> </div>
+
+    <img class="venu-logo" src="img/VenuLogo.png">
 
     <div class="inputHolder">
       <div>
@@ -120,6 +122,12 @@
         <button id="signUpSubmit" class="inputButton" class="inputButton">
           SIGN UP
         </button>
+      </div>
+
+      <div id="signUpSuccess" class="hidden">
+        <h2>Success</h2>
+        <p>Please Sign In with your new credentials.</p>
+        <button id="signUpOK">OK</button>
       </div>
 
     </div>

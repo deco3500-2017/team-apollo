@@ -104,7 +104,7 @@
   width: 66%;
 }
 
-.backLogin{
+.backLogin {
 	width: 100%;
 	padding: 10px;
 	
@@ -113,5 +113,19 @@
 	
 	font-size: 16px;
 	border: 0px solid #333;
-	background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#signUpSuccess {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+}
+
+#signUpOK {
+  background-color: yellow;
+  height: 50px;
+  width: 50px;
 }
