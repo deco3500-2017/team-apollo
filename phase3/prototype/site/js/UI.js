@@ -184,6 +184,7 @@ function populateVenueProfile(id) {
   </div> \
   \
   <div class='rating-graph'> \
+    <img class='chart' src='./img/chart.png'> \
   </div> \
   \
   <div class='rating-point'> \
