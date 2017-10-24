@@ -6,19 +6,21 @@ Team Name: Team Apollo
 
 ## 1.0 Promotional Material
 
-### Poster
+### Conference Poster
 
-// Image here
+![Conference Poster](https://github.com/deco3500-2017/team-apollo/blob/master/images/poster-01.jpg "Conference Poster")
 
-### Information Brochure
+### Information Flyer
 
-// Image here
+![Information Flyer 001](https://github.com/deco3500-2017/team-apollo/blob/master/images/pamphlet-01.jpg "Information Flyer 001")
+
+![Information Flyer 002](https://github.com/deco3500-2017/team-apollo/blob/master/images/pamphlet-02.jpg "Information Flyer 002")
 
 ## 2.0 Prototype
 
-**High Fidelity:** INSERT LINK HERE
+**High Fidelity:** https://deco3500-venu.uqcloud.net/luke/site/
 
-**Low Fidelity:** INSERT LINK HERE
+**Low Fidelity:** https://invis.io/98E2N49TW
 
 ## 3.0 Project Summary
 
