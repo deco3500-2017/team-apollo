@@ -215,9 +215,9 @@ function prepareMarkersAndFences() {
 
   // console.log(markerArray);
 
-  polygonHolder.forEach(function (e) {
-    e.polygon.setMap(map);
-  });
+  // polygonHolder.forEach(function (e) {
+  //   e.polygon.setMap(map);
+  // });
 }
 
 function updateMarkers() {
