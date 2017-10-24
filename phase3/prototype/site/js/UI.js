@@ -80,6 +80,7 @@ function changeActive(iconNum) {
     switch (iconNum.data.val) {
         case 1:
             $("#venueProfile").addClass("hidden");
+            $("#accountPage").addClass("hidden");
 
             showList();
             $("#listIcon").addClass("active");
@@ -90,6 +91,7 @@ function changeActive(iconNum) {
         case 2:
             $("#listview").addClass("hidden");
             $("#venueProfile").addClass("hidden");
+            $("#accountPage").addClass("hidden");
 
             $("#listIcon").removeClass("active");
             $("#mapIcon").addClass("active");
@@ -99,6 +101,7 @@ function changeActive(iconNum) {
         case 3:
             $("#listview").addClass("hidden");
             $("#venueProfile").addClass("hidden");
+            showProfile();
 
             // showVenueProfile();
             $("#listIcon").removeClass("active");
@@ -211,4 +214,9 @@ function populateVenueProfile(id) {
 
 function hideVenueProfile() {
     $("#venueProfile").addClass("hidden");
+}
+
+function showProfile() {
+    console.log("should be showing profile");
+    $("#accountPage").removeClass("hidden");
 }

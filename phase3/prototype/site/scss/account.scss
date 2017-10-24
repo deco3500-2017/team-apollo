@@ -1,0 +1,86 @@
+/* css for my account page */
+    #accountPage {
+        position: absolute;
+        height: 100vh;
+        width: 100vw;
+        background-color: white;
+    }
+
+  .myaccountheader {
+      padding-left:10px;
+      padding-bottom:10px;
+      padding-top:10px;
+      
+  }
+  
+  .myaccountheader img {
+      padding-left:35px ;
+      padding-top:35px ;
+      float:left;
+  }
+
+  .myaccountheader h2{
+      color:#FF6347;
+      margin-bottom: -15px;
+      font-family: "Montserrat","Open Sans";
+  }
+  
+  #userheader {
+      padding-top:26px;
+      padding-left:20px;
+      float:left;
+      
+  }
+  #useractivity{
+      position: absolute;
+      padding-top:135px;
+  }
+  #useractivity h2{
+      padding-left:30px;
+      font-family: "Montserrat","Open Sans";
+  }
+  .activity{
+      position: absolute;
+      padding-top:180px;
+      padding-left:20px;
+      
+  }
+  #activity1{
+      
+       width: 335px;
+       padding-left:20px;
+      padding:10px 3px 10px 3px;
+      margin-bottom:10px;
+      background-color:white;
+      box-shadow: 0px 0px 30px #D1D1D1;
+      font-family: "Montserrat","Open Sans";
+      
+      
+  }
+  #activity1 p{
+      font-size:12px;
+      line-height: 50%;
+      font-family: "Montserrat","Open Sans";
+      
+  }
+  #leftside{
+      float:left;
+      padding-top:11px;
+      padding-left:17px;
+      padding-right:17px;
+  }
+  #rightside p{
+      font-family: "Montserrat","Open Sans";
+      line-height:130%;
+      
+  }
+  #leftside2{
+      float:left;
+      padding-top:11px;
+      padding-left:17px;
+      padding-right:47px;
+      padding-bottom:10px;
+      margin-bottom:35px;
+      
+  }
+  

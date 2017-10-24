@@ -19,6 +19,9 @@ function loginClick() {
       console.log("SUCCESSFULLY LOGGED IN : userID = " + parsedResult.userID);
       userID = parsedResult.userID;
       username = loginUsername;
+
+      $('#username3').append("<h2>" + username + "</h2>");
+
       $("#login").hide();
       $("#accessGrant").show();
     } else {
