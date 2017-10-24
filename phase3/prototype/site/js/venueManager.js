@@ -3,21 +3,21 @@ var venues = [];
 
 function Venue(id) {
   this.id = id;
-  name = null;
-  description = null;
+  name = "";
+  description = "";
   fb = null;
   site = null;
   reviews = new Array();
-  audio = null;
+  audio = 0;
   accelerometer = null;
-  popularity = null;
-  buzz = null;
+  popularity = 0;
+  buzz = 0;
   marker = null;
   coords = null;
   point = null;
-  distance = null;
-  type = null;
-  address = null;
+  distance = 0;
+  type = "";
+  address = "";
 }
 
 Venue.prototype.addVenueInfo = function (venueObject) {
