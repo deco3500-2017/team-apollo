@@ -32,8 +32,8 @@ function loginClick() {
 
 function signUpClick() {
   console.log("going to sign up page");
-  $("#login").hide();
-  $("#signUp").show();
+  $("#login").addClass("hidden");
+  $("#signUp").removeClass("hidden");
 }
 
 function hideLogin() {

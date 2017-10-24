@@ -1,6 +1,7 @@
 $("document").ready(function () {
   $("#signUpSubmit").bind("click", signUp);
   $("#loginButton").bind("click", navigateLogin);
+  $("#signUpOK").bind("click", signUpOK);
 });
 
 function signUp() {
@@ -12,6 +13,7 @@ function signUp() {
   $.post("https://deco3500-venu.uqcloud.net/luke/server/signup.php", { user: username, pass: password }, (data => {
     if (JSON.parse(data).success == 1) {
       console.log("SUCCESSFULLY REGISTERED USER");
+      showSuccess();
     } else {
       console.log("NOT SUCCESSFULLY REGISTERED USER");
     }
@@ -21,6 +23,17 @@ function signUp() {
 function navigateLogin() {
   console.log("going to login screen");
 
-  $("#signUp").hide();
-  $("#login").show();
+  $("#signUp").addClass("hidden");
+  $("#login").removeClass("hidden");
+}
+
+function showSuccess() {
+  $("#signUpSuccess").removeClass("hidden");
+}
+
+function signUpOK() {
+  $("#signUpSuccess").addClass("hidden");
+  // $("signUpOK").addClass("hidden");
+  $("#signUp").addClass("hidden");
+  $("#login").removeClass("hidden");
 }
