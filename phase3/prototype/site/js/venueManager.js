@@ -16,13 +16,19 @@ function Venue(id) {
   coords = null;
   point = null;
   distance = null;
+  type = null;
+  address = null;
 }
 
 Venue.prototype.addVenueInfo = function (venueObject) {
+  console.log("getting venue object from server:");
+  console.log(venueObject);
   this.name = venueObject.venueName;
   this.description = venueObject.description;
   this.fb = venueObject.venueFB;
   this.site = venueObject.venueSite;
+  this.address = venueObject.venueAddress;
+  this.type = venueObject.venueType;
 }
 
 Venue.prototype.updatebuzz = function (audio, accelerometer, popularity, buzz) {

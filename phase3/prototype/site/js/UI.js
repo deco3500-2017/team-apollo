@@ -135,7 +135,7 @@ function populateVenueProfile(id) {
   <div class='venu-label'> \
   \
     <p class='venu-name'> \ " + venue.name + "</p> \
-    <p class='venu-type'> \ Cocktail Bar </p> \
+    <p class='venu-type'> \ " + venue.type + " </p> \
     \
   </div> \
   \
@@ -188,8 +188,7 @@ function populateVenueProfile(id) {
         <i class='fa fa-map-marker'> \</i> \
       </div> \
       <div class='des'> \
-        <p class='detail-des'> \ 757 Anne St, Fortitude Valley \
-          <br/> Queensland 4006 </p> \
+        <p class='detail-des'> \ " + venue.address + " </p> \
       </div> \
     </div> \
     <div class='detail'> \
