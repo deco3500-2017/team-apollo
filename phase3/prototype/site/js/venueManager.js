@@ -68,7 +68,7 @@ function makeMarker(latLng, title) {
 }
 
 function getVenues() {
-  $.post("https://deco3500-venu.uqcloud.net/luke/server/ajax_test.php", {
+  $.post("https://deco3500-venu.uqcloud.net/server/ajax_test.php", {
     venues: "locations",
   }).done(function (data, status) {
     var returnVenues = JSON.parse(data);
@@ -92,7 +92,7 @@ function sendBuzz(id, username, venue, audio, accelerometer) {
   // console.log("sending buzz : ");
   // console.log(buzzData);
 
-  $.post("https://deco3500-venu.uqcloud.net/luke/server/buzzUpload.php", {
+  $.post("https://deco3500-venu.uqcloud.net/server/buzzUpload.php", {
     buzz: buzzData
   },
     function (data, status) {
@@ -120,7 +120,7 @@ for (i = 0; i < 20; i++) {
 
 //This function will pull all of the ratings from the database then calculate & store the popularity, avg(audio), avg(accelerometer) in the buzzHolder above. Each venue's data will be stored in the index-1 of it's ID. E.g. Venue with id = 1 will be stored in buzzHolder[0]
 function pullBuzz() {
-  $.post("https://deco3500-venu.uqcloud.net/luke/server/buzzDownload.php", {
+  $.post("https://deco3500-venu.uqcloud.net/server/buzzDownload.php", {
     buzz: "yes"
   },
     function (data, status) {

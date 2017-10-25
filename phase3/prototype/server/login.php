@@ -11,6 +11,10 @@ if(isset($_POST['user'], $_POST['pass'])) {
 	$servername = "localhost";
 	$username = "root";
 	$password = "d001beb963f57066";
+
+	if ($_POST['user'] == "" || $_POST['pass'] == "") {
+		returnError(1, "empty username or password", "cannot login with empty credentials");
+	}
 	
 	// Create connection
 	$conn = mysqli_connect($servername, $username, $password, "venu", 3306, "/tmp/mysql.sock");

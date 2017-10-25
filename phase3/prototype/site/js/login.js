@@ -15,7 +15,7 @@ function loginClick() {
 
   console.log("ABOUT TO TRY LOGIN WITH : " + loginUsername + ", " + loginPassword);
 
-  $.post("https://deco3500-venu.uqcloud.net/luke/server/login.php", { user: loginUsername, pass: loginPassword }, (data => {
+  $.post("https://deco3500-venu.uqcloud.net/server/login.php", { user: loginUsername, pass: loginPassword }, (data => {
     var parsedResult = JSON.parse(data);
     if (parsedResult.success == 1) {
       console.log("SUCCESSFULLY LOGGED IN : userID = " + parsedResult.userID);

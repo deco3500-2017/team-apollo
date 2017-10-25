@@ -10,7 +10,7 @@ function signUp() {
 
   console.log("ABOUT TO TRY SIGN UP WITH : " + username + ", " + password);
 
-  $.post("https://deco3500-venu.uqcloud.net/luke/server/signup.php", { user: username, pass: password }, (data => {
+  $.post("https://deco3500-venu.uqcloud.net/server/signup.php", { user: username, pass: password }, (data => {
     if (JSON.parse(data).success == 1) {
       console.log("SUCCESSFULLY REGISTERED USER");
       showSuccess();
