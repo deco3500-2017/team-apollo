@@ -575,7 +575,7 @@ var lukesHouse = {
   point: lukesPoint
 };
 
-venueArray.push(lukesHouse);
+// venueArray.push(lukesHouse);
 
 venueArray.forEach(function (e) {
   venues.push(new Venue(e.id));
