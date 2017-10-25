@@ -16,9 +16,9 @@ Team Name: Team Apollo
 
 ## 2.0 Prototype
 
-**High Fidelity:** https://deco3500-venu.uqcloud.net/luke/site/
+**Live Prototype:** https://deco3500-venu.uqcloud.net
 
-**Low Fidelity:** https://invis.io/98E2N49TW
+**Low-Fidelity Prototype:** https://invis.io/98E2N49TW
 
 ## 3.0 Project Summary
 
