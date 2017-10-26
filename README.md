@@ -38,6 +38,9 @@ The problem space was trying to bridge the gap between patrons and the venues in
 ## 4.0 Project Process
 
 ### Phase 1: Research
+- marketResearch
+- User research
+[survey questions](https://github.com/deco3500-2017/team-apollo/blob/master/phase1/userResearch/surveyQuestions.md)
 
 #### Industry Research
 
