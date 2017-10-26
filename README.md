@@ -39,31 +39,29 @@ The problem space was trying to bridge the gap between patrons and the venues in
 
 ### Phase 1: Research
 
-#### Research
-
-Content here.
-
 ##### Industry Research
 
-Content here.
+Industry research was undertaken to look at the industry that Venu hopes to enter. This is about looking at the internal and external evironemnt of the industry and searching for opportunities or threats, potentially in the form of competitors. From this research we found that the industry had some want, with few actual resolutions in place for the specific problem. However, there were some competitors found, such as Looop (operating in New York), which allowed the team to learn about their experience in the industry and the angle they took.
 
-#### Wireframing
+#### Sketching & Wireframing
 
--- Chuck a bunch of images in here and maybe a very short description
+Wireframes are a low-fidelity, generalised version of the applications layout. They are created to test out of the functionality behaviour and priority of elements within the application. The goals of creating these prototypes is to allow for quick design iteration, as opposed to make similar changes to a high-fidelity prototype, which would be time expensive. This phase of the wireframing allowed the team to explore some arbitary ideas and concepts that could work, however, they were based off shallow assumptions at this stage.
+
+![Application Sketch](https://github.com/deco3500-2017/team-apollo/blob/master/images/sketch-001.jpg?raw=true "Main Application Sketch 001")
 
 ##### Concerns: Privacy and Critical Mass
 It was determined early on that Privacy and Critical mass would be two key issues for our project. Critical mass was a big problem because of the dependece of User-Generated reviews to rate venues by. Privacy would also be a concern because of the nature of knowing the time and location of where the users were, as well as how that fit together with some of the social aspects intended for the application. Our detailed discussion of these concerns can be found in section 2.3.4 in the original Project Proposal [Here](https://github.com/deco3500-2017/team-apollo/blob/master/projectProposal/projectProposal.md).
 
 ### Phase 2: Requirements
 
-#### Surveys, Interviews, User testing
+#### Surveys, Interviews, User Testing
 Early user research was done by both Survey and Interview methods. The key goal of this early research was to get an understanding of the habits of Nightlife Patrons, what they valued, disliked, and they key feelings about certain aspects of nightlife. This research provided a wealth of information regarding our users and has been visually broken down in the following poster. 
 
 ![User Survey & Interview Results](https://github.com/deco3500-2017/team-apollo/blob/master/images/User_Survey_data.jpg)
 
 #### Wireframing
 
-Content here.
+Through the research undertaken as part of the research and requirements gathering phases, an improved level of wireframing was able to complete and let the team create an early prototype to perform user testing on. These designs were created using Balsamiq as a test for the possible form of the application and can be found [Here](https://marvelapp.com/6f8aaia/screen/33069368)
 
 ### Phase 3: Design
 
