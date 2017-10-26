@@ -39,7 +39,7 @@ The problem space was trying to bridge the gap between patrons and the venues in
 
 ### Phase 1: Research
 
-##### Industry Research
+#### Industry Research
 
 Industry research was undertaken to look at the industry that Venu hopes to enter. This is about looking at the internal and external evironemnt of the industry and searching for opportunities or threats, potentially in the form of competitors. From this research we found that the industry had some want, with few actual resolutions in place for the specific problem. However, there were some competitors found, such as Looop (operating in New York), which allowed the team to learn about their experience in the industry and the angle they took.
 
