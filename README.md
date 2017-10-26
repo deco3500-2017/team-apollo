@@ -98,3 +98,14 @@ Luke:
 - Late Prototype Backend Construction : Creation of Geofences for each venue, and logic to determine if current user is within one of the geofences, Logic which allows reading of accelerometer and audio sensors, logic to send buzz (gps, audio, accelerometer) data to the database linked to a user account, logic to pull buzz data from the database and process it for use in the application
 - Research and documentation for ways to address users' privacy concerns.
 - Late protoype construction : Created the dynamic UI elemets for use in the app (Buzz meter, markers, geographic distances, Volume, Capacity and Movement indicators), Linked logic & signup, sensor access events, and main loop of the application, assisted other team members with creating UI elements for the prototype.
+
+Jake:
+- Sections of the Proect Proposal: Phases, Roles, Communication
+- Conducted the industry research and competitive analysis
+- Helped prepare and distribute the project survey
+- Managed the team throughout the standups to ensure we had a clear idea of what had been done and what was next
+- Ideated and designed early iterations of the sketches and wireframes
+- Designed the brand and style guide for Venu
+- Created the low-fidelity prototypes using sketch and translated those to an Invision Prototype
+- Design all print for the showcase (Conference Poster, Information Flyer & Explanation Poster)
+- Tested the high-fidelty prototype before the conference
