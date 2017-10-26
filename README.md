@@ -123,3 +123,15 @@ Husheng：
 - Late Prototype Backend Construction:  creation of user login, signup, include logic about database data transfer, data (password& username) pull and post(signup), data matching(login), data encryption (protect password), display venue images from database to the frontend.
 - Late prototype construction:  created user account and activity UI and logic, dynamic logic which display the user username that used for login, created stylings for user activity, helped the login and signup styling creation, created a background image for team to choose, helped fix some bugs. 
 
+Izhar：
+- Sections of the project proposal: Project plan (phases & deliverables, research, requirement backlog, design)
+- Created early iteration of wireframe based on sketches using balsamiq.
+- Revised the wireframe based on results from survey and interview (balsamiq).
+- Created early iteration of low-fidelity prototype using marvelapp.
+- Revised again the wireframe based on user testing results (balsamiq).
+- Helped with basic logic for login feature.
+- Helped user testing with user observation and gathering data for the rating 'words'.
+- Early high-fidelity prototype: creating UI for search bar and navigation bar based on low-fidelity prototype
+- Late high-fidelity prototype: creating UI for list view, Venu view, polishing the UI of Login, sign up, pop up message.
+- Late high-fidelity prototype: styling the Map based on the low-fidelity prototype.
+
