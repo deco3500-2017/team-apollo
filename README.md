@@ -127,7 +127,7 @@ Izhar：
 - Sections of the project proposal: Project plan (phases & deliverables, research, requirement backlog, design)
 - Created early iteration of wireframe based on sketches using balsamiq.
 - Revised the wireframe based on results from survey and interview (balsamiq).
-- Created early iteration of low-fidelity prototype using marvelapp.
+- Created early iteration of wireframe using marvelapp.
 - Revised again the wireframe based on user testing results (balsamiq).
 - Helped with basic logic for login feature.
 - Helped user testing with user observation and gathering data for the rating 'words'.
