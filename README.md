@@ -14,6 +14,10 @@ Team Name: Team Apollo
 
 <img src="https://github.com/deco3500-2017/team-apollo/blob/master/images/pamphlet-01.jpg" width="400"> <img src="https://github.com/deco3500-2017/team-apollo/blob/master/images/pamphlet-02.jpg" width="400">
 
+### Explanation Poster
+
+<img src="https://github.com/deco3500-2017/team-apollo/blob/master/images/a4-poster-01.jpg" width="400">
+
 ## 2.0 Prototype
 
 **Live Prototype:** https://deco3500-venu.uqcloud.net
