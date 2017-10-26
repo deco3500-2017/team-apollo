@@ -32,24 +32,57 @@ _Venu_ is a project that intends to improve the quality of the community's night
 
 ### Phase 1: Research
 
-- Industry Research
-- Competitive Analysis
-- User Research
-- Wireframes
+#### Research
+
+Content here.
+
+##### Industry Research
+
+Content here.
+
+##### Critical-Mass
+
+Content here.
+
+##### Privacy
+
+Content here.
+
+#### User Research
+
+Content here.
+
+#### Wireframing
+
+Content here.
 
 ### Phase 2: Requirements
 
-- Surveys
-- Interviews
-- User Testing
-- Wireframes
+#### Surveys & Interviews
+
+Content here.
+
+#### Wireframing
+
+Content here.
+
+#### User Testing
+
+Content here.
 
 ### Phase 3: Design
 
-- Venu Branding
-- Style Guide
-- Low-fidelity Designs
-- Invision Prototype
+#### Brand & Style Guide
+
+Content here.
+
+#### Low-Fidelity Designs
+
+Content here.
+
+#### Invision Prototyping
+
+Content here.
 
 ### Phase 4: Prototyping
 
