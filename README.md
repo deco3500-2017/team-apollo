@@ -47,26 +47,19 @@ Content here.
 
 Content here.
 
-#### User Research
-
-Early user research was done by both Survey and Interview methods. The key goal of this early research was to get an understanding of the habits of Nightlife Patrons, what they valued, disliked, and they key feelings about certain aspects of nightlife. This research provided a wealth of information regarding our users and has been visually broken down in the following poster. 
-
-**Jenna's poster here**
-
-^^Merge the above three sections -- Just be general and hyperlink to repo docs
-
-##### Concerns: Privacy and Critical Mass
-It was determined early on that Privacy and Critical mass would be two key issues for our project. Critical mass was a big problem because of the dependece of User-Generated reviews to rate venues by. Privacy would also be a concern because of the nature of knowing the time and location of where the users were, as well as how that fit together with some of the social aspects intended for the application. Our detailed discussion of these concerns can be found in section 2.3.4 in the original Project Proposal [Here](https://github.com/deco3500-2017/team-apollo/blob/master/projectProposal/projectProposal.md).
-
 #### Wireframing
 
 -- Chuck a bunch of images in here and maybe a very short description
 
+##### Concerns: Privacy and Critical Mass
+It was determined early on that Privacy and Critical mass would be two key issues for our project. Critical mass was a big problem because of the dependece of User-Generated reviews to rate venues by. Privacy would also be a concern because of the nature of knowing the time and location of where the users were, as well as how that fit together with some of the social aspects intended for the application. Our detailed discussion of these concerns can be found in section 2.3.4 in the original Project Proposal [Here](https://github.com/deco3500-2017/team-apollo/blob/master/projectProposal/projectProposal.md).
+
 ### Phase 2: Requirements
 
 #### Surveys, Interviews, User testing
+Early user research was done by both Survey and Interview methods. The key goal of this early research was to get an understanding of the habits of Nightlife Patrons, what they valued, disliked, and they key feelings about certain aspects of nightlife. This research provided a wealth of information regarding our users and has been visually broken down in the following poster. 
 
-Content here.
+[User Survey & Interview Results](https://github.com/deco3500-2017/team-apollo/blob/master/images/User_Survey_data.jpg)
 
 #### Wireframing
 
@@ -76,7 +69,10 @@ Content here.
 
 #### The Pivot in design
 --- I think we need to mention here how our idea evolved from the user-generated content to passive data collection via sensors.
- -- Link to the privacy doc
+
+Along with this pivot privacy became a greater concern for the project as access to the sensors on the users' intimately held devices was required. This resulted in a document where we explored how to handle this. 
+
+[Privacy Concerns for the User](https://github.com/deco3500-2017/team-apollo/blob/master/phase3/privacy.md)
 
 #### Design stuff: Brand & Style Guide, Low-Fi Designs, Invision Prototyping
 
