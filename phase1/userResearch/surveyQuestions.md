@@ -32,3 +32,5 @@
 - are there any concerns about sharing the venue you're currently at with your friends?
 - how would you describe your best nights out?
 - are there any key things that hapened to make the ngightlife experience enjoyable?
+
+# Survey online link: https://husheng1.typeform.com/to/RnIZsO
