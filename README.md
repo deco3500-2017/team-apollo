@@ -38,11 +38,10 @@ The problem space was trying to bridge the gap between patrons and the venues in
 ## 4.0 Project Process
 
 ### Phase 1: Research
-- marketResearch
-- User research
 
-[survey questions](https://github.com/deco3500-2017/team-apollo/blob/master/phase1/userResearch/surveyQuestions.md)
-[online survey](https://husheng1.typeform.com/to/RnIZsO)
+### User research
+- survey：the user research survey was focus on collecting people's data about their concerns and experience of venus, there are 22 quantitative and qualitative questions([survey questions](https://github.com/deco3500-2017/team-apollo/blob/master/phase1/userResearch/surveyQuestions.md)), the form of this research is online survey, the survey form was created in TypeForm online tool, the online survey form was posted to personal and university social network for garthering data from different people([online survey](https://husheng1.typeform.com/to/RnIZsO)).      
+
 
 #### Industry Research
 
@@ -114,3 +113,13 @@ Jake:
 - Created the low-fidelity prototypes using sketch and translated those to an Invision Prototype
 - Design all print for the showcase (Conference Poster, Information Flyer & Explanation Poster)
 - Tested the high-fidelty prototype before the conference
+
+Husheng：
+- Early sections of the project proposal: Team, Role Details, Team Processes, Communications
+- Early user research survey: build survey form with 22 quantitative and qualitative(main) questions.  
+- Conducted user research online survey by posting to personal and university social network 
+- Helped the early backend database design
+- Early prototype backend information construction: tested the way of transfer data between database and prototype backend, push venues images to database
+- Late Prototype Backend Construction:  creation of user login, signup, include logic about database data transfer, data (password& username) pull and post(signup), data matching(login), data encryption (protect password), display venue images from database to the frontend.
+- Late prototype construction:  created user account and activity UI and logic, dynamic logic which display the user username that used for login, created stylings for user activity, helped the login and signup styling creation, created a background image for team to choose, helped fix some bugs. 
+
