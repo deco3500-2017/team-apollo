@@ -40,7 +40,7 @@ The problem space was trying to bridge the gap between patrons and the venues in
 ### Phase 1: Research
 
 #### User research
-- survey：the user research survey was focus on collecting people's data about their concerns and experience of venus, there are 22 quantitative and qualitative questions([survey questions](https://github.com/deco3500-2017/team-apollo/blob/master/phase1/userResearch/surveyQuestions.md)), the form of this research is online survey, the survey form was created in TypeForm online tool, the online survey form was posted to personal and university social network for garthering data from different people([online survey](https://husheng1.typeform.com/to/RnIZsO)).      
+- survey：the user research survey was focus on collecting people's data about their concerns and experience of venus, there are 22 quantitative and qualitative questions([survey questions](https://github.com/deco3500-2017/team-apollo/blob/master/phase1/userResearch/surveyQuestions.md)), the form of this research is online survey, the survey form was created in TypeForm online tool, the online survey form was posted to personal and university social network for garthering data from different people([online survey](https://husheng1.typeform.com/to/RnIZsO)).For the result, there were about 50 responses were collected by online survey, and the data was used for data analyse and evaluation part.       
 
 
 #### Industry Research
