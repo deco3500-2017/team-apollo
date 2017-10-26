@@ -47,7 +47,7 @@ Industry research was undertaken to look at the industry that Venu hopes to ente
 
 Wireframes are a low-fidelity, generalised version of the applications layout. They are created to test out of the functionality behaviour and priority of elements within the application. The goals of creating these prototypes is to allow for quick design iteration, as opposed to make similar changes to a high-fidelity prototype, which would be time expensive. This phase of the wireframing allowed the team to explore some arbitary ideas and concepts that could work, however, they were based off shallow assumptions at this stage.
 
-![Application Sketch](https://github.com/deco3500-2017/team-apollo/blob/master/images/sketch-001.jpg?raw=true "Main Application Sketch 001")
+<img src="https://github.com/deco3500-2017/team-apollo/blob/master/images/sketch-001.jpg?raw=true" width="800">
 
 ##### Concerns: Privacy and Critical Mass
 It was determined early on that Privacy and Critical mass would be two key issues for our project. Critical mass was a big problem because of the dependece of User-Generated reviews to rate venues by. Privacy would also be a concern because of the nature of knowing the time and location of where the users were, as well as how that fit together with some of the social aspects intended for the application. Our detailed discussion of these concerns can be found in section 2.3.4 in the original Project Proposal [Here](https://github.com/deco3500-2017/team-apollo/blob/master/projectProposal/projectProposal.md).
@@ -61,20 +61,22 @@ Early user research was done by both Survey and Interview methods. The key goal 
 
 #### Wireframing
 
-Through the research undertaken as part of the research and requirements gathering phases, an improved level of wireframing was able to complete and let the team create an early prototype to perform user testing on. These designs were created using Balsamiq as a test for the possible form of the application and can be found [Here](https://marvelapp.com/6f8aaia/screen/33069368)
+Through the research undertaken as part of the research and requirements gathering phases, an improved level of wireframing was able to complete and let the team create an early prototype to perform user testing on. These designs were created using Balsamiq as a test for the possible form of the application and can be found [here](https://marvelapp.com/6f8aaia/screen/33069368).
 
 ### Phase 3: Design
 
-#### The Pivot in design
---- I think we need to mention here how our idea evolved from the user-generated content to passive data collection via sensors.
-
-Along with this pivot privacy became a greater concern for the project as access to the sensors on the users' intimately held devices was required. This resulted in a document where we explored how to handle this. 
+#### Data-Collection Pivot
+--- I think we need to mention here how our idea evolved from the user-generated content to passive data collection via sensors. Along with this pivot privacy became a greater concern for the project as access to the sensors on the users' intimately held devices was required. This resulted in a document where we explored how to handle this. 
 
 [Privacy Concerns for the User](https://github.com/deco3500-2017/team-apollo/blob/master/phase3/privacy.md)
 
-#### Design stuff: Brand & Style Guide, Low-Fi Designs, Invision Prototyping
+#### Brand & Style Guide
 
-Content here.
+The projects style guide is a document that outlines the choices of colour, structure and typography to be used within the project. The benefit of creating this style guide was to give the designers a platform to have a defined set of styles to apply to the application as we moved from Wireframing through to Low-Fidelity designs. The style guide can be found [here](https://github.com/deco3500-2017/team-apollo/blob/master/phase2/styleGuide.md).
+
+#### Low-Fidety Designs & Invision Prototyping
+
+A set of low-fidelity designs were created using Sketch to translate the function that had been proposed for the application into an aethsical piece of work that could be communicated to the user. Once a set of designs were agreed upon, they were translatted into a static prototype using Invision, which can be found [here](https://invis.io/98E2N49TW).
 
 ### Phase 4: Prototyping
 
