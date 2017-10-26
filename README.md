@@ -25,11 +25,11 @@ Team Name: Team Apollo
 **Low-Fidelity Prototype:** https://invis.io/98E2N49TW
 
 Prototype Quick Steps: 
-1. Start by registering a user account, and then signing in. 
+1. Start by registering a user account with a simple username and password, and then signing in. 
 2. Grant access to GPS, Microphone and Accelerometer sensors on your device. (Note: The prototype has not been designed to handle cases where the required permissions are not granted, and undefined behaviour will occur in this case). 
-3. Navigate the map. Each of the markers on the map represents a Venue. The marker will fill with a red colour as the Venue has increasing Capacity, Movement and Volume readings, AKA the Venue's level of Buzz. (Note: all venues except for the REDROOM and the UQ 3500 Expo have simulated buzz ratings being created.)
-4. Pick a venue to see its profile page. This page features a breakdown of the Venue's real-time buzz, and other pertinent information.
-5. You can also enter the list view (accessible via the leftmost navigation icon), which will display all of the venues and their buzz, ordered by geographic distance from your current location.
+3. Navigate the map. Each of the markers on the map represents a Venue. The marker will fill with a red colour as the Venue, has increasing Capacity, Movement and Volume readings, AKA the Venue's level of Buzz. (Note: all venues except for the REDROOM and the UQ 3500 Expo have simulated buzz ratings being created.)
+4. Pick a venue to see it's profile page. This page features a breakdown of the Venue's current, real-time buzz, and other pertinent information.
+5. You can also able to enter the list view (accessible via the leftmost navigation icon), which will display all of the venues and their buzz, ordered by geographic distance from your current location.
 
 ## 3.0 Project Summary
 
@@ -37,26 +37,42 @@ The problem space was trying to bridge the gap between patrons and the venues in
 
 ## 4.0 Project Process
 
-### Phase 1: Research & Requirements
+### Phase 1: Research
+
+#### Research
+
+Content here.
 
 ##### Industry Research
 
 Content here.
 
-##### Concerns: Privacy and Critical Mass
-It was determined early on that Privacy and Critical mass would be two key issues for our project. Critical mass was a big problem because of the dependece of User-Generated reviews to rate venues by. Privacy would also be a concern because of the nature of knowing the time and location of where the users were, as well as how that fit together with some of the social aspects intended for the application. Our detailed discussion of these concerns can be found in section 2.3.4 in the original Project Proposal [Here](https://github.com/deco3500-2017/team-apollo/blob/master/projectProposal/projectProposal.md).
-
-#### User Research: Surveys, Interviews, User Testing
+#### User Research
 
 Early user research was done by both Survey and Interview methods. The key goal of this early research was to get an understanding of the habits of Nightlife Patrons, what they valued, disliked, and they key feelings about certain aspects of nightlife. This research provided a wealth of information regarding our users and has been visually broken down in the following poster. 
 
 **Jenna's poster here**
 
+^^Merge the above three sections -- Just be general and hyperlink to repo docs
+
+##### Concerns: Privacy and Critical Mass
+It was determined early on that Privacy and Critical mass would be two key issues for our project. Critical mass was a big problem because of the dependece of User-Generated reviews to rate venues by. Privacy would also be a concern because of the nature of knowing the time and location of where the users were, as well as how that fit together with some of the social aspects intended for the application. Our detailed discussion of these concerns can be found in section 2.3.4 in the original Project Proposal [Here](https://github.com/deco3500-2017/team-apollo/blob/master/projectProposal/projectProposal.md).
+
 #### Wireframing
 
 -- Chuck a bunch of images in here and maybe a very short description
 
-### Phase 2: Design
+### Phase 2: Requirements
+
+#### Surveys, Interviews, User testing
+
+Content here.
+
+#### Wireframing
+
+Content here.
+
+### Phase 3: Design
 
 #### The Pivot in design
 --- I think we need to mention here how our idea evolved from the user-generated content to passive data collection via sensors.
@@ -66,7 +82,7 @@ Early user research was done by both Survey and Interview methods. The key goal 
 
 Content here.
 
-### Phase 3: Prototyping
+### Phase 4: Prototyping
 
 The next stage of the prototype involved the starting construction of it. The team decided to let two members focus on the building backend to support the above features, which would be agnostic to the finalised UI, while the rest of the team continued to develop the visual style of the application, and explore other features. 
 
