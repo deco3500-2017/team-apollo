@@ -84,11 +84,7 @@ A set of low-fidelity designs were created using Sketch to translate the functio
 
 ### Phase 4: Prototyping
 
-The next stage of the prototype involved the starting construction of it. The team decided to let two members focus on the building backend to support the above features, which would be agnostic to the finalised UI, while the rest of the team continued to develop the visual style of the application, and explore other features. 
-
-**Design stuff for the prototype that was happening**
-
-The final stage of the prototype was to combine the completed backend functionality with the completed front-end design of the application. This was done swiftly, in the course of about three days, and resulted in the prototype ready to be displayed at the expo.
+The next stage of the prototype involved the starting construction of it. The team pivoted to a functional prototype rather than one using the Framer prototyping software. To accomodate this late pivot, the team decided to let two members focus on building the backend, which would be agnostic to the finalised UI, while the rest of the team continued to develop the visual style of the application, and explore other features. Once designs were complete, the frontend UI was laid onto the backend logic.
 
 ## 5.0 Project Contributions
 
