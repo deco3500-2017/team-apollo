@@ -39,10 +39,6 @@ The problem space was trying to bridge the gap between patrons and the venues in
 
 ### Phase 1: Research
 
-#### User research
-- survey：the user research survey was focus on collecting people's data about their concerns and experience of venus, there are 22 quantitative and qualitative questions([survey questions](https://github.com/deco3500-2017/team-apollo/blob/master/phase1/userResearch/surveyQuestions.md)), the form of this research is online survey, the survey form was created in TypeForm online tool, the online survey form was posted to personal and university social network for garthering data from different people([online survey](https://husheng1.typeform.com/to/RnIZsO)).For the result, there were about 50 responses were collected by online survey, and the data was used for data analyse and evaluation part.       
-
-
 #### Industry Research
 
 Industry research was undertaken to look at the industry that Venu hopes to enter. This is about looking at the internal and external evironemnt of the industry and searching for opportunities or threats, potentially in the form of competitors. From this research we found that the industry had some want, with few actual resolutions in place for the specific problem. However, there were some competitors found, such as Looop (operating in New York), which allowed the team to learn about their experience in the industry and the angle they took.
@@ -59,7 +55,7 @@ It was determined early on that Privacy and Critical mass would be two key issue
 ### Phase 2: Requirements
 
 #### Surveys, Interviews, User Testing
-Early user research was done by both Survey and Interview methods. The key goal of this early research was to get an understanding of the habits of Nightlife Patrons, what they valued, disliked, and they key feelings about certain aspects of nightlife. This research provided a wealth of information regarding our users and has been visually broken down in the following poster. 
+Early user research was done by both Survey and Interview methods. The ([form](https://husheng1.typeform.com/to/RnIZsO)) form of the survey was generated using an online tool, TypeForm, and was made up of 22 quantitative and qualitative ([questions](https://github.com/deco3500-2017/team-apollo/blob/master/phase1/userResearch/surveyQuestions.md)) and were possed to the social network of the group. The key goal of this early research was to get an understanding of the habits of Nightlife Patrons, what they valued, disliked, and they key feelings about certain aspects of nightlife. This research provided a wealth of information regarding our users and has been visually broken down in the following poster.      
 
 ![User Survey & Interview Results](https://github.com/deco3500-2017/team-apollo/blob/master/images/User_Survey_data.jpg)
 
