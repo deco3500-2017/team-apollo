@@ -67,7 +67,7 @@ Through the research undertaken as part of the research and requirements gatheri
 
 #### Data-Collection Pivot
 
-Early stages of the project outlined a data-collection method that was dependant on the user manual input data. During the early design phases and testing, we began to release this was potentially cumbersome and a burden to the user. As a result, the group began exploring ideas around passive collecting data through external sources (such as Instagram), as well as features native to mobile devices such as the microphone and accelerometer. However, as a result of this, greater converns began to arise around priovacy within the project and what we would actually be collection, these concerns can be found [here](https://github.com/deco3500-2017/team-apollo/blob/master/phase3/privacy.md).
+Early stages of the project outlined a data-collection method that was dependant on the user manual input data. During the early design phases and testing, we began to release this was potentially cumbersome and a burden to the user. As a result, the group began exploring ideas around passive collecting data through external sources (such as Instagram), as well as features native to mobile devices such as the microphone and accelerometer. However, as a result of this, greater concerns began to arise around privacy within the project and what we would actually be collecting, these concerns can be found [here](https://github.com/deco3500-2017/team-apollo/blob/master/phase3/privacy.md). However, the issue of critical-mass was reduced as a result of passively collecting data and relying less on user input.
 
 #### Brand & Style Guide
 
