@@ -126,3 +126,10 @@ Izhar：
 - Late high-fidelity prototype: creating UI for list view, Venu view, polishing the UI of Login, sign up, pop up message.
 - Late high-fidelity prototype: styling the Map based on the low-fidelity prototype.
 
+Wei Fu:
+- Sections of the project proposal: Project plan (phases & user testing plan & user testing method)
+- Early user research interview with three pariticipants, one of them only finish half interview. 
+- Make a statistics graphy poster based on the user survey data 
+- Prepared the user testing task in the low-fi stage 
+- Prepared the questionnaire for the user testing to get the usability feedback
+
