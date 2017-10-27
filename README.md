@@ -73,7 +73,7 @@ Early stages of the project outlined a data-collection method that was dependant
 
 The projects style guide is a document that outlines the choices of colour, structure and typography to be used within the project. The benefit of creating this style guide was to give the designers a platform to have a defined set of styles to apply to the application as we moved from Wireframing through to Low-Fidelity designs. The style guide can be found [here](https://github.com/deco3500-2017/team-apollo/blob/master/phase2/styleGuide.md).
 
-#### Low-Fidety Designs & Invision Prototyping
+#### Low-Fidelity Designs & Invision Prototyping
 
 A set of low-fidelity designs were created using Sketch to translate the function that had been proposed for the application into an aethsical piece of work that could be communicated to the user. Once a set of designs were agreed upon, they were translatted into a static prototype using Invision, which can be found [here](https://invis.io/98E2N49TW).
 
