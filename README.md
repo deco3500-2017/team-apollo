@@ -49,7 +49,7 @@ Wireframes are a low-fidelity, generalised version of the applications layout. T
 
 <img src="https://github.com/deco3500-2017/team-apollo/blob/master/images/sketch-001.jpg?raw=true" width="800">
 
-#### Concerns: Privacy and Critical Mass
+#### Theoretical Research: Privacy & Critical Mass
 It was determined early on that Privacy and Critical mass would be two key issues for our project. Critical mass was a big problem because of the dependece of User-Generated reviews to rate venues by. Privacy would also be a concern because of the nature of knowing the time and location of where the users were, as well as how that fit together with some of the social aspects intended for the application. Our detailed discussion of these concerns can be found in section 2.3.4 in the original [project proposal](https://github.com/deco3500-2017/team-apollo/blob/master/projectProposal/projectProposal.md).
 
 ### Phase 2: Requirements
