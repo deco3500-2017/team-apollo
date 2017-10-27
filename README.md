@@ -54,7 +54,7 @@ It was determined early on that Privacy and Critical mass would be two key issue
 
 ### Phase 2: Requirements
 
-#### Surveys, Interviews, User Testing
+#### Surveys, Interviews & User Testing
 Early user research was done by both Survey and Interview methods. The form of the [survey](https://husheng1.typeform.com/to/RnIZsO) was generated using an online tool, TypeForm, and was made up of 22 quantitative and qualitative [questions](https://github.com/deco3500-2017/team-apollo/blob/master/phase1/userResearch/surveyQuestions.md) and were possed to the social network of the group. The key goal of this early research was to get an understanding of the habits of Nightlife Patrons, what they valued, disliked, and they key feelings about certain aspects of nightlife. This research provided a wealth of information regarding our users and has been visually broken down in the following poster.      
 
 ![User Survey & Interview Results](https://github.com/deco3500-2017/team-apollo/blob/master/images/User_Survey_data.jpg)
@@ -79,7 +79,7 @@ A set of low-fidelity designs were created using Sketch to translate the functio
 
 ### Phase 4: Prototyping
 
-The next stage of the prototype involved starting construction of a live, web-based prototype. The team pivoted to a functional prototype rather than one using the Framer prototyping software. To accomodate this late pivot, the team decided to let two members focus on building the backend, which would be agnostic to the finalised UI, while the rest of the team continued to develop the visual style of the application, and explore other features. Once designs were complete, the frontend UI was laid onto the backend logic.
+The final stage of the project was the prototype, which involved starting construction of a live, web-based prototype. The team pivoted to a functional prototype rather than one using the Framer prototyping software. To accomodate this late pivot, the team decided to let two members focus on building the backend, which would be agnostic to the finalised UI, while the rest of the team continued to develop the visual style of the application, and explore other features. Once designs were complete, the frontend UI was laid onto the backend logic.
 
 ## 5.0 Project Contributions
 
