@@ -49,7 +49,7 @@ Wireframes are a low-fidelity, generalised version of the applications layout. T
 
 <img src="https://github.com/deco3500-2017/team-apollo/blob/master/images/sketch-001.jpg?raw=true" width="800">
 
-##### Concerns: Privacy and Critical Mass
+#### Concerns: Privacy and Critical Mass
 It was determined early on that Privacy and Critical mass would be two key issues for our project. Critical mass was a big problem because of the dependece of User-Generated reviews to rate venues by. Privacy would also be a concern because of the nature of knowing the time and location of where the users were, as well as how that fit together with some of the social aspects intended for the application. Our detailed discussion of these concerns can be found in section 2.3.4 in the original Project Proposal [Here](https://github.com/deco3500-2017/team-apollo/blob/master/projectProposal/projectProposal.md).
 
 ### Phase 2: Requirements
@@ -66,9 +66,8 @@ Through the research undertaken as part of the research and requirements gatheri
 ### Phase 3: Design
 
 #### Data-Collection Pivot
---- I think we need to mention here how our idea evolved from the user-generated content to passive data collection via sensors. Along with this pivot privacy became a greater concern for the project as access to the sensors on the users' intimately held devices was required. This resulted in a document where we explored how to handle this. 
 
-[Privacy Concerns for the User](https://github.com/deco3500-2017/team-apollo/blob/master/phase3/privacy.md)
+Early stages of the project outlined a data-collection method that was dependant on the user manual input data. During the early design phases and testing, we began to release this was potentially cumbersome and a burden to the user. As a result, the group began exploring ideas around passive collecting data through external sources (such as Instagram), as well as features native to mobile devices such as the microphone and accelerometer. However, as a result of this, greater converns began to arise around priovacy within the project and what we would actually be collection, these concerns can be found [here](https://github.com/deco3500-2017/team-apollo/blob/master/phase3/privacy.md).
 
 #### Brand & Style Guide
 
@@ -80,7 +79,7 @@ A set of low-fidelity designs were created using Sketch to translate the functio
 
 ### Phase 4: Prototyping
 
-The next stage of the prototype involved the starting construction of it. The team pivoted to a functional prototype rather than one using the Framer prototyping software. To accomodate this late pivot, the team decided to let two members focus on building the backend, which would be agnostic to the finalised UI, while the rest of the team continued to develop the visual style of the application, and explore other features. Once designs were complete, the frontend UI was laid onto the backend logic.
+The next stage of the prototype involved starting construction of a live, web-based prototype. The team pivoted to a functional prototype rather than one using the Framer prototyping software. To accomodate this late pivot, the team decided to let two members focus on building the backend, which would be agnostic to the finalised UI, while the rest of the team continued to develop the visual style of the application, and explore other features. Once designs were complete, the frontend UI was laid onto the backend logic.
 
 ## 5.0 Project Contributions
 
